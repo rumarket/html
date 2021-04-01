@@ -1,0 +1,1507 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+	<head>
+		<meta charset="utf-8">
+		<title>Личные данные</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="format-detection" content="telephone=no">
+		<meta name="mobile-web-app-capable" content="yes">
+		<link rel="stylesheet" type="text/css" href="/assets/css/libs.css">
+		<link rel="stylesheet" type="text/css" href="/assets/js/lightGallery/css/lightgallery.min.css">
+		<link rel="stylesheet" type="text/css" href="/assets/css/app.css">
+		<!-- HTML5 Shiv and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+		<![endif]-->
+		<style>
+			html,
+			body {
+				height: 100%;
+			}
+			.wrapper {
+				display: flex;
+				flex-direction: column;
+				min-height: 100%;
+			}
+			.content {
+				flex: 1 0 auto;
+			}
+
+
+			a.cart {
+			    width: 21px;
+			    height: 21px;
+			    background: url(/images/ico-cart.svg) no-repeat;
+			    background-size: 100% 100%;
+			}
+			.counter {
+			    position: absolute;
+			    top: 4px;
+			    right: -8px;
+			    border-radius: 16px;
+			    border: 2px solid #fff;
+			    height: 20px;
+			    min-width: 8px;
+			    padding: 0 4px;
+			    background: #ec5a1e;
+			    color: #fff;
+			    font: 11px/16px 'PT Sans Narrow',serif;
+			    text-align: center;
+			}
+
+				.header__search {
+  padding-left: 15px;
+}
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Roboto"),
+       url("/assets/fonts/roboto/roboto.woff2") format("woff2"),
+       url("/assets/fonts/roboto/roboto.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Thin'), local('Roboto-Thin'), url('/assets/fonts/roboto/Robotothin.woff2') format('woff2'), url('/assets/fonts/roboto/Robotothin.woff') format('woff'), url('/assets/fonts/roboto/Robotothin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Thin Italic'), local('Roboto-ThinItalic'), url('/assets/fonts/roboto/Robotothinitalic.woff2') format('woff2'), url('/assets/fonts/roboto/Robotothinitalic.woff') format('woff'), url('/assets/fonts/roboto/Robotothinitalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Light'), local('Roboto-Light'), url('/assets/fonts/roboto/Robotolight.woff2') format('woff2'), url('/assets/fonts/roboto/Robotolight.woff') format('woff'), url('/assets/fonts/roboto/Robotolight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Light Italic'), local('Roboto-LightItalic'), url('/assets/fonts/roboto/Robotolightitalic.woff2') format('woff2'), url('/assets/fonts/roboto/Robotolightitalic.woff') format('woff'), url('/assets/fonts/roboto/Robotolightitalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto'), local('Roboto-Regular'), url('/assets/fonts/roboto/Roboto.woff2') format('woff2'), url('/assets/fonts/roboto/Roboto.woff') format('woff'), url('/assets/fonts/roboto/Roboto.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Italic'), local('Roboto-Italic'), url('/assets/fonts/roboto/Robotoitalic.woff2') format('woff2'), url('/assets/fonts/roboto/Robotoitalic.woff') format('woff'), url('/assets/fonts/roboto/Robotoitalic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Medium'), local('Roboto-Medium'), url('/assets/fonts/roboto/Robotomedium.woff2') format('woff2'), url('/assets/fonts/roboto/Robotomedium.woff') format('woff'), url('/assets/fonts/roboto/Robotomedium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Medium Italic'), local('Roboto-MediumItalic'), url('/assets/fonts/roboto/Robotomediumitalic.woff2') format('woff2'), url('/assets/fonts/roboto/Robotomediumitalic.woff') format('woff'), url('/assets/fonts/roboto/Robotomediumitalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Bold'), local('Roboto-Bold'), url('/assets/fonts/roboto/Robotobold.woff2') format('woff2'), url('/assets/fonts/roboto/Robotobold.woff') format('woff'), url('/assets/fonts/roboto/Robotobold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Bold Italic'), local('Roboto-BoldItalic'), url('/assets/fonts/roboto/Robotobolditalic.woff2') format('woff2'), url('/assets/fonts/roboto/Robotobolditalic.woff') format('woff'), url('/assets/fonts/roboto/Robotobolditalic.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Black'), local('Roboto-Black'), url('/assets/fonts/roboto/Robotoblack.woff2') format('woff2'), url('/assets/fonts/roboto/Robotoblack.woff') format('woff'), url('/assets/fonts/roboto/Robotoblack.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Black Italic'), local('Roboto-BlackItalic'), url('/assets/fonts/roboto/Robotoblackitalic.woff2') format('woff2'), url('/assets/fonts/roboto/Robotoblackitalic.woff') format('woff'), url('/assets/fonts/roboto/Robotoblackitalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@media only screen and (max-width: 940px) {
+  .header__search {
+    padding-left: 0;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .header__search {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+  }
+}
+
+.header__search .search:before {
+  display: none;
+}
+
+@media only screen and (max-width: 760px) {
+  .header__search .search__input {
+    padding-top: 7px;
+    padding-bottom: 7px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .header__search .search__input {
+    border-radius: 0;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .header__search .search__submit {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .header__search .search__close {
+    display: block;
+  }
+}
+
+.search .awesomplete > ul {
+  border-top: 0;
+}
+
+.search .awesomplete > ul > li {
+  text-decoration: none;
+  padding: 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.search .awesomplete > ul > li:last-child {
+  border-bottom: 0;
+}
+
+
+.product-ac {
+  padding: 15px 10px;
+}
+
+.product-ac__inn {
+  table-layout: fixed;
+}
+
+.product-ac__inn > * {
+  vertical-align: top;
+}
+
+.product-ac__photo {
+  width: 80px;
+  padding-right: 20px;
+}
+
+@media only screen and (max-width: 640px) {
+  .product-ac__photo {
+    width: 50px;
+    padding-right: 10px;
+  }
+}
+
+.product-ac__img {
+  display: inline-block;
+  max-width: 100%;
+  width: 100%;
+}
+
+.product-ac__name {
+  max-width: 350px;
+  font-size: 14px;
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  display: inline-block;
+  white-space: normal;
+  overflow: visible;
+  line-height: 1.3;
+}
+
+@media only screen and (max-width: 640px) {
+  .product-ac__name {
+    font-size: 12px;
+  }
+}
+
+.product-ac .price, .product-ac .bx-soa-cart-total-line-total .bx-soa-cart-d, .bx-soa-cart-total-line-total .product-ac .bx-soa-cart-d {
+  display: block;
+  font-size: 16px;
+}
+
+@media only screen and (max-width: 640px) {
+  .product-ac .price, .product-ac .bx-soa-cart-total-line-total .bx-soa-cart-d, .bx-soa-cart-total-line-total .product-ac .bx-soa-cart-d {
+    font-size: 14px;
+  }
+}
+
+
+.item-grid__name, .product-ac__name {
+  font-size: 16px;
+  color: #2f2f2f;
+  font-weight: 300;
+  margin-bottom: 5px;
+  -webkit-transition: all ease .3s;
+  -o-transition: all ease .3s;
+  transition: all ease .3s;
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  width: 100%;
+  padding-left: 5px;
+}
+
+@media only screen and (max-width: 480px) {
+  .item-grid__name, .product-ac__name {
+    font-size: 16px;
+    margin-bottom: 3px;
+  }
+}
+
+.item-grid__name:hover, .product-ac__name:hover {
+  color: #d22262;
+  text-decoration: underline;
+}
+
+
+		i.icon-user:before {
+			width: 21px;
+		    content: " ";
+		    background: url(/assets/img/user-profile.svg) no-repeat;
+		    position: absolute;
+		    left: 0px;
+		    top: -2px;
+		    height: 17px;
+		    background-size: 100% 100%;
+		}
+
+/*custom style*/
+body > div.l-main.js-main.wrapper.slideout-panel.slideout-panel-left > div.content > div > div > div > div.l-cabinet__aside {
+	padding-top: 54px;
+}
+.cabinet__text__menu {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 15px;
+	/* identical to box height, or 118% */
+	color: #4A484E;
+}
+
+.cabinet__title__text__menu {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 26px;
+	line-height: 26px;
+	/* or 100% */
+
+	display: flex;
+	align-items: center;
+
+	color: #153772;
+}
+
+.cabinet__title {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	line-height: 34px;
+	/* identical to box height, or 113% */
+	color: #153772;
+}
+
+.container {
+	padding: 0 40px;
+}
+
+.container input {
+	width: 100%;
+	height: 56px;
+	border-radius: 6px;
+}
+
+.container input[type=text],
+.container input[type=tel],
+.container input[type=email] {
+    padding-left: 20px;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		line-height: 16px;
+		/* or 100% */
+
+		display: flex;
+		align-items: center;
+
+		color: #2F2F2F;
+}
+
+.row {
+	margin-bottom: 20px;
+}
+
+body > div.l-main.js-main.wrapper.slideout-panel.slideout-panel-left > div.content > div > div > div > div.l-cabinet__main > div.p-data > div > div.p-data__info.bg-block > div > div > div:nth-child(4) {
+	margin-bottom: 0;
+}
+
+.row div {
+	padding: 0;
+	vertical-align: middle;
+}
+
+@media only screen and (max-width: 939px) {
+	.row div p {
+		width: important;
+		margin: 0 auto;
+		margin-bottom: 10px;
+	}
+
+	.row div {
+		text-align: center;
+	}
+}
+
+body > div.l-main.js-main.wrapper.slideout-panel.slideout-panel-left > div.content > div > div > div > div.l-cabinet__main {
+	padding-right: 19px;
+}
+
+.text-form {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 15px;
+	/* identical to box height, or 107% */
+
+	display: flex;
+	align-items: center;
+
+	color: #504F53;
+}
+
+.container .social-icon {
+
+	display: flex;
+	width: 49px;
+	height: 49px;
+	text-align: center;
+	border-radius: 6px;
+	align-items: center;
+	justify-content: center;
+}
+
+.container .vk {
+	background-color: #1DA1F2;
+}
+
+.container .gp {
+	background-color: #DC4E41;
+}
+
+body > div.l-main.js-main.wrapper.slideout-panel.slideout-panel-left > div > div.l-wrapper > div > div.container.social-div > ul > li:nth-child(2) > a > svg:nth-child(2) {
+	 position: relative;
+	 left: 2px;
+ }
+
+.container .od {
+	background-color: #F2872B;
+	flex-direction: column;
+}
+
+.container .fb {
+	background-color: #507299;
+	padding-left: 5px;
+	align-items: flex-end;
+}
+
+	body > div.l-main.js-main.wrapper.slideout-panel.slideout-panel-left > div.content > div > div > div.container.social-div > div > div {
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		line-height: 20px;
+		/* identical to box height, or 111% */
+		text-align: center;
+		width: 230px;
+
+		color: #504F53;
+	}
+
+	.subtitle {
+		text-align: center;
+	}
+
+	.social-div {
+		max-width: 300px;
+		margin-bottom: 150px;
+		margin-right: 0;
+	}
+
+
+	@media only screen and (max-width: 1100px) {
+		body > div.l-main.js-main.wrapper.slideout-panel.slideout-panel-left > div > div.l-wrapper > div > div.l-cabinet__inn > div.l-cabinet__main > div.p-data > div > div.p-data__info.bg-block > div {
+			width: 100%;
+		}
+
+		.text-form__checkbox {
+			margin-left: 10px;
+			position: relative;
+			left: 25px;
+		}
+	}
+
+
+
+	.text-form__checkbox {
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		line-height: 15px;
+		/* identical to box height, or 107% */
+
+
+
+
+		color: #504F53;
+	}
+
+	.checkbox__data {
+		position: absolute;
+		z-index: -1;
+		opacity: 0;
+		margin: 10px 0 0 20px;
+	}
+	.checkbox__data + label {
+		position: relative;
+		padding: 0 0 0 60px;
+		cursor: pointer;
+	}
+	.checkbox__data + label:before {
+		content: '';
+		position: absolute;
+		top: -4px;
+		left: 0;
+		width: 50px;
+		height: 26px;
+		border-radius: 13px;
+		background: transparent;
+		border: 1px solid #DFDFDF;
+		box-shadow: 0px 0px 0px #DFDFDF;
+		transition: .2s;
+	}
+	.checkbox__data + label:after {
+		content: '';
+		position: absolute;
+		top: -2px;
+		left: 2px;
+		width: 22px;
+		height: 22px;
+		border-radius: 10px;
+		background: #48BE7A;
+		box-shadow: 0 2px 5px rgba(0,0,0, 0.3);
+		transition: .2s;
+	}
+	.checkbox__data:checked + label:before {
+		background: #cfd3d4;
+	}
+	.checkbox__data:checked + label:after {
+		left: 26px;
+	}
+	.checkbox__data:focus + label:before {
+
+	}
+
+	.btn-save {
+		background: #48BE7A;
+		border-radius: 6px;
+		width: 117px;
+		height: 34px;
+		display: inline-block;
+		padding: 0 15px;
+	}
+
+	.btn-save-text {
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 17px;
+		line-height: 18px;
+		/* or 106% */
+
+		display: flex;
+		align-items: center;
+		text-align: center;
+
+		color: #FFFFFF;
+	}
+
+		</style>
+
+    	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script>
+			$(document).ready(function(){
+
+			    $("[data-toggle='location-dropdown']").click(function(e) {
+			        $(".location-dropdown").toggleClass("hidden");
+			        e.stopPropagation();
+			    });
+
+
+			});
+		</script>
+	</head>
+
+	<body>
+		<div class="loader">
+			<div class="loader__inn">
+				<img alt="" src="/assets/img/loader.svg">
+			</div>
+		</div>
+		<div class="m-nav js-m-nav">
+			<div class="m-nav__group">
+				<a href="#login" class="m-nav__link m-nav__link--icon"><i  class="icon-user "></i>Авторизация</a>
+			</div>
+			<div class="m-nav__group">
+				<a href="#" class="m-nav__link m-nav__location js-location-select-toggle"> <span>Город:</span> Москва </a>
+			</div>
+			<!--div class="m-nav__group">
+				<div class="m-nav__catalog">
+					<div class="m-catalog js-m-catalog">
+						<ul class="m-catalog__list">
+							<li class="m-catalog__item m-catalog__item--has-sub">
+								<a data-id="1" href="#" class="m-catalog__link m-catalog__link--icon js-m-catalog-link">
+								<div class="m-catalog__link-icon">
+									<svg class="icon icon-bag-1">
+										<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/assets/img/sprite.svg#icon-bag-1"></use>
+									</svg>
+								</div> Услуги для бизнеса </a>
+							</li>
+
+
+						</ul>
+					</div>
+				</div>
+			</div-->
+
+
+		</div>
+		<div class="location-select js-location-select">
+			<div class="l-wrapper">
+				<div class="location-select__inn">
+					<div class="location-select__header js-location-header">
+						<div class="title h1">
+							Выберите ваш город
+						</div>
+						<div class="location-select__search">
+							<form autocomplete="off" class="search">
+								<input type="text" class="search__input" placeholder="Введите область, регион или населенный пункт">
+							</form>
+						</div>
+						<a href="#" class="location-select__close close-btn js-location-close">Закрыть</a>
+					</div>
+					<div class="location-select__block js-custom-scroll js-location-list">
+						<div class="location-select__cells">
+							<ul class="location-select__list">
+								<li>
+									<a class="location-select__link location-select__link--bold js-location-close" data-toggle='location-dropdown' href="#">Москва</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="fast-view js-fast-view">
+			<div class="fast-view__inn">
+				<div class="fast-view__container">
+					<div class="fast-view__prev">
+						<a href="#" class="fast-view__item js-fast-view-prev">
+						<div class="fast-view__item-inn">
+							<div class="title h2">
+								Сумка David Jones
+							</div>
+							<div class="fast-view__item-img">
+								<img src="https://www.poobienaidoos.co.za/wp-content/uploads/2017/04/BA5335-657-1.jpg">
+							</div>
+						</div> </a>
+					</div>
+					<a href="#" class="close-btn fast-view__close js-fast-view-close"><span>Закрыть</span></a>
+					<div class="fast-view__block">
+						<div class="fast-view__header">
+							<div class="fast-view__title">
+								<div class="title h2">
+									Сумка Nike
+								</div>
+							</div>
+							<div class="fast-view__soc">
+								<a data-toggle=".js-fast-view-soc" href="#" class="js-toggle"> <i  class="ticon ticon-share "></i> </a>
+								<ul class="soc-share js-fast-view-soc">
+									<li class="soc-share__item">
+										<a href="#" class="soc-share__link soc-share__link--fill soc-share__link--vk"><span>0</span></a>
+									</li>
+									<li class="soc-share__item">
+										<a href="#" class="soc-share__link soc-share__link--fill soc-share__link--fb"><span>234</span></a>
+									</li>
+									<li class="soc-share__item">
+										<a href="#" class="soc-share__link soc-share__link--fill soc-share__link--tw"><span>18</span></a>
+									</li>
+									<li class="soc-share__item">
+										<a href="#" class="soc-share__link soc-share__link--fill soc-share__link--inst"><span>385</span></a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="fast-view__main">
+							<div class="fast-view__main-left">
+								<div class="rate">
+									<div class="rate__inn">
+										<div class="rate__stars r5">
+											<i></i><i></i><i></i><i></i><i></i>
+										</div>
+										<div class="rate__count">
+											(27)
+										</div>
+									</div>
+								</div>
+								<div class="fast-view__gallery">
+									<div data-size="big" data-theme="discount" title="Успей купить!" class="item-badge item-badge--discount js-tooltip"></div>
+									<div class="item-gallery">
+										<div class="item-gallery__carousel carousel">
+											<div>
+												<div class="swiper-container js-item-gallery">
+													<div class="swiper-wrapper">
+														<div class="swiper-slide"><img data-zoom-image="https://media2.24aul.ru/imgs/58e24830231ede5c4c69cdac/sumka-sportivnayadorozhnayadlya-trenirovok-nike-1-9403732.jpg" src="https://media2.24aul.ru/imgs/58e24830231ede5c4c69cdac/sumka-sportivnayadorozhnayadlya-trenirovok-nike-1-9403732.jpg">
+														</div>
+														<div class="swiper-slide"><img data-zoom-image="https://www.poobienaidoos.co.za/wp-content/uploads/2017/04/BA5335-657-1.jpg" src="https://www.poobienaidoos.co.za/wp-content/uploads/2017/04/BA5335-657-1.jpg">
+														</div>
+														<div class="swiper-slide"><img data-zoom-image="http://www.zappos.com/images/z/3/1/7/1/6/6/3171661-p-4x.jpg" src="http://www.zappos.com/images/z/3/1/7/1/6/6/3171661-p-4x.jpg">
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="item-gallery__thumbs">
+											<div class="swiper-container js-item-gallery-thumbs">
+												<div class="swiper-wrapper">
+													<div class="swiper-slide"><img src="https://media2.24aul.ru/imgs/58e24830231ede5c4c69cdac/sumka-sportivnayadorozhnayadlya-trenirovok-nike-1-9403732.jpg">
+													</div>
+													<div class="swiper-slide"><img src="https://www.poobienaidoos.co.za/wp-content/uploads/2017/04/BA5335-657-1.jpg">
+													</div>
+													<div class="swiper-slide"><img src="http://www.zappos.com/images/z/3/1/7/1/6/6/3171661-p-4x.jpg">
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="fast-view__main-right">
+								<div class="item-meta">
+									<div class="item-meta__inn">
+										<div class="item-meta__group">
+											<div class="item-meta__prices">
+												<span class="price price--hot">99 999 р.</span><span class="price price--old">120 000 р.</span>
+											</div>
+											<div class="item-meta__actions">
+												<div class="item-meta__actions-inn">
+													<div class="item-meta__actions-cart">
+														<a href="#" class="btn btn--vinous item-meta__cart"> <i  class="ticon ticon-cart "></i> Добавить в корзину</a>
+													</div>
+													<div class="item-meta__actions-fav">
+														<a href="#" class="btn btn--icon btn--vinous btn--outline item-meta__fav"> <i  class="ticon ticon-favorite "></i> </a>
+													</div>
+												</div>
+											</div>
+											<div class="item-meta__links">
+												<div class="item-meta__links-inn">
+													<div class="item-meta__links-click">
+														<a href="#" class="link"><span>Оформить в 1 клик</span></a>
+													</div>
+													<div class="item-meta__links-delivery">
+														<a href="#" class="link"> <i  class="ticon ticon-truck "></i> <span>Бесплатная доставка при 1 покупке</span></a>
+													</div>
+												</div>
+											</div>
+											<div class="item-meta__sizes">
+												<span class="item-meta__label">Размер</span>
+												<div class="item-meta__sizes-inn">
+													<div class="item-meta__sizes-action">
+														<div class="size-switchers">
+															<div class="size-switchers__inn">
+																<label class="size-switchers__label">
+																	<input type="radio" name="size" value="S">
+																	<span class="size-switchers__item">S</span> </label><label class="size-switchers__label">
+																	<input type="radio" name="size" value="M">
+																	<span class="size-switchers__item">M</span> </label><label class="size-switchers__label">
+																	<input type="radio" name="size" value="L">
+																	<span class="size-switchers__item">L</span> </label><label class="size-switchers__label">
+																	<input type="radio" name="size" value="X">
+																	<span class="size-switchers__item">X</span> </label><label class="size-switchers__label">
+																	<input type="radio" name="size" value="XL">
+																	<span class="size-switchers__item">XL</span> </label>
+															</div>
+														</div>
+													</div>
+													<div class="item-meta__sizes-help">
+														<a class="link" href="#"><span>Таблица размеров</span></a>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="item-meta__group">
+											<div class="item-meta__colors">
+												<div class="item-meta__label">
+													Цвет
+												</div>
+												<div class="color-switchers">
+													<div class="color-switchers__inn">
+														<label class="color-switchers__label">
+															<input type="radio" name="color" value="#ff343d">
+															<span style="background: #ff343d;" class="color-switchers__item">#ff343d</span> </label><label class="color-switchers__label">
+															<input type="radio" name="color" value="#1f1f1f">
+															<span style="background: #1f1f1f;" class="color-switchers__item">#1f1f1f</span> </label><label class="color-switchers__label">
+															<input type="radio" name="color" value="#444fdd">
+															<span style="background: #444fdd;" class="color-switchers__item">#444fdd</span> </label><label class="color-switchers__label">
+															<input type="radio" name="color" value="#eaeaea">
+															<span style="background: #eaeaea;" class="color-switchers__item">#eaeaea</span> </label>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="item-meta__group">
+											<div class="desc-tabs js-tabs">
+												<ul class="desc-tabs__menu">
+													<li data-el="bar" class="desc-tabs__bar"></li>
+													<li class="desc-tabs__item is-active">
+														<a data-el="tab" href="#desc_tab_1" class="desc-tabs__link">Описание</a>
+													</li>
+													<li class="desc-tabs__item">
+														<a data-el="tab" href="#desc_tab_2" class="desc-tabs__link">Характеристики</a>
+													</li>
+													<li class="desc-tabs__item">
+														<a data-el="tab" href="#desc_tab_2" class="desc-tabs__link">Доставка</a>
+													</li>
+												</ul>
+												<div class="desc-tabs__content">
+													<div data-el="pane" id="desc_tab_1" class="desc-tabs__pane is-active">
+														<div class="text">
+															<p>
+																Сумка-дафл Nike Brasilia (средний размер) выполнена из невероятно прочной ткани для переноски спортивной экипировки. Внутренние карманы помогают держать вещи в порядке, а отделение для обуви позволяет хранить влажную экипировку
+																отдельно от сухой. Прочная водонепроницаемая ткань дна защищает экипировку от влаги. Вместительное и универсальное основное отделение.
+															</p>
+														</div>
+													</div>
+													<div data-el="pane" id="desc_tab_2" class="desc-tabs__pane">
+														<div class="text">
+															<p>
+																Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut autem ea esse fugiat hic, minus recusandae repellat sequi sunt voluptas! Aperiam consequuntur deserunt dolores earum enim ex expedita harum molestiae natus quam
+																quo repellat sapiente, tempore vero voluptas. A architecto at aut delectus dignissimos distinctio earum, eius eum eveniet exercitationem expedita explicabo fuga iste libero minima molestias nisi odit perspiciatis quaerat
+																qui quia quidem recusandae tempora temporibus ut voluptatem voluptatum? Adipisci aliquid amet animi aspernatur consectetur cum cumque deleniti dicta eos et id, iure laudantium magnam mollitia nulla optio perspiciatis quaerat
+																sapiente soluta suscipit totam ut voluptatum? Ab adipisci aliquam aliquid assumenda atque autem commodi cumque dicta dolore dolores doloribus eaque error facilis, fuga hic ipsum minima nemo nihil odio officia omnis placeat
+																saepe sapiente, similique ullam voluptas voluptatibus voluptatum. Aspernatur consectetur, culpa deleniti doloribus earum eligendi impedit ipsam ipsum itaque, labore, modi nemo officia officiis optio possimus provident quo
+																quos rem sint suscipit unde veniam voluptates! Impedit nulla rem temporibus. Ab ad consectetur consequuntur corporis dicta, dolore doloremque eius, est exercitationem iste iure laudantium nobis optio, quia rerum saepe temporibus!
+																Adipisci, aliquam animi dolor ducimus earum eius eveniet facere natus odit officia pariatur placeat quos reiciendis reprehenderit sint veritatis.
+															</p>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="fast-view__related">
+							<div class="items">
+								<div class="items__header">
+									<div class="items__title">
+										<div class="title h2">
+											Похожие товары
+										</div>
+									</div>
+								</div>
+								<div class="items__list">
+									<div class="items__cell">
+										<div class="item-grid  js-item  js-item-grid item-grid--simple">
+											<div class="item-grid__inn">
+												<div class="item-grid__photo">
+													<a href="#"><img alt="David Jones" class="item-grid__img js-item-main-img" src="assets/img/items/1.png"></a>
+												</div>
+												<a href="#" class="item-grid__name">David Jones</a>
+												<div class="item-grid__category">
+													Сумка дорожная
+												</div>
+												<div class="item-grid__actions">
+													<div class="item-grid__actions-left">
+														<span class="price">9 000 р.</span>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="items__cell">
+										<div class="item-grid  js-item  js-item-grid item-grid--simple">
+											<div data-size="big" data-theme="discount" title="Успей купить!" class="item-badge item-badge--discount js-tooltip"></div>
+											<div class="item-grid__inn">
+												<div class="item-grid__photo">
+													<a href="#"><img alt="Casio" class="item-grid__img js-item-main-img" src="assets/img/items/2.png"></a>
+												</div>
+												<a href="#" class="item-grid__name">Casio</a>
+												<div class="item-grid__category">
+													Часы
+												</div>
+												<div class="item-grid__actions">
+													<div class="item-grid__actions-left">
+														<span class="price price--hot">4 990 р.</span><span class="price price--old">46 900 р.</span>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="items__cell">
+										<div class="item-grid  js-item  js-item-grid item-grid--simple">
+											<div class="item-grid__inn">
+												<div class="item-grid__photo">
+													<a href="#"><img alt="Salomon" class="item-grid__img js-item-main-img" src="assets/img/items/3.png"></a>
+												</div>
+												<a href="#" class="item-grid__name">Salomon</a>
+												<div class="item-grid__category">
+													Сумка поясная
+												</div>
+												<div class="item-grid__actions">
+													<div class="item-grid__actions-left">
+														<span class="price">3 500 р.</span>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="items__cell">
+										<div class="item-grid  js-item  js-item-grid item-grid--simple">
+											<div data-size="big" data-theme="new" title="Новое поступление!" class="item-badge item-badge--new js-tooltip"></div>
+											<div class="item-grid__inn">
+												<div class="item-grid__photo">
+													<a href="#"><img alt="Coccinelle" class="item-grid__img js-item-main-img" src="assets/img/items/4.png"></a>
+												</div>
+												<a href="#" class="item-grid__name">Coccinelle</a>
+												<div class="item-grid__category">
+													Сумка
+												</div>
+												<div class="item-grid__actions">
+													<div class="item-grid__actions-left">
+														<span class="price">45 000 р.</span>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="fast-view__next">
+						<a href="#" class="fast-view__item js-fast-view-next">
+						<div class="fast-view__item-inn">
+							<div class="title h2">
+								Сумка David Jones
+							</div>
+							<div class="fast-view__item-img">
+								<img src="https://www.poobienaidoos.co.za/wp-content/uploads/2017/04/BA5335-657-1.jpg">
+							</div>
+						</div> </a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="modal remodal md-login" data-remodal-id="login">
+			<button class="modal__close close-btn" data-remodal-action="close">
+				Закрыть
+			</button>
+			<div class="login-tabs js-tabs">
+				<ul class="login-tabs__menu">
+					<li class="login-tabs__item is-active">
+						<a data-el="tab" href="#login_tab" class="login-tabs__link"><span>Вход</span></a>
+					</li>
+					<li class="login-tabs__item">
+						<a data-el="tab" href="#register_tab" class="login-tabs__link"><span>Регистрация</span></a>
+					</li>
+				</ul>
+				<div class="login-tabs__panes">
+					<div data-el="pane" id="login_tab" class="login-tabs__pane is-active">
+						<!--div class="md-login__social">
+							<a class="md-login__social-item md-login__social-item--vk" href="#"></a><a class="md-login__social-item md-login__social-item--fb" href="#"></a><a class="md-login__social-item md-login__social-item--tw" href="#"></a><a class="md-login__social-item md-login__social-item--gplus"
+							href="#"></a>
+						</div>
+						<div class="md-login__or">
+							или
+						</div-->
+						<form autocomplete="off" class="md-login__form">
+							<div class="form-row">
+								<div class="input-row">
+									<div class="input-row__cell input-row__icon">
+										<i class="ticon ticon-mobile "></i>
+									</div>
+									<div class="input-row__cell input-row__cell--border text-center" style="width: 80px;">
+										<select class="select">
+
+											<option>+7</option>
+
+										</select>
+									</div>
+									<div class="input-row__cell">
+										<input type="text" class="input js-phone-mask" placeholder="(___) ___-__-__">
+									</div>
+								</div>
+							</div>
+							<div class="form-row">
+								<div class="complex-input complex-input--icon password-input js-complex-input">
+									<label class="complex-input__label">Пароль</label>
+									<div class="complex-input__icon">
+										<i class="ticon ticon-lock "></i>
+									</div>
+									<div class="complex-input__input">
+										<input type="password" class="input js-toggle-password">
+									</div>
+									<div class="password-input__block">
+										<div class="password-input__forgot">
+											<a href="#">Забыли пароль?</a>
+										</div>
+										<a title="Скрыть пароль" href="#" class="toggle-password js-toggle-password-btn"><i></i></a>
+									</div>
+								</div>
+							</div>
+							<div class="form-row">
+								<button type="submit" class="btn btn--pink btn--lg">Войти</button>
+							</div>
+						</form>
+					</div>
+					<div data-el="pane" id="register_tab" class="login-tabs__pane">
+						<!--div class="md-login__social">
+							<a class="md-login__social-item md-login__social-item--vk" href="#"></a><a class="md-login__social-item md-login__social-item--fb" href="#"></a><a class="md-login__social-item md-login__social-item--tw" href="#"></a><a class="md-login__social-item md-login__social-item--gplus"
+							href="#"></a>
+						</div>
+						<div class="md-login__or">
+							или
+						</div-->
+						<form autocomplete="off" class="md-login__form js-example-form">
+
+							<div class="form-row">
+								<div class="input-row">
+									<div class="input-row__cell input-row__icon">
+										<i class="ticon ticon-mobile "></i>
+									</div>
+									<div class="input-row__cell input-row__cell--border text-center" style="width: 80px;">
+										<select class="select">
+
+											<option>+7</option>
+
+										</select>
+									</div>
+									<div class="input-row__cell">
+										<input type="text" class="input js-phone-mask" placeholder="(___) ___-__-__">
+									</div>
+								</div>
+								<label class="switcher ">
+									<div class="switcher__inn">
+										<div class="switcher__toggle">
+											<input  type="checkbox" class="js-switchery ">
+										</div>
+										<div class="switcher__label">
+											Получать сервисные SMS уведоммления
+										</div>
+									</div> </label>
+							</div>
+
+							<!--div class="form-row hidden-xs">
+								<div class="input-row password-row js-password-row">
+									<div class="input-row__cell input-row__icon">
+										<i class="ticon ticon-asterisk "></i>
+									</div>
+									<div class="input-row__cell input-row__cell--tiny">
+										<input class="input js-toggle-password" type="password">
+									</div>
+									<div class="input-row__cell input-row__cell--tiny">
+										<input class="input js-toggle-password" type="password">
+									</div>
+									<div class="input-row__cell input-row__cell--tiny">
+										<input class="input js-toggle-password" type="password">
+									</div>
+									<div class="input-row__cell input-row__cell--tiny">
+										<input class="input js-toggle-password" type="password">
+									</div>
+									<div class="input-row__cell input-row__cell--tiny">
+										<input class="input js-toggle-password" type="password">
+									</div>
+									<div class="input-row__cell input-row__cell--tiny">
+										<input class="input js-toggle-password" type="password">
+									</div>
+									<div class="input-row__cell input-row__cell--tiny">
+										<input class="input js-toggle-password" type="password">
+									</div>
+									<div class="input-row__cell input-row__cell--tiny">
+										<input class="input js-toggle-password" type="password">
+									</div>
+									<a title="Скрыть пароль" href="#" class="toggle-password js-toggle-password-btn input-row__cell"> <i></i> </a>
+								</div>
+							</div>
+							<div class="form-row xvisible-sm">
+								<div class="complex-input js-complex-input">
+									<label class="complex-input__label">Пароль</label>
+									<div class="complex-input__input">
+										<input type="password" class="input">
+									</div>
+								</div>
+							</div-->
+
+							<div class="form-row">
+								<button type="submit" class="btn btn--pink btn--lg">Зарегистрироваться</button>
+							</div>
+							<div class="form-row">
+								<!--div class="text">
+									Я соглашаюсь с условиями <a class="link link--ul" href="#">Публичной оферты</a>
+								</div-->
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<a href="#" class="up-btn js-up-btn">Наверх</a>
+
+
+		<div class="l-main js-main wrapper">
+			<header class="header js-header">
+				<div class="header__inn">
+					<div class="topbar">
+						<div class="l-wrapper">
+							<div class="topbar__inn">
+								<div class="topbar__location dropdown">
+
+									<a class="topbar__link topbar__link--dropdown js-dropdown-location js-dropdown-toggle" data-toggle='location-dropdown'  href="#"> <span class="js-positioned">Москва</span></a>
+
+									<div class="dropdown__block location-dropdown hidden">
+										<div class="location-dropdown__label">
+											Вы действительно находитесь в г. Москва?
+										</div>
+										<div class="block-table block-table--fixed">
+											<div>
+												<a class="location-dropdown__link" data-toggle='location-dropdown' href="#">Да, все верно</a>
+											</div>
+											<div class="text-right">
+												<a class="location-dropdown__link js-location-select-toggle" href="#">Нет, сменить город</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="topbar__contacts">
+									<!--a class="topbar__link " href="#"><span>Вход для мерчантов</span></a-->
+								</div>
+								<!--div class="topbar__delivery"> <a class="topbar__link" href="#">
+								<i  class="ticon ticon-truck "></i>
+								<span>Бесплатная доставка при первой покупке</span></a> </div-->
+								<!--div class="topbar__day-item"> <a class="topbar__link" href="#">
+								<i  class="ticon ticon-discount "></i>
+								<span>Товар дня</span></a> </div-->
+								<div class="topbar__cabinet dropdown bonus">
+									<a class="topbar__link topbar__link--dropdown  js-dropdown-toggle  js-bonus-target" href="#"><span class="js-positioned">Вход</span></a>
+
+									<div class="bonus__block" style="display:none!important;">
+										Дарим 500 руб. при регистрации <a href="#" class="bonus__close js-bonus-close">Закрыть</a>
+									</div>
+									<div class="dropdown__block cabinet-dropdown">
+										<div class="cabinet-dropdown__login">
+											<a href="#login" class="cabinet-dropdown__login-btn btn btn--pink js-login-tab-toggle">Вход</a><a href="#login" class="cabinet-dropdown__link js-register-tab-toggle">Создать учетную запись</a>
+										</div>
+
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="header__wrapper">
+						<div class="l-wrapper">
+							<div class="header__row">
+								<div class="header__nav-toggle">
+									<a href="#" class="hamburger hamburger--spin js-nav-toggle"><span>Каталог</span></a>
+								</div>
+								<div class="header__logo-mobile">
+									<a href=".">
+									<div class="logo logo--no-icon">
+										<div class="logo__inn">
+											<div class="logo__text"><img alt="" src="/assets/img/logo-text.svg">
+											</div>
+										</div>
+									</div> </a>
+								</div>
+								<div class="header__logo">
+									<a href=".">
+									<div class="header__logo-default">
+										<div class="logo ">
+											<div class="logo__inn">
+												<!--div class="logo__icon">
+												<img alt="" src="/assets/img/logo-small.svg">
+												</div-->
+												<div class="logo__text"><img alt="" src="/assets/img/logo-text.svg">
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="header__logo-small">
+										<div class="logo logo--sm">
+											<div class="logo__inn">
+												<div class="logo__icon">
+													<img alt="" src="/assets/img/logo-small.svg">
+												</div>
+												<div class="logo__text"><img alt="" src="/assets/img/logo-text.svg">
+												</div>
+											</div>
+										</div>
+									</div> </a>
+								</div>
+
+
+
+
+<div class="header__search js-search">
+	<div id="title-search">
+		<form autocomplete="off" class="search" onsubmit="if($(this).find('input').val().length == 0) return false;" action="/api/">
+			<div class="awesomplete">
+				<input type="text" id="title-search-input" name="q" class="search__input js-product-search" placeholder="Поиск" autocomplete="off" aria-autocomplete="list">
+
+
+				<ul hidden="">
+
+					<li aria-selected="false">
+						<a href="/catalog/zhenskoe/chasy/chasy_1/236741-chasy_2/" class="product-ac">
+						<div class="product-ac__inn">
+							<div>
+								<div class="product-ac__info">
+									<div class="product-ac__info-left">
+										<div class="product-ac__name" style="color:#2f2f2f;"></div>
+									</div>
+									<!--div class="product-ac__info-right"></div-->
+								</div>
+							</div>
+						</div></a>
+					</li>
+
+				</ul>
+
+				<span class="visually-hidden" role="status" aria-live="assertive" aria-relevant="additions"></span>
+			</div>
+			<button type="submit" class="search__submit"></button>
+			<a href="#" class="search__close js-search-close"></a>
+		</form>
+	</div>
+	<!---->
+
+</div>
+
+
+
+								<!--div class="header__search js-search">
+									<form autocomplete="off" class="search">
+										<input type="text" class="search__input" placeholder="Поиск товара или услуги">
+
+
+
+										<button type="submit" class="search__submit"></button>
+										<a href="#" class="search__close js-search-close"></a>
+									</form>
+								</div>
+								<div class="header__btn header__srch">
+									<a class="js-search-toggle" href="#"> <i  class="ticon ticon-loupe "></i> </a>
+								</div-->
+
+
+
+
+								<!--div class="header__btn header__favorite"> <a class="js-favs" href="#">
+
+								<i  class="ticon ticon-favorite-fill "></i>
+
+								<span class="header__favorite-count">99</span>
+								</a> </div-->
+								<div class="header__btn header__cart dropdown">
+
+										<a href="/cart/" class="cart to_cart"></a><span class="counter total_cart_amount" data-bind="text: total_cart_amount">0</span>
+
+									<!--a class="js-dropdown-toggle js-cart" href="#"> <i  class="ticon ticon-cart "></i> <span class="header__cart-count">0</span> </a-->
+
+								</div>
+								<div class="header__btn header__cabinet dropdown">
+									<a class="js-dropdown-toggle" href="#"> <i  class="ticon ticon-user "></i> </a>
+									<div class="dropdown__block cabinet-dropdown">
+										<div class="cabinet-dropdown__login">
+											<a href="#login" class="cabinet-dropdown__login-btn btn btn--pink js-login-tab-toggle">Вход</a><a href="#login" class="cabinet-dropdown__link js-register-tab-toggle">Создать учетную запись</a>
+										</div>
+										<div class="cabinet-dropdown__search">
+											<div class="cabinet-dropdown__search-label">
+												Отследить заказ
+											</div>
+											<form autocomplete="off" class="search">
+												<input type="search" class="search__input js-order-search" placeholder="Введите номер заказа">
+											</form>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+				</div>
+			</header>
+
+			<div class="content">
+					<div class="l-wrapper">
+						<div class="l-cabinet">
+							<div class="l-cabinet__inn">
+								<div class="l-cabinet__aside">
+									<div class="border-block">
+										<div class="title h3 cabinet__title__text__menu">Мой кабинет</div>
+										<ul class="categories-menu">
+											<li class="categories-menu__item">
+												<div class="categories-menu__item-inn"><a href="cabinet-data.html" class="categories-menu__link is-active cabinet__text__menu ">Личные данные</a> </div>
+											</li>
+											<li class="categories-menu__item">
+												<div class="categories-menu__item-inn"><a href="cabinet-bonus.html" class="categories-menu__link cabinet__text__menu ">Мои бонусы</a> </div>
+											</li>
+											<li class="categories-menu__item">
+												<div class="categories-menu__item-inn"><a href="cabinet-history.html" class="categories-menu__link cabinet__text__menu ">История покупок</a> </div>
+											</li>
+											<li class="categories-menu__item">
+												<div class="categories-menu__item-inn"><a href="cabinet-wishes.html" class="categories-menu__link cabinet__text__menu ">Мои желания</a> </div>
+											</li>
+											<li class="categories-menu__item">
+												<div class="categories-menu__item-inn"><a href="cabinet-return.html" class="categories-menu__link cabinet__text__menu ">Возврат</a> </div>
+											</li>
+											<li class="categories-menu__item">
+												<div class="categories-menu__item-inn"><a href="cabinet-action.html" class="categories-menu__link cabinet__text__menu ">Акции и спецпредложения</a> </div>
+											</li>
+											<li class="categories-menu__item">
+												<div class="categories-menu__item-inn"><a href="cabinet-subscribe.html" class="categories-menu__link cabinet__text__menu ">Мои подписки</a> </div>
+											</li>
+										</ul>
+									</div>
+
+								</div>
+								<div class="l-cabinet__main">
+									<div class="title h1 cabinet__title "> Личные данные
+										<div class="cabinet-menu"> <a data-toggle=".js-cabinet-menu" href="#" class="cabinet-menu__toggle js-toggle"></a>
+											<ul class="cabinet-menu__list js-cabinet-menu">
+												<li class="cabinet-menu__item"> <a href="cabinet-data.html" class="cabinet-menu__link is-active cabinet__text__menu ">Личные данные</a> </li>
+												<li class="cabinet-menu__item"> <a href="cabinet-bonus.html" class="cabinet-menu__link cabinet__text__menu ">Мои бонусы</a> </li>
+												<li class="cabinet-menu__item"> <a href="cabinet-history.html" class="cabinet-menu__link cabinet__text__menu ">История покупок</a> </li>
+												<li class="cabinet-menu__item"> <a href="cabinet-wishes.html" class="cabinet-menu__link cabinet__text__menu ">Мои желания</a> </li>
+												<li class="cabinet-menu__item"> <a href="cabinet-return.html" class="cabinet-menu__link cabinet__text__menu ">Возврат</a> </li>
+												<li class="cabinet-menu__item"> <a href="cabinet-action.html" class="cabinet-menu__link cabinet__text__menu ">Акции и спецпредложения</a> </li>
+												<li class="cabinet-menu__item"> <a href="cabinet-subscribe.html" class="cabinet-menu__link cabinet__text__menu ">Мои подписки</a> </li>
+											</ul>
+										</div>
+									</div>
+									<div class="p-data">
+										<div class="p-data__left">
+											<div class="p-data__info bg-block">
+												<div class="bg-block__group">
+													<!--
+													<div class="p-data__info-row">
+														<div class="subtitle">Перевощиков Сергей Павлович</div>
+													</div>
+													<div class="p-data__info-row">perevoz@gmail.com</div>
+													<div class="p-data__info-row">тел.: +7 899 445 45 44</div>
+													<div class="p-data__info-row">Россия, г. Москва</div>
+													<div class="p-data__info-row">ул. Серпухова 45, д. 11/2, кв. 78</div>
+													<div class="p-data__info-row">
+														<div class="p-data__info-links">
+															<div><a href="#" class="link"><span>Редактировать личные данные</span></a></div>
+															<div><a href="#" class="link"><span>Изменить пароль</span></a></div>
+														</div>
+													</div>
+												-->
+												<div class="container">
+
+												<div class="row">
+													<div class="col-md-3 col-xs-12">
+														<label for="name"><p class="text-form">Ваше имя</p></label>
+													</div>
+													<div class="col-md-9 col-xs-12">
+														<input type="text" id="name" autofocus required name="name" value="Юлия">
+													</div>
+												</div>
+
+												<div class="row">
+													<div class="col-md-3 col-xs-12">
+														<label for="phone"><p class="text-form">Телефон</p></label>
+													</div>
+													<div class="col-md-9 col-xs-12">
+														<input type="tel" id="phone" require name="phone" value="8 (929) 465 98 65">
+													</div>
+												</div>
+
+												<div class="row">
+													<div class="col-md-3 col-xs-12">
+														<label for="second__phone"><p class="text-form">Второй телефон</p></label>
+													</div>
+													<div class="col-md-9 col-xs-12">
+														<input type="tel" id="second__phone" name="second__phone" value="8 (929) 465 98 65">
+													</div>
+												</div>
+
+												<div class="row">
+													<div class="col-md-3 col-xs-12">
+														<label for="email"><p class="text-form">Электронная почта</p></label>
+													</div>
+													<div class="col-md-9 col-xs-12">
+														<input type="email" id="email" required name="email" value="manguhes.mar@mail.ru">
+													</div>
+												</div>
+												</div>
+											</div>
+											</div>
+
+											<div class="container">
+												<div class="row">
+													<div class="col-md-3 col-xs-1"></div>
+													<div class="col-md-1 col-xs-1">
+														<input type="checkbox" class="checkbox__data" id="checkbox__akcia" />
+														<label for="checkbox__akcia"></label>
+													</div>
+													<div class="col-md-8 col-xs-10">
+														<label for="checkbox__akcia"><p class="text-form__checkbox">Хочу получать информацию об акциях</p></label>
+													</div>
+												</div>
+
+												<div class="row">
+													<div class="col-md-3 col-xs-1"></div>
+													<div class="col-md-1 col-xs-1">
+														<input type="checkbox" class="checkbox__data" id="checkbox__zakaz" />
+														<label for="checkbox__zakaz"></label>
+													</div>
+													<div class="col-md-8 col-xs-10">
+														<label for="checkbox__zakaz"><p class="text-form__checkbox">Запомнить адрес при оформлении заказов</p></label>
+													</div>
+												</div>
+												<div class="row">
+													<div class="col-md-10">
+
+													</div>
+													<div class="col-md-2">
+
+													<button type="button" name="button_save" id="save" class="btn-save"><span class="btn-save-text">Сохранить</span></button>
+												</div>
+
+												</div>
+
+										</div>
+
+									</div>
+								</div>
+							</div>
+
+						</div>
+						<div class="container social-div">
+
+							<div class="subtitle">Привязать соцсеть</div>
+							<ul class="socials socials">
+								<li class="socials__item"><a href="#" class="social-icon vk">
+									<svg width="30" height="18" viewBox="0 0 30 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M24.8946 10.3217C24.4096 9.69171 24.5484 9.41143 24.8946 8.84829C24.9009 8.84186 28.9047 3.15129 29.3173 1.22143L29.3198 1.22014C29.5248 0.516857 29.3198 0 28.3285 0H25.0484C24.2133 0 23.8283 0.443571 23.6221 0.939857C23.6221 0.939857 21.952 5.05157 19.5894 7.71686C18.8269 8.487 18.4744 8.73386 18.0581 8.73386C17.8531 8.73386 17.5344 8.487 17.5344 7.78371V1.22014C17.5344 0.376714 17.3006 0 16.6093 0H11.4516C10.9279 0 10.6166 0.393429 10.6166 0.759857C10.6166 1.55957 11.7979 1.74343 11.9204 3.99343V8.87529C11.9204 9.945 11.7317 10.1417 11.3129 10.1417C10.1979 10.1417 7.49151 6.01329 5.8877 1.28829C5.56394 0.371571 5.24768 0.00128562 4.4064 0.00128562H1.12504C0.188756 0.00128562 0 0.444857 0 0.941143C0 1.818 1.11504 6.17786 5.18518 11.9379C7.89777 15.8696 11.7179 18 15.193 18C17.2818 18 17.5369 17.5269 17.5369 16.713C17.5369 12.9561 17.3481 12.6013 18.3944 12.6013C18.8794 12.6013 19.7144 12.8481 21.6645 14.7446C23.8933 16.9933 24.2596 18 25.5071 18H28.7872C29.7223 18 30.196 17.5269 29.9235 16.5934C29.2998 14.6301 25.0846 10.5917 24.8946 10.3217Z" fill="white"/>
+									</svg>
+
+
+								</a></li>
+
+								<li class="socials__item"><a href="#" class="social-icon gp">
+									<svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M9.5287 3.45455C11.5187 3.45455 13.3188 4.47876 14.3505 5.89005L16.7956 3.41991C15.3332 1.51249 12.5185 0 9.5287 0C4.2937 0 0 4.24914 0 9.5C0 14.7509 4.2937 19 9.5287 19C13.8684 19 17.519 16.081 18.6383 12.0909C18.8794 11.2617 19 10.398 19 9.5V8.63636H10.3897V12.0902H14.9532C14.006 14.1286 11.9223 15.5455 9.5287 15.5455C6.20523 15.5455 3.44411 12.8335 3.44411 9.5C3.44411 6.16645 6.20523 3.45455 9.5287 3.45455Z" fill="white"/>
+									</svg>
+									<svg width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M6.25828 0H2.68212V2.7H0V6.3H2.68212V9H6.25828V6.3H9V2.7H6.25828V0Z" fill="white"/>
+									</svg>
+
+								</a></li>
+								<li class="socials__item"><a href="#" class="social-icon od">
+									<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M7.94134 16C3.564 15.9851 -0.0253895 12.3609 0.000135297 7.98228C0.0253286 3.55531 3.61704 -0.0122179 8.03747 3.14497e-05C12.4669 0.0119497 16.0221 3.63079 15.9999 8.10378C15.9774 12.4735 12.3631 16.0152 7.94134 16ZM11.9196 7.99287C11.9119 5.81879 10.1782 4.08799 8.00565 4.086C5.81483 4.08369 4.06555 5.84593 4.08245 8.03988C4.09869 10.2057 5.84731 11.9242 8.02587 11.9163C10.1978 11.9087 11.9269 10.1666 11.9196 7.99287Z" fill="white"/>
+									</svg>
+									<svg width="18" height="15" viewBox="0 0 18 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M7.52444 6.06677C5.20059 5.82246 3.10529 5.24555 1.31138 3.83128C1.08879 3.65533 0.858976 3.4857 0.655851 3.28918C-0.129337 2.52904 -0.208453 1.65845 0.412854 0.761277C0.944371 -0.00646151 1.83662 -0.211845 2.76402 0.228987C2.9436 0.314432 3.11471 0.42108 3.27859 0.53564C6.62184 2.8512 11.2146 2.91512 14.5704 0.639755C14.9029 0.382788 15.2583 0.17329 15.6702 0.0663252C16.4711 -0.140958 17.218 0.155568 17.6478 0.861912C18.1388 1.66858 18.1325 2.45594 17.5275 3.08221C16.5995 4.04236 15.4834 4.737 14.2433 5.22182C13.0707 5.68006 11.7863 5.91076 10.5151 6.06393C10.707 6.27437 10.7974 6.37786 10.9173 6.49938C12.6434 8.24752 14.377 9.98838 16.0975 11.7419C16.6836 12.3394 16.8061 13.0802 16.4833 13.7752C16.1304 14.5347 15.3405 15.0344 14.566 14.9809C14.0753 14.9467 13.6926 14.7005 13.3526 14.3552C12.05 13.034 10.723 11.7371 9.44676 10.3909C9.07535 9.99945 8.89672 10.0735 8.56895 10.4134C7.25853 11.7732 5.92675 13.1122 4.58713 14.4435C3.9856 15.0413 3.2698 15.1489 2.5722 14.8075C1.83065 14.4451 1.35878 13.6821 1.3952 12.9153C1.42032 12.3967 1.67336 12.0004 2.02656 11.6451C3.73476 9.92572 5.43825 8.20194 7.14237 6.47976C7.25507 6.3652 7.36025 6.24367 7.52444 6.06677Z" fill="white"/>
+									</svg>
+								</a></li>
+								<li class="socials__item"><a href="#" class="social-icon fb">
+									<svg width="19" height="39" viewBox="0 0 19 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M4.115 7.52617C4.115 7.28306 4.14771 6.75802 4.21314 5.95442C4.28346 5.14913 4.57786 4.3067 5.10614 3.42206C5.62951 2.5408 6.47835 1.74902 7.65921 1.0484C8.83516 0.351154 10.5345 0 12.7523 0H19V7.02814H14.4254C13.9724 7.02814 13.5504 7.20371 13.1693 7.5498C12.7915 7.89589 12.5969 8.2251 12.5969 8.53067V12.9032H18.9984C18.9313 13.7591 18.8577 14.5914 18.7727 15.395L18.5192 17.5189C18.4178 18.2364 18.3147 18.9015 18.2133 19.5144H12.5511V39H4.115V19.5127H0V12.9032H4.115V7.52617Z" fill="white"/>
+									</svg>
+
+								</a></li>
+							</ul>
+						</div>
+					</div>
+
+
+				</div>
+
+
+
+			<div class="footer" style="flex: 0 0 auto;">
+				<div class="footer__top">
+					<div class="l-wrapper">
+						<div class="footer__top-inn">
+							<div class="footer__top-left">
+								<div class="footer__copyright">
+									&copy; 2021, ООО "РУМАРКЕТ"
+									<br>
+									Все права защищены
+								</div>
+
+
+							</div>
+
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<script type="text/javascript" src="/assets/js/libs.js"></script>
+		<script type="text/javascript" src="/assets/js/lightGallery/js/lightgallery.min.js"></script>
+		<script type="text/javascript" src="/assets/js/lightGallery/modules/lg-thumbnail.js"></script>
+		<script type="text/javascript" src="/assets/js/item-count.js"></script>
+		<script type="text/javascript" src="/assets/js/tabs.js"></script>
+		<script type="text/javascript" src="/assets/js/toggle.js"></script>
+		<script type="text/javascript" src="/assets/js/map.js"></script>
+		<script type="text/javascript" src="/assets/js/helpers.js"></script>
+		<script type="text/javascript" src="/assets/js/404.js"></script>
+		<script type="text/javascript" src="/assets/js/app.js"></script>
+
+	</body>
+
+</html>
