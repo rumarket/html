@@ -4725,7 +4725,7 @@ textarea.input, .select2-container textarea.select2-selection--single {
   border-radius: 5px;
   color: #7b7373;
   font-size: 15px;
-  
+
   font-family: 'PT Sans';
   border: 1px solid #e3dfe1;
   width: 100%;
@@ -11839,12 +11839,15 @@ input:checked + * .lg-checkbox__icon {
   .l-cabinet__main {
     padding-left: 0;
   }
+  .l-cabinet__main > .title {
+    padding-left: 40px;
+
+  }
 }
 
 .l-cabinet__main > .title {
   margin-bottom: 20px;
   position: relative;
-  padding-right: 20px;
 }
 
 .l-catalog {
@@ -12903,7 +12906,7 @@ input:checked + * .lg-checkbox__icon {
   width: 1px;
   content: '';
   height: 100px;
-  background: #444; 
+  background: #444;
   z-index: 1;
 }
 
@@ -17085,7 +17088,7 @@ html.touchevents .item-gallery__carousel .swiper-prev, html.touchevents .item-ga
 
 .login-tabs__link {
   font-family: 'Museo Sans Cyrl';
-  
+
   font-size: 19px;
   color: #8f8f8f;
   display: block;
@@ -17351,7 +17354,7 @@ html.touchevents .item-gallery__carousel .swiper-prev, html.touchevents .item-ga
 .cabinet-menu {
   position: absolute;
   bottom: 1px;
-  right: 0;
+  left: 0;
   z-index: 50;
   display: none;
 }
@@ -17365,7 +17368,7 @@ html.touchevents .item-gallery__carousel .swiper-prev, html.touchevents .item-ga
 .cabinet-menu__toggle {
   padding: 7px;
   border-radius: 50%;
-  background: #341526;
+  background: #fff;
   font-size: 0;
   display: inline-block;
   transition: all ease .3s;
@@ -17381,7 +17384,7 @@ html.touchevents .item-gallery__carousel .swiper-prev, html.touchevents .item-ga
   content: "";
   display: block;
   font-size: 18px;
-  color: #fff;
+  color: Black;
 }
 
 @media only screen and (max-width: 480px) {
@@ -17390,14 +17393,14 @@ html.touchevents .item-gallery__carousel .swiper-prev, html.touchevents .item-ga
   }
 }
 
-.cabinet-menu__toggle.is-active {
-  background: #48BE7A;
+.cabinet-menu__toggle.is-active:before {
+  color: #48BE7A;
 }
 
 .cabinet-menu__list {
   position: absolute;
   top: 100%;
-  right: 0;
+  left: 0;
   list-style: none;
   display: none;
   animation: bounceIn .6s forwards;
