@@ -5280,10 +5280,12 @@ input:checked + .image-switchers__item {
 
 .hamburger span:before, .hamburger span:after {
   height: 2px;
+  visibility: hidden;
 }
 
 .hamburger span:before {
   top: -7px;
+
 }
 
 .hamburger span:after {
@@ -5333,11 +5335,12 @@ input:checked + .image-switchers__item {
   background: none;
 }
 
-.hamburger--htx.is-active span::before {
+.hamburger--htx.is-active span:before {
   top: 0;
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
+  visibility: visible;
 }
 
 .hamburger--htx.is-active span:after {
@@ -5345,10 +5348,12 @@ input:checked + .image-switchers__item {
   -ms-transform: rotate(-45deg);
   transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg);
+  visibility: visible;
 }
 
 .hamburger--htx.is-active span:before, .hamburger--htx.is-active span:after {
   transition-delay: 0s, 0.3s;
+  visibility: visible;
 }
 
 .hamburger--spin span {
@@ -5362,6 +5367,7 @@ input:checked + .image-switchers__item {
 
 .hamburger--spin span:after {
   transition: bottom 0.1s 0.25s ease-in, transform 0.22s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+
 }
 
 .hamburger--spin.is-active span {
@@ -5382,7 +5388,14 @@ input:checked + .image-switchers__item {
   -ms-transform: rotate(-90deg);
   transform: rotate(-90deg);
   transition: bottom 0.1s ease-out, transform 0.22s 0.12s cubic-bezier(0.215, 0.61, 0.355, 1);
+  visibility: visible;
 }
+
+@media only screen and (max-width: 640px) {
+    .footer__copyright {
+      text-align: center;
+    }
+  }
 
 .ps > .ps__scrollbar-y-rail > .ps__scrollbar-y {
   background: #48BE7A;
@@ -8852,8 +8865,9 @@ input:checked + * .lg-checkbox__icon {
 
 .logo img {
   display: inline-block;
-  width: 100%;
+  width: 50%;
   vertical-align: top;
+  text-align: left;
 }
 
 .logo .adwall {
@@ -11822,7 +11836,13 @@ input:checked + * .lg-checkbox__icon {
 }
 
 .l-cabinet__aside {
-  width: 280px;
+  width: 343px;
+}
+
+@media only screen and (max-width: 800px) {
+  .l-cabinet__aside {
+    width: 200px;
+  }
 }
 
 @media only screen and (max-width: 760px) {
@@ -11839,10 +11859,10 @@ input:checked + * .lg-checkbox__icon {
   .l-cabinet__main {
     padding-left: 0;
   }
-  .l-cabinet__main > .title {
-    padding-left: 40px;
+}
+.l-cabinet__main > .title {
+  padding-left: 40px;
 
-  }
 }
 
 .l-cabinet__main > .title {
@@ -11857,6 +11877,7 @@ input:checked + * .lg-checkbox__icon {
 .l-catalog > * {
   vertical-align: top !important;
 }
+
 
 .l-catalog__aside {
   width: 280px;
@@ -12269,6 +12290,7 @@ input:checked + * .lg-checkbox__icon {
   .header.fixed .header__logo {
     padding-right: 30px;
   }
+
 }
 
 @media only screen and (min-width: 760px) {
@@ -12323,7 +12345,7 @@ input:checked + * .lg-checkbox__icon {
 }
 
 .header__logo {
-  padding-right: 40px;
+  padding-right: 0px;
 }
 
 @media only screen and (max-width: 760px) {
@@ -12334,6 +12356,10 @@ input:checked + * .lg-checkbox__icon {
 
 .header__logo-small {
   display: none;
+}
+
+body > div.l-main.js-main.wrapper.slideout-panel.slideout-panel-left > header > div > div.header__wrapper > div > div > div.header__logo-mobile > a > div > div > div > img {
+  width: 131px;
 }
 
 .header__logo-mobile {
@@ -12349,13 +12375,13 @@ input:checked + * .lg-checkbox__icon {
 
 @media only screen and (max-width: 760px) {
   .header__logo-mobile .logo {
-    width: 160px;
+    width: 130px;
   }
 }
 
 @media only screen and (max-width: 480px) {
   .header__logo-mobile .logo {
-    width: 125px;
+    width: 130px;
   }
 }
 
@@ -12378,11 +12404,16 @@ input:checked + * .lg-checkbox__icon {
 
 .header__search {
   padding-left: 15px;
+  padding-right: 145px;
 }
 
-@media only screen and (max-width: 940px) {
+@media only screen and (max-width: 800px) {
   .header__search {
-    padding-left: 0;
+    padding-right: 60px;
+  }
+
+  body > div.l-main.js-main.wrapper.slideout-panel.slideout-panel-left > header > div > div.header__wrapper > div > div > div.header__logo > a > div.header__logo-default {
+    width: 240px;
   }
 }
 
@@ -17353,9 +17384,9 @@ html.touchevents .item-gallery__carousel .swiper-prev, html.touchevents .item-ga
 
 .cabinet-menu {
   position: absolute;
-  bottom: 1px;
-  left: 0;
-  z-index: 50;
+  top: 0px;
+  left: 15px;
+  z-index: -1;
   display: none;
 }
 
@@ -17366,8 +17397,6 @@ html.touchevents .item-gallery__carousel .swiper-prev, html.touchevents .item-ga
 }
 
 .cabinet-menu__toggle {
-  padding: 7px;
-  border-radius: 50%;
   background: #fff;
   font-size: 0;
   display: inline-block;
@@ -17375,26 +17404,11 @@ html.touchevents .item-gallery__carousel .swiper-prev, html.touchevents .item-ga
 }
 
 @media only screen and (max-width: 360px) {
-  .cabinet-menu__toggle {
-    padding: 5px;
-  }
-}
 
-.cabinet-menu__toggle:before {
-  content: "";
-  display: block;
-  font-size: 18px;
-  color: Black;
 }
 
 @media only screen and (max-width: 480px) {
-  .cabinet-menu__toggle:before {
-    font-size: 16px;
-  }
-}
 
-.cabinet-menu__toggle.is-active:before {
-  color: #48BE7A;
 }
 
 .cabinet-menu__list {
