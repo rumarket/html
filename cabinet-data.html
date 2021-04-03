@@ -67,11 +67,30 @@
 }
 
 
+	@media only screen and (min-width: 1025px) {
+	div .social-div {
+		left: -380px;
+		position: relative;
+	}
+
+	}
+
+
+@media only screen and (max-width: 1024px) {
+	@media only screen and (min-width: 801px) {
+	div .social-div {
+		left: -295px;
+		position: relative;
+	}
+	}
+}
+
 @media only screen and (max-width: 940px) {
   .header__search {
     padding-left: 0;
   }
 }
+
 
 @media only screen and (max-width: 480px) {
   .header__search {
@@ -100,6 +119,23 @@
 		padding: 0;
 	}
 
+	body > div.l-main.js-main.wrapper.slideout-panel.slideout-panel-left > div.content > div > div > div > div.l-cabinet__main > div.p-datas > div > div.container.data-flex > div:nth-child(2) {
+		left: -10px;
+		position: relative;
+	}
+
+	@media only screen and (min-width: 941px) {
+		body > div.l-main.js-main.wrapper.slideout-panel.slideout-panel-left > div.content > div > div > div > div.l-cabinet__main > div.p-datas > div > div.container.data-flex > div:nth-child(2) {
+			left: -150px;
+			}
+
+			@media only screen and (min-width: 1025px) {
+				body > div.l-main.js-main.wrapper.slideout-panel.slideout-panel-left > div.content > div > div > div > div.l-cabinet__main > div.p-datas > div > div.container.data-flex > div:nth-child(2) {
+					left: -180px;
+					}
+			}
+	}
+
 	body > div.l-main.js-main.wrapper.slideout-panel.slideout-panel-left > div.content > div > div > div > div.l-cabinet__main > div.p-datas > div > div.container.data-flex > div.row {
 		top: 100px;
 	}
@@ -108,9 +144,8 @@
 		left: 20px;
 	}
 
-	body > div.l-main.js-main.wrapper.slideout-panel.slideout-panel-left > div.content > div > div > div > div.l-cabinet__main > div.p-datas > div > div.container.data-flex > div:nth-child(2) {
-		left: -20px;
-	}
+
+
 
 	.social-div {
 		left: -240px;
@@ -211,6 +246,13 @@
 			position: absolute;
 			right: 100px;
 			top: 12px;
+		}
+
+		@media only screen and (min-width: 940px) {
+			body > div.l-main.js-main.wrapper.slideout-panel.slideout-panel-left > div.content > div > div > div > div.l-cabinet__main > div.p-datas > div > div.container.data-flex > div.row {
+				right: 100px; 
+
+			}
 		}
 
 		@media only screen and (max-height: 640px) {
