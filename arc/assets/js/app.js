@@ -1337,7 +1337,7 @@ $(function () {
         $('.select').each(function () {
             var state = function (state) {
                 var icon = $(state.element).data('icon');
-                return icon ? $('<span>' + '<svg class="icon icon-' + icon + '"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/assets/img/sprite.svg#icon-' + icon + '"></use></svg>' + state.text + '</span>') : state.text;
+                return icon ? $('<span>' + '<svg class="icon icon-' + icon + '"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="assets/img/sprite.svg#icon-' + icon + '"></use></svg>' + state.text + '</span>') : state.text;
             };
             $(this).select2({
                 minimumResultsForSearch: Infinity,

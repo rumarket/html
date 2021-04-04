@@ -7375,12 +7375,12 @@ html {
 }
 
 html ::-moz-selection {
-  background: #337ab7;
+  background: #ffffff;
   color: #fff;
 }
 
 html ::selection {
-  background: #337ab7;
+  background: #ffffff;
   color: #fff;
 }
 
