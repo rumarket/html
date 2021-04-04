@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.11, created on 2021-04-04 18:18:01
+<?php /* Smarty version 2.6.11, created on 2021-04-04 19:53:02
          compiled from index.tpl */ ?>
 <!DOCTYPE html>
 <html lang="ru">
@@ -3683,4 +3683,4 @@ img/items/9.png"></a>
 
 	</body>
 
-</html>
+</html>

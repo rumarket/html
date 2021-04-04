@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.11, created on 2021-04-04 18:18:45
+<?php /* Smarty version 2.6.11, created on 2021-04-04 19:53:04
          compiled from 404.tpl */ ?>
 <!DOCTYPE html>
 <html lang="ru">
@@ -1072,4 +1072,4 @@ js/lightGallery/js/lightgallery.min.js"></script>
 		<script type="text/javascript" src="/assets/js/app.js"></script>
 	</body>
 
-</html>
+</html>
