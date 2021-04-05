@@ -106,8 +106,7 @@
                 <div class="item-hot js-item">
                   <div class="item-hot__inn">
                     <div class="item-hot__photo">
-                      <a href="#"><img alt="Jennyfer" class="item-hot__img js-item-main-img" src="/assets/
-img/items/6.png"></a>
+                      <a href="#"><img alt="Jennyfer" class="item-hot__img js-item-main-img" src="/assets/img/items/6.png"></a>
                     </div>
                     <div class="item-hot__info">
                       <a href="#" class="item-hot__name">Jennyfer</a><span class="item-hot__category">Ремень</span>

@@ -8,8 +8,7 @@
         <a href=".">
         <div class="logo logo--no-icon">
           <div class="logo__inn">
-            <div class="logo__text"><img alt="adwall" src="/assets/
-img/logo-text.svg">
+            <div class="logo__text"><img alt="adwall" src="/assets/img/logo-text.svg">
             </div>
           </div>
         </div> </a>
@@ -20,8 +19,7 @@ img/logo-text.svg">
           <div class="logo ">
             <div class="logo__inn">
 
-              <div class="logo__text"><img alt="adwall" src="/assets/
-img/logo-text.svg">
+              <div class="logo__text"><img alt="adwall" src="/assets/img/logo-text.svg">
               </div>
             </div>
           </div>
@@ -30,8 +28,7 @@ img/logo-text.svg">
           <div class="logo logo--sm">
             <div class="logo__inn">
 
-              <div class="logo__text"><img alt="adwall" src="/assets/
-img/logo-text.svg">
+              <div class="logo__text"><img alt="adwall" src="/assets/img/logo-text.svg">
               </div>
             </div>
           </div>
@@ -57,8 +54,7 @@ img/logo-text.svg">
               <div class="item-cart__inn">
                 <div class="item-cart__photo">
                   <div class="item-cart__img">
-                    <a href="#"><img src="/assets/
-img/items/1.png"></a>
+                    <a href="#"><img src="/assets/img/items/1.png"></a>
                   </div>
                 </div>
                 <div class="item-cart__info">
@@ -73,8 +69,7 @@ img/items/1.png"></a>
               <div class="item-cart__inn">
                 <div class="item-cart__photo">
                   <div class="item-cart__img">
-                    <a href="#"><img src="/assets/
-img/items/2.png"></a>
+                    <a href="#"><img src="/assets/img/items/2.png"></a>
                   </div>
                 </div>
                 <div class="item-cart__info">
@@ -89,8 +84,7 @@ img/items/2.png"></a>
               <div class="item-cart__inn">
                 <div class="item-cart__photo">
                   <div class="item-cart__img">
-                    <a href="#"><img src="/assets/
-img/items/3.png"></a>
+                    <a href="#"><img src="/assets/img/items/3.png"></a>
                   </div>
                 </div>
                 <div class="item-cart__info">

@@ -43,8 +43,7 @@
 								<a data-id="1" href="#" class="m-catalog__link m-catalog__link--icon js-m-catalog-link">
 								<div class="m-catalog__link-icon">
 									<svg class="icon icon-bag-1">
-										<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/assets/
-img/sprite.svg#icon-bag-1"></use>
+										<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/assets/img/sprite.svg#icon-bag-1"></use>
 									</svg>
 								</div> Сумки </a>
 							</li>
@@ -52,8 +51,7 @@ img/sprite.svg#icon-bag-1"></use>
 								<a data-id="10" href="#" class="m-catalog__link m-catalog__link--icon js-m-catalog-link">
 								<div class="m-catalog__link-icon">
 									<svg class="icon icon-hanger">
-										<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/assets/
-img/sprite.svg#icon-hanger"></use>
+										<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/assets/img/sprite.svg#icon-hanger"></use>
 									</svg>
 								</div> Другой товар </a>
 							</li>
@@ -307,8 +305,7 @@ img/sprite.svg#icon-hanger"></use>
 										<div class="item-grid  js-item  js-item-grid item-grid--simple">
 											<div class="item-grid__inn">
 												<div class="item-grid__photo">
-													<a href="#"><img alt="David Jones" class="item-grid__img js-item-main-img" src="/assets/
-img/items/1.png"></a>
+													<a href="#"><img alt="David Jones" class="item-grid__img js-item-main-img" src="/assets/img/items/1.png"></a>
 												</div>
 												<a href="#" class="item-grid__name">David Jones</a>
 												<div class="item-grid__category">
@@ -327,8 +324,7 @@ img/items/1.png"></a>
 											<div data-size="big" data-theme="discount" title="Успей купить!" class="item-badge item-badge--discount js-tooltip"></div>
 											<div class="item-grid__inn">
 												<div class="item-grid__photo">
-													<a href="#"><img alt="Casio" class="item-grid__img js-item-main-img" src="/assets/
-img/items/2.png"></a>
+													<a href="#"><img alt="Casio" class="item-grid__img js-item-main-img" src="/assets/img/items/2.png"></a>
 												</div>
 												<a href="#" class="item-grid__name">Casio</a>
 												<div class="item-grid__category">
@@ -346,8 +342,7 @@ img/items/2.png"></a>
 										<div class="item-grid  js-item  js-item-grid item-grid--simple">
 											<div class="item-grid__inn">
 												<div class="item-grid__photo">
-													<a href="#"><img alt="Salomon" class="item-grid__img js-item-main-img" src="/assets/
-img/items/3.png"></a>
+													<a href="#"><img alt="Salomon" class="item-grid__img js-item-main-img" src="/assets/img/items/3.png"></a>
 												</div>
 												<a href="#" class="item-grid__name">Salomon</a>
 												<div class="item-grid__category">
@@ -366,8 +361,7 @@ img/items/3.png"></a>
 											<div data-size="big" data-theme="new" title="Новое поступление!" class="item-badge item-badge--new js-tooltip"></div>
 											<div class="item-grid__inn">
 												<div class="item-grid__photo">
-													<a href="#"><img alt="Coccinelle" class="item-grid__img js-item-main-img" src="/assets/
-img/items/4.png"></a>
+													<a href="#"><img alt="Coccinelle" class="item-grid__img js-item-main-img" src="/assets/img/items/4.png"></a>
 												</div>
 												<a href="#" class="item-grid__name">Coccinelle</a>
 												<div class="item-grid__category">
