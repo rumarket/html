@@ -11800,9 +11800,27 @@ input:checked + * .lg-checkbox__icon {
   padding: 0 10px;
 }
 
+div.l-main.js-main.slideout-panel.slideout-panel-left {
+ display: flex;
+ flex-direction: column;
+ min-height: 100%;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%
+}
+
 .l-content {
   padding-top: 15px;
   padding-bottom: 40px;
+
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: auto;
 }
 
 @media only screen and (max-width: 640px) {
@@ -12970,7 +12988,7 @@ input:checked + * .lg-checkbox__icon {
   width: 1px;
   content: '';
   height: 100px;
-  background: #444; 
+  background: #444;
   z-index: 1;
 }
 
