@@ -17,6 +17,6 @@ function smarty_function_mod($params, &$smarty){
 	include_once($mod_path);
 
 	$oMod=new $modname();
-	$oMod->mod_execute($_SESSION[$session_name]);
+	$oMod->mod_execute($_SESSION[$session_name]);	
 }
 ?>
