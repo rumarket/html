@@ -3,7 +3,7 @@
 
 	<head>
 		<meta charset="utf-8">
-		<title>Мои подписки</title>
+		<title>Акции и спецпредложения</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="format-detection" content="telephone=no">
 		<meta name="mobile-web-app-capable" content="yes">
@@ -146,11 +146,11 @@ img/sprite.svg#icon-hanger"></use>
 							<div class="fast-view__main-left">
 								<div class="rate">
 									<div class="rate__inn">
-										<div class="rate__stars r5">
+										<div class="rate__stars r1">
 											<i></i><i></i><i></i><i></i><i></i>
 										</div>
 										<div class="rate__count">
-											(27)
+											(12)
 										</div>
 									</div>
 								</div>
@@ -703,12 +703,12 @@ img/items/4.png"></a>
 										</li>
 										<li class="categories-menu__item">
 											<div class="categories-menu__item-inn">
-												<a href="cabinet-action.html" class="categories-menu__link ">Акции и спецпредложения</a>
+												<a href="cabinet-action.html" class="categories-menu__link is-active">Акции и спецпредложения</a>
 											</div>
 										</li>
 										<li class="categories-menu__item">
 											<div class="categories-menu__item-inn">
-												<a href="cabinet-subscribe.html" class="categories-menu__link is-active">Мои подписки</a>
+												<a href="cabinet-subscribe.html" class="categories-menu__link ">Мои подписки</a>
 											</div>
 										</li>
 									</ul>
@@ -716,7 +716,7 @@ img/items/4.png"></a>
 							</div>
 							<div class="l-cabinet__main">
 								<div class="title h1">
-									Мои подписки
+									Акции и спецпредложения
 									<div class="cabinet-menu">
 										<a data-toggle=".js-cabinet-menu" href="#" class="cabinet-menu__toggle js-toggle"></a>
 										<ul class="cabinet-menu__list js-cabinet-menu">
@@ -736,256 +736,80 @@ img/items/4.png"></a>
 												<a href="cabinet-return.html" class="cabinet-menu__link ">Возврат</a>
 											</li>
 											<li class="cabinet-menu__item">
-												<a href="cabinet-action.html" class="cabinet-menu__link ">Акции и спецпредложения</a>
+												<a href="cabinet-action.html" class="cabinet-menu__link is-active">Акции и спецпредложения</a>
 											</li>
 											<li class="cabinet-menu__item">
-												<a href="cabinet-subscribe.html" class="cabinet-menu__link is-active">Мои подписки</a>
+												<a href="cabinet-subscribe.html" class="cabinet-menu__link ">Мои подписки</a>
 											</li>
 										</ul>
 									</div>
 								</div>
-								<form autocomplete="off" class="p-subscribes">
-									<div class="group-box">
-										<div class="switchers switchers--table">
-											<div style="width: 100%;" class="switchers__cell">
-												<label class="switcher">
-													<div class="switcher__inn">
-														<div class="switcher__toggle">
-															<input data-target=".js-subscribe-types" type="checkbox" class="js-switchery" checked>
-														</div>
-														<div class="switcher__label">
-															<div class="block-table block-table--auto block-table--padding ws-nowrap">
-																<div>
-																	Товар дня
-																</div>
-																<div class="js-subscribe-types">
-																	<div class="bicon">
-																		<i  class="ticon ticon-mobile-1 "></i>
-																	</div>
-																	<div class="bicon is-active">
-																		<i  class="ticon ticon-envelope-1 "></i>
-																	</div>
-																</div>
+								<div class="category-banners">
+									<div class="category-banners__row">
+										<div class="row">
+											<div class="col-md-9">
+												<div class="category-banner category-banner--sm category-banner--img">
+													<div class="category-banner__inn">
+														<img class="category-banner__banner" src="/assets/
+img/slide1.png">
+													</div>
+												</div>
+											</div>
+											<div class="col-md-3">
+												<div class="category-banner category-banner--sm category-banner--pink">
+													<div class="category-banner__inn">
+														<div class="category-banner__block">
+															<img src="/assets/
+img/category-banners/parfum.png" class="category-banner__img">
+															<div class="category-banner__title">
+																Парфюмерия
+															</div>
+															<div class="category-banner__label">
+																Скидка 40%
 															</div>
 														</div>
-													</div> </label><label class="switcher">
-													<div class="switcher__inn">
-														<div class="switcher__toggle">
-															<input data-target=".js-subscribe-types" type="checkbox" class="js-switchery">
-														</div>
-														<div class="switcher__label">
-															<div class="block-table block-table--auto block-table--padding ws-nowrap">
-																<div>
-																	Акции и спецпредложения
-																</div>
-																<div class="js-subscribe-types hidden">
-																	<div class="bicon">
-																		<i  class="ticon ticon-mobile-1 "></i>
-																	</div>
-																	<div class="bicon is-active">
-																		<i  class="ticon ticon-envelope-1 "></i>
-																	</div>
-																</div>
-															</div>
-														</div>
-													</div> </label>
+													</div>
+												</div>
 											</div>
 										</div>
 									</div>
-									<div class="group-box">
-										<div class="subtitle">
-											По разделам сайта
-										</div>
-										<div class="switchers switchers--table">
-											<div class="switchers__cell">
-												<label class="switcher">
-													<div class="switcher__inn">
-														<div class="switcher__toggle">
-															<input  data-target=".js-subscribe-types" type="checkbox" class="js-switchery" checked>
-														</div>
-														<div class="switcher__label">
-															<div class="block-table block-table--auto block-table--padding ws-nowrap">
-																<div>
-																	Сумки
-																</div>
-																<div class="js-subscribe-types">
-																	<div class="bicon is-active">
-																		<i  class="ticon ticon-mobile-1 "></i>
-																	</div>
-																	<div class="bicon is-active">
-																		<i  class="ticon ticon-envelope-1 "></i>
-																	</div>
-																</div>
+									<div class="category-banners__row">
+										<div class="row">
+											<div class="col-sm-8">
+												<div class="category-banner category-banner--horizontal category-banner--sm  category-banner--blue">
+													<div class="category-banner__inn">
+														<div class="category-banner__block">
+															<img src="/assets/
+img/category-banners/glasses.png" class="category-banner__img">
+															<div class="category-banner__title">
+																Очки
+															</div>
+															<div class="category-banner__label">
+																Лучшее предложение
 															</div>
 														</div>
-													</div> </label><label class="switcher">
-													<div class="switcher__inn">
-														<div class="switcher__toggle">
-															<input data-target=".js-subscribe-types" type="checkbox" class="js-switchery">
-														</div>
-														<div class="switcher__label">
-															<div class="block-table block-table--auto block-table--padding ws-nowrap">
-																<div>
-																	Часы
-																</div>
-																<div class="js-subscribe-types hidden">
-																	<div class="bicon">
-																		<i  class="ticon ticon-mobile-1 "></i>
-																	</div>
-																	<div class="bicon is-active">
-																		<i  class="ticon ticon-envelope-1 "></i>
-																	</div>
-																</div>
-															</div>
-														</div>
-													</div> </label><label class="switcher">
-													<div class="switcher__inn">
-														<div class="switcher__toggle">
-															<input data-target=".js-subscribe-types" type="checkbox" class="js-switchery">
-														</div>
-														<div class="switcher__label">
-															<div class="block-table block-table--auto block-table--padding ws-nowrap">
-																<div>
-																	Парфюмерия
-																</div>
-																<div class="js-subscribe-types hidden">
-																	<div class="bicon">
-																		<i  class="ticon ticon-mobile-1 "></i>
-																	</div>
-																	<div class="bicon is-active">
-																		<i  class="ticon ticon-envelope-1 "></i>
-																	</div>
-																</div>
-															</div>
-														</div>
-													</div> </label><label class="switcher">
-													<div class="switcher__inn">
-														<div class="switcher__toggle">
-															<input data-target=".js-subscribe-types" type="checkbox" class="js-switchery">
-														</div>
-														<div class="switcher__label">
-															<div class="block-table block-table--auto block-table--padding ws-nowrap">
-																<div>
-																	Ремни
-																</div>
-																<div class="js-subscribe-types hidden">
-																	<div class="bicon">
-																		<i  class="ticon ticon-mobile-1 "></i>
-																	</div>
-																	<div class="bicon is-active">
-																		<i  class="ticon ticon-envelope-1 "></i>
-																	</div>
-																</div>
-															</div>
-														</div>
-													</div> </label><label class="switcher">
-													<div class="switcher__inn">
-														<div class="switcher__toggle">
-															<input data-target=".js-subscribe-types" type="checkbox" class="js-switchery">
-														</div>
-														<div class="switcher__label">
-															<div class="block-table block-table--auto block-table--padding ws-nowrap">
-																<div>
-																	Кошельки
-																</div>
-																<div class="js-subscribe-types hidden">
-																	<div class="bicon">
-																		<i  class="ticon ticon-mobile-1 "></i>
-																	</div>
-																	<div class="bicon is-active">
-																		<i  class="ticon ticon-envelope-1 "></i>
-																	</div>
-																</div>
-															</div>
-														</div>
-													</div> </label>
+													</div>
+												</div>
 											</div>
-											<div class="switchers__cell">
-												<label class="switcher">
-													<div class="switcher__inn">
-														<div class="switcher__toggle">
-															<input data-target=".js-subscribe-types" type="checkbox" class="js-switchery">
-														</div>
-														<div class="switcher__label">
-															<div class="block-table block-table--auto block-table--padding ws-nowrap">
-																<div>
-																	Очки
-																</div>
-																<div class="js-subscribe-types hidden">
-																	<div class="bicon">
-																		<i  class="ticon ticon-mobile-1 "></i>
-																	</div>
-																	<div class="bicon is-active">
-																		<i  class="ticon ticon-envelope-1 "></i>
-																	</div>
-																</div>
+											<div class="col-sm-4">
+												<div class="category-banner category-banner--horizontal category-banner--sm category-banner--yellow">
+													<div class="category-banner__inn">
+														<div class="category-banner__block">
+															<img src="/assets/
+img/category-banners/bags.png" class="category-banner__img">
+															<div class="category-banner__title">
+																Сумки
+															</div>
+															<div class="category-banner__label">
+																Выгодно
 															</div>
 														</div>
-													</div> </label><label class="switcher">
-													<div class="switcher__inn">
-														<div class="switcher__toggle">
-															<input data-target=".js-subscribe-types" type="checkbox" class="js-switchery">
-														</div>
-														<div class="switcher__label">
-															<div class="block-table block-table--auto block-table--padding ws-nowrap">
-																<div>
-																	Чемоданы
-																</div>
-																<div class="js-subscribe-types hidden">
-																	<div class="bicon">
-																		<i  class="ticon ticon-mobile-1 "></i>
-																	</div>
-																	<div class="bicon is-active">
-																		<i  class="ticon ticon-envelope-1 "></i>
-																	</div>
-																</div>
-															</div>
-														</div>
-													</div> </label><label class="switcher">
-													<div class="switcher__inn">
-														<div class="switcher__toggle">
-															<input data-target=".js-subscribe-types" type="checkbox" class="js-switchery">
-														</div>
-														<div class="switcher__label">
-															<div class="block-table block-table--auto block-table--padding ws-nowrap">
-																<div>
-																	Рюкзаки
-																</div>
-																<div class="js-subscribe-types hidden">
-																	<div class="bicon">
-																		<i  class="ticon ticon-mobile-1 "></i>
-																	</div>
-																	<div class="bicon is-active">
-																		<i  class="ticon ticon-envelope-1 "></i>
-																	</div>
-																</div>
-															</div>
-														</div>
-													</div> </label><label class="switcher">
-													<div class="switcher__inn">
-														<div class="switcher__toggle">
-															<input data-target=".js-subscribe-types" type="checkbox" class="js-switchery">
-														</div>
-														<div class="switcher__label">
-															<div class="block-table block-table--auto block-table--padding ws-nowrap">
-																<div>
-																	Ручки
-																</div>
-																<div class="js-subscribe-types hidden">
-																	<div class="bicon">
-																		<i  class="ticon ticon-mobile-1 "></i>
-																	</div>
-																	<div class="bicon is-active">
-																		<i  class="ticon ticon-envelope-1 "></i>
-																	</div>
-																</div>
-															</div>
-														</div>
-													</div> </label>
+													</div>
+												</div>
 											</div>
 										</div>
 									</div>
-								</form>
+								</div>
 							</div>
 						</div>
 					</div>
