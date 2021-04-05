@@ -314,7 +314,7 @@
 										<div class="item-grid  js-item  js-item-grid item-grid--simple">
 											<div class="item-grid__inn">
 												<div class="item-grid__photo">
-													<a href="#"><img alt="David Jones" class="item-grid__img js-item-main-img" src="assets/img/items/1.png"></a>
+													<a href="#"><img alt="David Jones" class="item-grid__img js-item-main-img" src="/assets/img/items/1.png"></a>
 												</div>
 												<a href="#" class="item-grid__name">David Jones</a>
 												<div class="item-grid__category">
@@ -333,7 +333,7 @@
 											<div data-size="big" data-theme="discount" title="Успей купить!" class="item-badge item-badge--discount js-tooltip"></div>
 											<div class="item-grid__inn">
 												<div class="item-grid__photo">
-													<a href="#"><img alt="Casio" class="item-grid__img js-item-main-img" src="assets/img/items/2.png"></a>
+													<a href="#"><img alt="Casio" class="item-grid__img js-item-main-img" src="/assets/img/items/2.png"></a>
 												</div>
 												<a href="#" class="item-grid__name">Casio</a>
 												<div class="item-grid__category">
@@ -351,7 +351,7 @@
 										<div class="item-grid  js-item  js-item-grid item-grid--simple">
 											<div class="item-grid__inn">
 												<div class="item-grid__photo">
-													<a href="#"><img alt="Salomon" class="item-grid__img js-item-main-img" src="assets/img/items/3.png"></a>
+													<a href="#"><img alt="Salomon" class="item-grid__img js-item-main-img" src="/assets/img/items/3.png"></a>
 												</div>
 												<a href="#" class="item-grid__name">Salomon</a>
 												<div class="item-grid__category">
@@ -370,7 +370,7 @@
 											<div data-size="big" data-theme="new" title="Новое поступление!" class="item-badge item-badge--new js-tooltip"></div>
 											<div class="item-grid__inn">
 												<div class="item-grid__photo">
-													<a href="#"><img alt="Coccinelle" class="item-grid__img js-item-main-img" src="assets/img/items/4.png"></a>
+													<a href="#"><img alt="Coccinelle" class="item-grid__img js-item-main-img" src="/assets/img/items/4.png"></a>
 												</div>
 												<a href="#" class="item-grid__name">Coccinelle</a>
 												<div class="item-grid__category">
@@ -657,7 +657,7 @@
 					~~include file='tpl/topbar.tpl'~
 					~~include file='tpl/header__wrapper.tpl'~
 					~~include file='tpl/nav__js-nav.tpl'~
-					
+
 				</div>
 			</header>
 			<div class="l-content">
@@ -818,7 +818,7 @@
 											<div class="item-grid  js-item  js-item-grid ">
 												<div class="item-grid__inn">
 													<div class="item-grid__photo">
-														<a href="#"><img alt="David Jones" class="item-grid__img js-item-main-img" src="assets/img/items/1.png"></a>
+														<a href="#"><img alt="David Jones" class="item-grid__img js-item-main-img" src="/assets/img/items/1.png"></a>
 														<div class="item-grid__carousel carousel">
 															<div class="swiper-container js-item-gallery-carousel">
 																<div class="swiper-wrapper">
@@ -878,7 +878,7 @@
 												<div data-size="big" data-theme="discount" title="Успей купить!" class="item-badge item-badge--discount js-tooltip"></div>
 												<div class="item-grid__inn">
 													<div class="item-grid__photo">
-														<a href="#"><img alt="Casio" class="item-grid__img js-item-main-img" src="assets/img/items/2.png"></a>
+														<a href="#"><img alt="Casio" class="item-grid__img js-item-main-img" src="/assets/img/items/2.png"></a>
 														<div class="item-grid__carousel carousel">
 															<div class="swiper-container js-item-gallery-carousel">
 																<div class="swiper-wrapper">
@@ -937,7 +937,7 @@
 											<div class="item-grid  js-item  js-item-grid ">
 												<div class="item-grid__inn">
 													<div class="item-grid__photo">
-														<a href="#"><img alt="Salomon" class="item-grid__img js-item-main-img" src="assets/img/items/3.png"></a>
+														<a href="#"><img alt="Salomon" class="item-grid__img js-item-main-img" src="/assets/img/items/3.png"></a>
 														<div class="item-grid__carousel carousel">
 															<div class="swiper-container js-item-gallery-carousel">
 																<div class="swiper-wrapper">
@@ -997,7 +997,7 @@
 												<div data-size="big" data-theme="new" title="Новое поступление!" class="item-badge item-badge--new js-tooltip"></div>
 												<div class="item-grid__inn">
 													<div class="item-grid__photo">
-														<a href="#"><img alt="Coccinelle" class="item-grid__img js-item-main-img" src="assets/img/items/4.png"></a>
+														<a href="#"><img alt="Coccinelle" class="item-grid__img js-item-main-img" src="/assets/img/items/4.png"></a>
 														<div class="item-grid__carousel carousel">
 															<div class="swiper-container js-item-gallery-carousel">
 																<div class="swiper-wrapper">
@@ -1056,7 +1056,7 @@
 											<div class="item-grid  js-item  js-item-grid ">
 												<div class="item-grid__inn">
 													<div class="item-grid__photo">
-														<a href="#"><img alt="Tommy Hilfiger" class="item-grid__img js-item-main-img" src="assets/img/items/5.png"></a>
+														<a href="#"><img alt="Tommy Hilfiger" class="item-grid__img js-item-main-img" src="/assets/img/items/5.png"></a>
 														<div class="item-grid__carousel carousel">
 															<div class="swiper-container js-item-gallery-carousel">
 																<div class="swiper-wrapper">
@@ -1116,7 +1116,7 @@
 												<div data-size="big" data-theme="hot" title="Осторожно, горячий товар!" class="item-badge item-badge--hot js-tooltip"></div>
 												<div class="item-grid__inn">
 													<div class="item-grid__photo">
-														<a href="#"><img alt="Jennyfer" class="item-grid__img js-item-main-img" src="assets/img/items/6.png"></a>
+														<a href="#"><img alt="Jennyfer" class="item-grid__img js-item-main-img" src="/assets/img/items/6.png"></a>
 														<div class="item-grid__carousel carousel">
 															<div class="swiper-container js-item-gallery-carousel">
 																<div class="swiper-wrapper">
@@ -1175,7 +1175,7 @@
 											<div class="item-grid  js-item  js-item-grid ">
 												<div class="item-grid__inn">
 													<div class="item-grid__photo">
-														<a href="#"><img alt="RELYGHT Piquadro" class="item-grid__img js-item-main-img" src="assets/img/items/7.png"></a>
+														<a href="#"><img alt="RELYGHT Piquadro" class="item-grid__img js-item-main-img" src="/assets/img/items/7.png"></a>
 														<div class="item-grid__carousel carousel">
 															<div class="swiper-container js-item-gallery-carousel">
 																<div class="swiper-wrapper">
@@ -1234,7 +1234,7 @@
 											<div class="item-grid  js-item  js-item-grid ">
 												<div class="item-grid__inn">
 													<div class="item-grid__photo">
-														<a href="#"><img alt="Baudet" class="item-grid__img js-item-main-img" src="assets/img/items/8.png"></a>
+														<a href="#"><img alt="Baudet" class="item-grid__img js-item-main-img" src="/assets/img/items/8.png"></a>
 														<div class="item-grid__carousel carousel">
 															<div class="swiper-container js-item-gallery-carousel">
 																<div class="swiper-wrapper">
@@ -1293,7 +1293,7 @@
 											<div class="item-grid  js-item  js-item-grid ">
 												<div class="item-grid__inn">
 													<div class="item-grid__photo">
-														<a href="#"><img alt="Fred Perry" class="item-grid__img js-item-main-img" src="assets/img/items/9.png"></a>
+														<a href="#"><img alt="Fred Perry" class="item-grid__img js-item-main-img" src="/assets/img/items/9.png"></a>
 														<div class="item-grid__carousel carousel">
 															<div class="swiper-container js-item-gallery-carousel">
 																<div class="swiper-wrapper">
@@ -1352,7 +1352,7 @@
 											<div class="item-grid  js-item  js-item-grid ">
 												<div class="item-grid__inn">
 													<div class="item-grid__photo">
-														<a href="#"><img alt="David Jones" class="item-grid__img js-item-main-img" src="assets/img/items/1.png"></a>
+														<a href="#"><img alt="David Jones" class="item-grid__img js-item-main-img" src="/assets/img/items/1.png"></a>
 														<div class="item-grid__carousel carousel">
 															<div class="swiper-container js-item-gallery-carousel">
 																<div class="swiper-wrapper">
@@ -1412,7 +1412,7 @@
 												<div data-size="big" data-theme="discount" title="Успей купить!" class="item-badge item-badge--discount js-tooltip"></div>
 												<div class="item-grid__inn">
 													<div class="item-grid__photo">
-														<a href="#"><img alt="Casio" class="item-grid__img js-item-main-img" src="assets/img/items/2.png"></a>
+														<a href="#"><img alt="Casio" class="item-grid__img js-item-main-img" src="/assets/img/items/2.png"></a>
 														<div class="item-grid__carousel carousel">
 															<div class="swiper-container js-item-gallery-carousel">
 																<div class="swiper-wrapper">
@@ -1471,7 +1471,7 @@
 											<div class="item-grid  js-item  js-item-grid ">
 												<div class="item-grid__inn">
 													<div class="item-grid__photo">
-														<a href="#"><img alt="Salomon" class="item-grid__img js-item-main-img" src="assets/img/items/3.png"></a>
+														<a href="#"><img alt="Salomon" class="item-grid__img js-item-main-img" src="/assets/img/items/3.png"></a>
 														<div class="item-grid__carousel carousel">
 															<div class="swiper-container js-item-gallery-carousel">
 																<div class="swiper-wrapper">
