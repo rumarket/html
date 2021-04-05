@@ -11823,6 +11823,28 @@ body {
   flex-basis: auto;
 }
 
+.counter {
+    position: absolute;
+    top: 4px;
+    right: -8px;
+    border-radius: 16px;
+    border: 2px solid #fff;
+    height: 20px;
+    min-width: 8px;
+    padding: 0 4px;
+    background: #ec5a1e;
+    color: #fff;
+    font: 11px/16px 'PT Sans Narrow',serif;
+    text-align: center;
+}
+
+a.cart {
+    width: 21px;
+    height: 21px;
+    background: url(/images/ico-cart.svg) no-repeat;
+    background-size: 100% 100%;
+}
+
 @media only screen and (max-width: 640px) {
   .l-content {
     padding-bottom: 30px;

@@ -50,7 +50,7 @@ img/logo-text.svg">
       </div>
 
       <div class="header__btn header__cart dropdown">
-        <a class="js-dropdown-toggle js-cart" href="#"> <i  class="ticon ticon-cart "></i> <span class="header__cart-count">39</span> </a>
+        	<a href="/cart/" class="cart to_cart"></a><span class="counter total_cart_amount" data-bind="text: total_cart_amount">39</span>
         <div class="dropdown__block cart-dropdown">
           <div class="cart-dropdown__items">
             <div class="item-cart">
