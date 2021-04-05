@@ -1,0 +1,1397 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+	<head>
+		<meta charset="utf-8">
+		<title>О нас</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="format-detection" content="telephone=no">
+		<meta name="mobile-web-app-capable" content="yes">
+		<link rel="stylesheet" type="text/css" href="/assets/css/libs.css">
+		<link rel="stylesheet" type="text/css" href="/assets/js/lightGallery/css/lightgallery.min.css">
+		<link rel="stylesheet" type="text/css" href="/assets/css/app.css">
+		<!-- HTML5 Shiv and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+		<![endif]-->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script>
+			$(document).ready(function() {
+
+				$("[data-toggle='location-dropdown']").click(function(e) {
+					$(".location-dropdown").toggleClass("hidden");
+					e.stopPropagation();
+				});
+
+			});
+		</script>
+	</head>
+
+	<body>
+		<div class="loader">
+			<div class="loader__inn">
+				<div class="wikimoda animate">
+					<span class="wikimoda__dot"></span><span class="wikimoda__dot"></span><span class="wikimoda__dot"></span><span class="wikimoda__dot"></span><span class="wikimoda__dot"></span><span class="wikimoda__dot"></span><span class="wikimoda__dot"></span><span class="wikimoda__dot"></span><span class="wikimoda__dot"></span>
+				</div>
+			</div>
+		</div>
+		<div class="m-nav js-m-nav">
+			<div class="m-nav__group">
+				<a href="#login" class="m-nav__link m-nav__link--icon"> Авторизация </a>
+			</div>
+			<div class="m-nav__group">
+				<a href="#" class="m-nav__link m-nav__location js-location-select-toggle"> <span>Город:</span> Москва </a>
+			</div>
+			<div class="m-nav__group">
+
+				<div class="m-nav__catalog">
+					<div class="m-catalog js-m-catalog">
+						<ul class="m-catalog__list">
+							<li class="m-catalog__item m-catalog__item--has-sub">
+								<a data-id="1" href="#" class="m-catalog__link m-catalog__link--icon js-m-catalog-link">
+								<div class="m-catalog__link-icon">
+									<svg class="icon icon-bag-1">
+										<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/assets/
+img/sprite.svg#icon-bag-1"></use>
+									</svg>
+								</div> Сумки </a>
+							</li>
+							<li class="m-catalog__item m-catalog__item--has-sub">
+								<a data-id="10" href="#" class="m-catalog__link m-catalog__link--icon js-m-catalog-link">
+								<div class="m-catalog__link-icon">
+									<svg class="icon icon-hanger">
+										<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/assets/
+img/sprite.svg#icon-hanger"></use>
+									</svg>
+								</div> Другой товар </a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="m-nav__group">
+				<a href="#" class="m-nav__link">Контакты</a>
+			</div>
+
+		</div>
+		<div class="location-select js-location-select">
+			<div class="l-wrapper">
+				<div class="location-select__inn">
+					<div class="location-select__header js-location-header">
+						<div class="title h1">
+							Выберите ваш город
+						</div>
+						<div class="location-select__search">
+							<form autocomplete="off" class="search">
+								<input type="text" class="search__input" placeholder="Введите область, регион или населенный пункт">
+							</form>
+						</div>
+						<a href="#" class="location-select__close close-btn js-location-close">Закрыть</a>
+					</div>
+					<div class="location-select__block js-custom-scroll js-location-list">
+						<div class="location-select__cells">
+							<ul class="location-select__list">
+								<li>
+									<a class="location-select__link location-select__link--bold" href="#">Москва</a>
+								</li>
+							</ul>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="fast-view js-fast-view">
+			<div class="fast-view__inn">
+				<div class="fast-view__container">
+					<div class="fast-view__prev">
+						<a href="#" class="fast-view__item js-fast-view-prev">
+						<div class="fast-view__item-inn">
+							<div class="title h2">
+								Сумка David Jones
+							</div>
+							<div class="fast-view__item-img">
+								<img src="https://www.poobienaidoos.co.za/wp-content/uploads/2017/04/BA5335-657-1.jpg">
+							</div>
+						</div> </a>
+					</div>
+					<a href="#" class="close-btn fast-view__close js-fast-view-close"><span>Закрыть</span></a>
+					<div class="fast-view__block">
+						<div class="fast-view__header">
+							<div class="fast-view__title">
+								<div class="title h2">
+									Сумка Nike
+								</div>
+							</div>
+							<div class="fast-view__soc">
+								<a data-toggle=".js-fast-view-soc" href="#" class="js-toggle"> <i  class="ticon ticon-share "></i> </a>
+								<ul class="soc-share js-fast-view-soc">
+									<li class="soc-share__item">
+										<a href="#" class="soc-share__link soc-share__link--fill soc-share__link--vk"><span>0</span></a>
+									</li>
+									<li class="soc-share__item">
+										<a href="#" class="soc-share__link soc-share__link--fill soc-share__link--fb"><span>234</span></a>
+									</li>
+									<li class="soc-share__item">
+										<a href="#" class="soc-share__link soc-share__link--fill soc-share__link--tw"><span>18</span></a>
+									</li>
+									<li class="soc-share__item">
+										<a href="#" class="soc-share__link soc-share__link--fill soc-share__link--inst"><span>385</span></a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="fast-view__main">
+							<div class="fast-view__main-left">
+								<div class="rate">
+									<div class="rate__inn">
+										<div class="rate__stars r1">
+											<i></i><i></i><i></i><i></i><i></i>
+										</div>
+										<div class="rate__count">
+											(12)
+										</div>
+									</div>
+								</div>
+								<div class="fast-view__gallery">
+									<div data-size="big" data-theme="discount" title="Успей купить!" class="item-badge item-badge--discount js-tooltip"></div>
+									<div class="item-gallery">
+										<div class="item-gallery__carousel carousel">
+											<div>
+												<div class="swiper-container js-item-gallery">
+													<div class="swiper-wrapper">
+														<div class="swiper-slide"><img data-zoom-image="https://media2.24aul.ru/imgs/58e24830231ede5c4c69cdac/sumka-sportivnayadorozhnayadlya-trenirovok-nike-1-9403732.jpg" src="https://media2.24aul.ru/imgs/58e24830231ede5c4c69cdac/sumka-sportivnayadorozhnayadlya-trenirovok-nike-1-9403732.jpg">
+														</div>
+														<div class="swiper-slide"><img data-zoom-image="https://www.poobienaidoos.co.za/wp-content/uploads/2017/04/BA5335-657-1.jpg" src="https://www.poobienaidoos.co.za/wp-content/uploads/2017/04/BA5335-657-1.jpg">
+														</div>
+														<div class="swiper-slide"><img data-zoom-image="http://www.zappos.com/images/z/3/1/7/1/6/6/3171661-p-4x.jpg" src="http://www.zappos.com/images/z/3/1/7/1/6/6/3171661-p-4x.jpg">
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="item-gallery__thumbs">
+											<div class="swiper-container js-item-gallery-thumbs">
+												<div class="swiper-wrapper">
+													<div class="swiper-slide"><img src="https://media2.24aul.ru/imgs/58e24830231ede5c4c69cdac/sumka-sportivnayadorozhnayadlya-trenirovok-nike-1-9403732.jpg">
+													</div>
+													<div class="swiper-slide"><img src="https://www.poobienaidoos.co.za/wp-content/uploads/2017/04/BA5335-657-1.jpg">
+													</div>
+													<div class="swiper-slide"><img src="http://www.zappos.com/images/z/3/1/7/1/6/6/3171661-p-4x.jpg">
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="fast-view__main-right">
+								<div class="item-meta">
+									<div class="item-meta__inn">
+										<div class="item-meta__group">
+											<div class="item-meta__prices">
+												<span class="price price--hot">99 999 р.</span><span class="price price--old">120 000 р.</span>
+											</div>
+											<div class="item-meta__actions">
+												<div class="item-meta__actions-inn">
+													<div class="item-meta__actions-cart">
+														<a href="#" class="btn btn--vinous item-meta__cart"> <i  class="ticon ticon-cart "></i> Добавить в корзину</a>
+													</div>
+													<div class="item-meta__actions-fav">
+														<a href="#" class="btn btn--icon btn--vinous btn--outline item-meta__fav"> <i  class="ticon ticon-favorite "></i> </a>
+													</div>
+												</div>
+											</div>
+											<div class="item-meta__links">
+												<div class="item-meta__links-inn">
+													<div class="item-meta__links-click">
+														<a href="#" class="link"><span>Оформить в 1 клик</span></a>
+													</div>
+													<div class="item-meta__links-delivery">
+														<a href="#" class="link"> <i  class="ticon ticon-truck "></i> <span>Бесплатная доставка при 1 покупке</span></a>
+													</div>
+												</div>
+											</div>
+											<div class="item-meta__sizes">
+												<span class="item-meta__label">Размер</span>
+												<div class="item-meta__sizes-inn">
+													<div class="item-meta__sizes-action">
+														<div class="size-switchers">
+															<div class="size-switchers__inn">
+																<label class="size-switchers__label">
+																	<input type="radio" name="size" value="S">
+																	<span class="size-switchers__item">S</span> </label><label class="size-switchers__label">
+																	<input type="radio" name="size" value="M">
+																	<span class="size-switchers__item">M</span> </label><label class="size-switchers__label">
+																	<input type="radio" name="size" value="L">
+																	<span class="size-switchers__item">L</span> </label><label class="size-switchers__label">
+																	<input type="radio" name="size" value="X">
+																	<span class="size-switchers__item">X</span> </label><label class="size-switchers__label">
+																	<input type="radio" name="size" value="XL">
+																	<span class="size-switchers__item">XL</span> </label>
+															</div>
+														</div>
+													</div>
+													<div class="item-meta__sizes-help">
+														<a class="link" href="#"><span>Таблица размеров</span></a>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="item-meta__group">
+											<div class="item-meta__colors">
+												<div class="item-meta__label">
+													Цвет
+												</div>
+												<div class="color-switchers">
+													<div class="color-switchers__inn">
+														<label class="color-switchers__label">
+															<input type="radio" name="color" value="#ff343d">
+															<span style="background: #ff343d;" class="color-switchers__item">#ff343d</span> </label><label class="color-switchers__label">
+															<input type="radio" name="color" value="#1f1f1f">
+															<span style="background: #1f1f1f;" class="color-switchers__item">#1f1f1f</span> </label><label class="color-switchers__label">
+															<input type="radio" name="color" value="#444fdd">
+															<span style="background: #444fdd;" class="color-switchers__item">#444fdd</span> </label><label class="color-switchers__label">
+															<input type="radio" name="color" value="#eaeaea">
+															<span style="background: #eaeaea;" class="color-switchers__item">#eaeaea</span> </label>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="item-meta__group">
+											<div class="desc-tabs js-tabs">
+												<ul class="desc-tabs__menu">
+													<li data-el="bar" class="desc-tabs__bar"></li>
+													<li class="desc-tabs__item is-active">
+														<a data-el="tab" href="#desc_tab_1" class="desc-tabs__link">Описание</a>
+													</li>
+													<li class="desc-tabs__item">
+														<a data-el="tab" href="#desc_tab_2" class="desc-tabs__link">Характеристики</a>
+													</li>
+													<li class="desc-tabs__item">
+														<a data-el="tab" href="#desc_tab_2" class="desc-tabs__link">Доставка</a>
+													</li>
+												</ul>
+												<div class="desc-tabs__content">
+													<div data-el="pane" id="desc_tab_1" class="desc-tabs__pane is-active">
+														<div class="text">
+															<p>
+																Сумка-дафл Nike Brasilia (средний размер) выполнена из невероятно прочной ткани для переноски спортивной экипировки. Внутренние карманы помогают держать вещи в порядке, а отделение для обуви позволяет хранить влажную экипировку
+																отдельно от сухой. Прочная водонепроницаемая ткань дна защищает экипировку от влаги. Вместительное и универсальное основное отделение.
+															</p>
+														</div>
+													</div>
+													<div data-el="pane" id="desc_tab_2" class="desc-tabs__pane">
+														<div class="text">
+															<p>
+																Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut autem ea esse fugiat hic, minus recusandae repellat sequi sunt voluptas! Aperiam consequuntur deserunt dolores earum enim ex expedita harum molestiae natus quam
+																quo repellat sapiente, tempore vero voluptas. A architecto at aut delectus dignissimos distinctio earum, eius eum eveniet exercitationem expedita explicabo fuga iste libero minima molestias nisi odit perspiciatis quaerat
+																qui quia quidem recusandae tempora temporibus ut voluptatem voluptatum? Adipisci aliquid amet animi aspernatur consectetur cum cumque deleniti dicta eos et id, iure laudantium magnam mollitia nulla optio perspiciatis quaerat
+																sapiente soluta suscipit totam ut voluptatum? Ab adipisci aliquam aliquid assumenda atque autem commodi cumque dicta dolore dolores doloribus eaque error facilis, fuga hic ipsum minima nemo nihil odio officia omnis placeat
+																saepe sapiente, similique ullam voluptas voluptatibus voluptatum. Aspernatur consectetur, culpa deleniti doloribus earum eligendi impedit ipsam ipsum itaque, labore, modi nemo officia officiis optio possimus provident quo
+																quos rem sint suscipit unde veniam voluptates! Impedit nulla rem temporibus. Ab ad consectetur consequuntur corporis dicta, dolore doloremque eius, est exercitationem iste iure laudantium nobis optio, quia rerum saepe temporibus!
+																Adipisci, aliquam animi dolor ducimus earum eius eveniet facere natus odit officia pariatur placeat quos reiciendis reprehenderit sint veritatis.
+															</p>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="fast-view__related">
+							<div class="items">
+								<div class="items__header">
+									<div class="items__title">
+										<div class="title h2">
+											Похожие товары
+										</div>
+									</div>
+								</div>
+								<div class="items__list">
+									<div class="items__cell">
+										<div class="item-grid  js-item  js-item-grid item-grid--simple">
+											<div class="item-grid__inn">
+												<div class="item-grid__photo">
+													<a href="#"><img alt="David Jones" class="item-grid__img js-item-main-img" src="/assets/
+img/items/1.png"></a>
+												</div>
+												<a href="#" class="item-grid__name">David Jones</a>
+												<div class="item-grid__category">
+													Сумка дорожная
+												</div>
+												<div class="item-grid__actions">
+													<div class="item-grid__actions-left">
+														<span class="price">9 000 р.</span>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="items__cell">
+										<div class="item-grid  js-item  js-item-grid item-grid--simple">
+											<div data-size="big" data-theme="discount" title="Успей купить!" class="item-badge item-badge--discount js-tooltip"></div>
+											<div class="item-grid__inn">
+												<div class="item-grid__photo">
+													<a href="#"><img alt="Casio" class="item-grid__img js-item-main-img" src="/assets/
+img/items/2.png"></a>
+												</div>
+												<a href="#" class="item-grid__name">Casio</a>
+												<div class="item-grid__category">
+													Часы
+												</div>
+												<div class="item-grid__actions">
+													<div class="item-grid__actions-left">
+														<span class="price price--hot">4 990 р.</span><span class="price price--old">46 900 р.</span>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="items__cell">
+										<div class="item-grid  js-item  js-item-grid item-grid--simple">
+											<div class="item-grid__inn">
+												<div class="item-grid__photo">
+													<a href="#"><img alt="Salomon" class="item-grid__img js-item-main-img" src="/assets/
+img/items/3.png"></a>
+												</div>
+												<a href="#" class="item-grid__name">Salomon</a>
+												<div class="item-grid__category">
+													Сумка поясная
+												</div>
+												<div class="item-grid__actions">
+													<div class="item-grid__actions-left">
+														<span class="price">3 500 р.</span>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="items__cell">
+										<div class="item-grid  js-item  js-item-grid item-grid--simple">
+											<div data-size="big" data-theme="new" title="Новое поступление!" class="item-badge item-badge--new js-tooltip"></div>
+											<div class="item-grid__inn">
+												<div class="item-grid__photo">
+													<a href="#"><img alt="Coccinelle" class="item-grid__img js-item-main-img" src="/assets/
+img/items/4.png"></a>
+												</div>
+												<a href="#" class="item-grid__name">Coccinelle</a>
+												<div class="item-grid__category">
+													Сумка
+												</div>
+												<div class="item-grid__actions">
+													<div class="item-grid__actions-left">
+														<span class="price">45 000 р.</span>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="fast-view__next">
+						<a href="#" class="fast-view__item js-fast-view-next">
+						<div class="fast-view__item-inn">
+							<div class="title h2">
+								Сумка David Jones
+							</div>
+							<div class="fast-view__item-img">
+								<img src="https://www.poobienaidoos.co.za/wp-content/uploads/2017/04/BA5335-657-1.jpg">
+							</div>
+						</div> </a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="modal remodal md-login" data-remodal-id="login">
+			<button class="modal__close close-btn" data-remodal-action="close">
+				Закрыть
+			</button>
+			<div class="login-tabs js-tabs">
+				<ul class="login-tabs__menu">
+					<li class="login-tabs__item is-active">
+						<a data-el="tab" href="#login_tab" class="login-tabs__link"><span>Я уже тут</span></a>
+					</li>
+					<li class="login-tabs__item">
+						<a data-el="tab" href="#register_tab" class="login-tabs__link"><span>Хочу к вам</span></a>
+					</li>
+				</ul>
+				<div class="login-tabs__panes">
+					<div data-el="pane" id="login_tab" class="login-tabs__pane is-active">
+						<div class="md-login__social">
+							<a class="md-login__social-item md-login__social-item--vk" href="#"></a><a class="md-login__social-item md-login__social-item--fb" href="#"></a><a class="md-login__social-item md-login__social-item--tw" href="#"></a><a class="md-login__social-item md-login__social-item--gplus"
+							href="#"></a>
+						</div>
+						<div class="md-login__or">
+							или
+						</div>
+						<form autocomplete="off" class="md-login__form">
+							<div class="form-row">
+								<div class="complex-input complex-input--icon js-complex-input">
+									<label class="complex-input__label">E-mail</label>
+									<div class="complex-input__icon">
+										<i class="ticon ticon-user-1 "></i>
+									</div>
+									<div class="complex-input__input">
+										<input type="email" class="input">
+									</div>
+								</div>
+							</div>
+							<div class="form-row">
+								<div class="complex-input complex-input--icon password-input js-complex-input">
+									<label class="complex-input__label">Пароль</label>
+									<div class="complex-input__icon">
+										<i class="ticon ticon-lock "></i>
+									</div>
+									<div class="complex-input__input">
+										<input type="password" class="input js-toggle-password">
+									</div>
+									<div class="password-input__block">
+										<div class="password-input__forgot">
+											<a href="#">Забыли пароль?</a>
+										</div>
+										<a title="Скрыть пароль" href="#" class="toggle-password js-toggle-password-btn"><i></i></a>
+									</div>
+								</div>
+							</div>
+							<div class="form-row">
+								<button type="submit" class="btn btn--pink btn--lg">
+									<i style="font-size: 19px;" class="ticon ticon-key "></i>
+									Войти
+								</button>
+							</div>
+						</form>
+					</div>
+					<div data-el="pane" id="register_tab" class="login-tabs__pane">
+						<div class="md-login__social">
+							<a class="md-login__social-item md-login__social-item--vk" href="#"></a><a class="md-login__social-item md-login__social-item--fb" href="#"></a><a class="md-login__social-item md-login__social-item--tw" href="#"></a><a class="md-login__social-item md-login__social-item--gplus"
+							href="#"></a>
+						</div>
+						<div class="md-login__or">
+							или
+						</div>
+						<form autocomplete="off" class="md-login__form js-example-form">
+							<div class="form-row">
+								<div class="form-help">
+									<a href="#" class="form-help__close close-btn js-parent-remove"></a>
+									<p>
+										При регистрации Личного Кабинета, просим Вас указывать реальные данные.
+									</p>
+									<p>
+										Корректное ФИО необходимо для осуществления возврата денежных средств после оплаты.
+									</p>
+									<p>
+										Адрес электронной почты необходим, чтобы Вы всегда были в курсе всех акций и статусов Ваших заказов.
+									</p>
+									<p>
+										Номер телефона необходим, чтобы в день доставки с Вами мог связаться наш курьер. Так же, по Вашему желанию, Вам могут приходить смс уведомления о текущих акциях и специальных предложениях.
+									</p>
+								</div>
+								<div class="complex-input complex-input--icon is-valid js-complex-input">
+									<label class="complex-input__label">E-mail</label>
+									<div class="complex-input__icon">
+										<i class="ticon ticon-user-1 "></i>
+									</div>
+									<div class="complex-input__input">
+										<input type="email" class="input">
+									</div>
+								</div>
+								<label class="switcher ">
+									<div class="switcher__inn">
+										<div class="switcher__toggle">
+											<input  type="checkbox" class="js-switchery ">
+										</div>
+										<div class="switcher__label">
+											Подписаться на новости
+										</div>
+									</div> </label>
+							</div>
+							<div class="form-row">
+								<div class="complex-input js-complex-input">
+									<label class="complex-input__label">Фамилия</label>
+									<div class="complex-input__input">
+										<input data-error="Введите фамилию на русском языке" type="text" class="input" name="second_name">
+									</div>
+								</div>
+							</div>
+							<div class="form-row">
+								<div class="complex-input js-complex-input">
+									<label class="complex-input__label">Имя</label>
+									<div class="complex-input__input">
+										<input type="text" class="input">
+									</div>
+								</div>
+							</div>
+							<div class="form-row">
+								<div class="gender-select">
+									<div class="gender-select__inn">
+										<div class="gender-select__label">
+											Пол:
+										</div>
+										<div class="gender-select__item">
+											<label class="gender-select__checkbox">
+												<input type="radio" name="gender" value="man">
+												<span class="gender-select__checkbox-item"> <i  class="ticon ticon-man "></i> </span> </label>
+										</div>
+										<div class="gender-select__item">
+											<label class="gender-select__checkbox">
+												<input type="radio" name="gender" value="woman">
+												<span class="gender-select__checkbox-item"> <i  class="ticon ticon-woman "></i> </span> </label>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="form-row">
+								<div class="row">
+									<div class="col-sm-3">
+										<select data-placeholder="День" class="select">
+											<option></option>
+
+											<option>1</option>
+
+										</select>
+									</div>
+									<div class="col-sm-5">
+										<select data-placeholder="Месяц" class="select">
+											<option></option>
+
+											<option>Январь</option>
+
+										</select>
+									</div>
+									<div class="col-sm-4">
+										<select data-placeholder="Год" class="select">
+											<option></option>
+
+											<option>1900</option>
+
+										</select>
+									</div>
+								</div>
+							</div>
+							<div class="form-row hidden-xs">
+								<div class="input-row password-row js-password-row">
+									<div class="input-row__cell input-row__icon">
+										<i class="ticon ticon-asterisk "></i>
+									</div>
+									<div class="input-row__cell input-row__cell--tiny">
+										<input class="input js-toggle-password" type="password">
+									</div>
+									<div class="input-row__cell input-row__cell--tiny">
+										<input class="input js-toggle-password" type="password">
+									</div>
+									<div class="input-row__cell input-row__cell--tiny">
+										<input class="input js-toggle-password" type="password">
+									</div>
+									<div class="input-row__cell input-row__cell--tiny">
+										<input class="input js-toggle-password" type="password">
+									</div>
+									<div class="input-row__cell input-row__cell--tiny">
+										<input class="input js-toggle-password" type="password">
+									</div>
+									<div class="input-row__cell input-row__cell--tiny">
+										<input class="input js-toggle-password" type="password">
+									</div>
+									<div class="input-row__cell input-row__cell--tiny">
+										<input class="input js-toggle-password" type="password">
+									</div>
+									<div class="input-row__cell input-row__cell--tiny">
+										<input class="input js-toggle-password" type="password">
+									</div>
+									<a title="Скрыть пароль" href="#" class="toggle-password js-toggle-password-btn input-row__cell"> <i></i> </a>
+								</div>
+							</div>
+							<div class="form-row xvisible-sm">
+								<div class="complex-input js-complex-input">
+									<label class="complex-input__label">Пароль</label>
+									<div class="complex-input__input">
+										<input type="password" class="input">
+									</div>
+								</div>
+							</div>
+							<div class="form-row">
+								<div class="input-row">
+									<div class="input-row__cell input-row__icon">
+										<i class="ticon ticon-mobile "></i>
+									</div>
+									<div class="input-row__cell input-row__cell--border text-center" style="width: 80px;">
+										<select class="select">
+
+											<option>+7</option>
+
+										</select>
+									</div>
+									<div class="input-row__cell">
+										<input type="text" class="input js-phone-mask" placeholder="(___) ___-__-__">
+									</div>
+								</div>
+								<label class="switcher ">
+									<div class="switcher__inn">
+										<div class="switcher__toggle">
+											<input  type="checkbox" class="js-switchery ">
+										</div>
+										<div class="switcher__label">
+											Получать SMS об акциях и спецпредложениях
+										</div>
+									</div> </label>
+							</div>
+							<div class="form-row">
+								<button type="submit" class="btn btn--pink btn--lg">
+									<i style="font-size: 27px;" class="ticon ticon-door "></i>
+									Зарегистрироваться
+								</button>
+							</div>
+							<div class="form-row">
+								<div class="text">
+									Я соглашаюсь с условиями <a class="link link--ul" href="#">Публичной оферты</a>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<a href="#" class="up-btn js-up-btn">Наверх</a>
+		<div class="l-main js-main">
+			<header class="header js-header">
+				<div class="header__inn">
+					<div class="topbar">
+						<div class="l-wrapper">
+							<div class="topbar__inn">
+								<div class="topbar__location dropdown">
+									<a class="topbar__link topbar__link--dropdown js-dropdown-location js-dropdown-toggle" href="#"> <span class="js-positioned">Москва</span></a>
+									<div class="dropdown__block location-dropdown" style="display:none;">
+										<div class="location-dropdown__label">
+											Вы действительно находитесь в г. Москва?
+										</div>
+										<div class="block-table block-table--fixed">
+											<div>
+												<a class="location-dropdown__link js-dropdown-close" href="#">Да, все верно</a>
+											</div>
+											<div class="text-right">
+												<a class="location-dropdown__link js-location-select-toggle" href="#">Нет, сменить город</a>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="topbar__cabinet dropdown bonus">
+									<a class="topbar__link topbar__link--dropdown  js-dropdown-toggle  js-bonus-target" href="#"> <span class="js-positioned">Мой кабинет</span></a>
+									<div class="bonus__block">
+										Дарим 500 руб. при регистрации <a href="#" class="bonus__close js-bonus-close">Закрыть</a>
+									</div>
+									<div class="dropdown__block cabinet-dropdown">
+										<div class="cabinet-dropdown__login">
+											<a href="#login" class="cabinet-dropdown__login-btn btn btn--pink js-login-tab-toggle">Вход</a><a href="#login" class="cabinet-dropdown__link js-register-tab-toggle">Создать учетную запись</a>
+										</div>
+
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="header__wrapper">
+						<div class="l-wrapper">
+							<div class="header__row">
+								<div class="header__nav-toggle">
+									<a href="#" class="hamburger hamburger--spin js-nav-toggle"><span>Каталог</span></a>
+								</div>
+								<div class="header__logo-mobile">
+									<a href=".">
+									<div class="logo logo--no-icon">
+										<div class="logo__inn">
+											<div class="logo__text"><img alt="Wikimoda" src="/assets/
+img/logo-text.svg">
+											</div>
+										</div>
+									</div> </a>
+								</div>
+								<div class="header__logo">
+									<a href=".">
+									<div class="header__logo-default">
+										<div class="logo ">
+											<div class="logo__inn">
+
+												<div class="logo__text"><img alt="Wikimoda" src="/assets/
+img/logo-text.svg">
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="header__logo-small">
+										<div class="logo logo--sm">
+											<div class="logo__inn">
+
+												<div class="logo__text"><img alt="Wikimoda" src="/assets/
+img/logo-text.svg">
+												</div>
+											</div>
+										</div>
+									</div> </a>
+								</div>
+
+<<<<<<< HEAD
+								<div class="header__search js-search">
+=======
+
+
+
+<div class="header__search js-search">
+	<div id="title-search">
+		<form autocomplete="off" class="search" onsubmit="if($(this).find('input').val().length == 0) return false;" action="/api/">
+			<div class="awesomplete">
+				<input type="text" id="title-search-input" name="q" class="search__input js-product-search" placeholder="" autocomplete="off" aria-autocomplete="list">
+
+
+				<ul hidden="">
+
+					<li aria-selected="false">
+						<a href="/catalog/zhenskoe/chasy/chasy_1/236741-chasy_2/" class="product-ac">
+						<div class="product-ac__inn">
+							<div>
+								<div class="product-ac__info">
+									<div class="product-ac__info-left">
+										<div class="product-ac__name" style="color:#2f2f2f;"></div>
+									</div>
+									<!--div class="product-ac__info-right"></div-->
+								</div>
+							</div>
+						</div></a>
+					</li>
+
+				</ul>
+
+				<span class="visually-hidden" role="status" aria-live="assertive" aria-relevant="additions"></span>
+			</div>
+			<!-- <button type="submit" class="search__submit"></button> кнопка поиск -->
+			<a href="#" class="search__close js-search-close"></a>
+		</form>
+	</div>
+	<!---->
+
+</div>
+
+
+
+												<li class="categories-menu__item">
+													<a href="#" class="categories-menu__link categories-menu__link--more">Все бренды</a>
+												</li>
+											</ul>
+										</div>
+										<div class="catalog__best">
+											<div class="hot-items">
+												<div class="hot-items__inn">
+													<div class="hot-items__header">
+														<div class="hot-items__title">
+															Лучшее предложение
+														</div>
+													</div>
+													<div class="item-hot js-item">
+														<div class="item-hot__inn">
+															<div class="item-hot__photo">
+																<a href="#"><img alt="Jennyfer" class="item-hot__img js-item-main-img" src="/assets/
+img/items/6.png"></a>
+															</div>
+															<div class="item-hot__info">
+																<a href="#" class="item-hot__name">Jennyfer</a><span class="item-hot__category">Ремень</span>
+																<div class="item-hot__prices item-hot__prices--inline">
+																	<div class="item-hot__prices-new">
+																		<span class="price price--hot">120 000 р.</span>
+																	</div>
+																	<div class="item-hot__prices-old">
+																		<span class="price price--old">999 999 руб.</span>
+																	</div>
+																</div>
+																<div class="item-hot__actions">
+																	<div>
+																		<a href="#" class="cart-btn js-cart-add "></a>
+																	</div>
+																	<div>
+																		<a href="#" class="fav-btn js-fav-add "></a>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</header>
+			<div class="l-content">
+				<div class="l-wrapper">
+					<div class="p-about">
+						<div class="p-about__inn">
+							<div class="p-about__left js-about-sections">
+								<section id="mission" class="p-about__section">
+									<div data-aos="flip-right" class="p-about__bright p-about__bright--first">
+										<div class="knockout">
+											<svg class="knockout-text-container" width="100%" height="100%">
+												<rect class="knockout-text-bg" width="100%" height="100%" fill="#fff" x="0" y="0" fill-opacity="1" mask="url(#knockout-text-867)"/>
+												<mask id="knockout-text-867">
+													<rect width="100%" height="100%" fill="#fff" x="0" y="0" />
+													<text x="0" y="-0.33em" >
+
+														<tspan x="0" dy="1.1em">
+															Вкус. Стиль.
+														</tspan>
+
+														<tspan x="0" dy="1.1em">
+															Wikimoda
+														</tspan>
+
+													</text>
+												</mask>
+											</svg>
+										</div>
+									</div>
+									<div data-aos="fade-up" class="p-about__title">
+										Философия и миссия
+									</div>
+									<div data-aos="fade-down" class="p-about__sub">
+										WIKIMODA - объединяем всех женщин в стремлении к красоте. Как известно, суть совершенства заключена в деталях. И именно незначительные дополнения, такое как стильная сумочка, манящий шлейф аромата духов или привлекательный макияж, способны
+										значительно помочь.
+									</div>
+									<div data-aos="zoom-in" class="p-about__text">
+										<div class="text">
+											<p>
+												Создание уникального образа модной и успешной женщины - наша главная цель. Для этого мы подбираем с особой тщательностью наши коллекции трендовых аксессуаров. Они включают сумочки, очки, косметику, парфюмерию и многие другие “стилистические
+												изюминки”.У нас представлены только самые актуальные и оригинальные модели, от ведущих мировых брендов. Коллекции обновляются каждый сезон, и каждая из них представляет определенный оттенок души и настроения.
+											</p>
+										</div>
+									</div>
+									<div class="p-about__features">
+										<div data-aos="fade-right" class="p-about__features-left">
+											<div class="logo"><img src="/assets/
+img/logo-small.svg">
+											</div>
+										</div>
+										<div data-aos="fade-left" class="p-about__features-right">
+											<div class="p-about__features-title">
+												С WIKIMODA все так просто!
+											</div>
+										</div>
+									</div>
+									<div class="p-about__features">
+										<div data-aos="fade-right" class="p-about__features-left vertical-bottom">
+											<img class="p-about__monro" src="/assets/
+img/monro-stand.png">
+										</div>
+										<div data-aos="fade-left" class="p-about__features-right">
+											<ul class="p-about__features-list">
+												<li>
+													Каждая покупка есть самовыражение, и мы помогаем реализоватьсяэтому чувству сполна, предлагая широчайший ассортимент сумочек,очков и косметики от лучших брендов!
+												</li>
+												<li>
+													Тратьте время только на выбор! Заказывайте онлайн и получайте заказмаксимально быстро с помощью нашей службы доставки.
+												</li>
+												<li>
+													Будьте уверены что сделали правильный выбор! У нас представленытолько оригинальные товары и предусмотрена гарантия возврата.
+												</li>
+											</ul>
+										</div>
+									</div>
+								</section>
+								<section id="goals" class="p-about__section">
+									<div data-aos="fade-up" class="p-about__title">
+										Цели
+									</div>
+									<div class="quote">
+										<div data-aos="fade-right" class="quote__text">
+											«Элегантность нужна для того что бы врезаться в память!»
+										</div>
+										<div class="quote__author">
+											<img data-aos="flip-left" src="/assets/
+img/armani.png"><span data-aos="fade-left">Джорджио Армани</span>
+										</div>
+									</div>
+									<div data-aos="zoom-in" class="p-about__sub">
+										Мы отлично понимаем, что продаем не просто модные аксессуары. Каждая приобретенная вещь, впоследствии становится неотъемлемой частью вашего образа, частью <span>вашего Я</span>. Вот почему для нас так важно удовлетворить все ваши пожелания,
+										предложив то, что действительно вы ищете, и то - что вам подойдет.
+									</div>
+									<div class="row">
+										<div class="col-md-6">
+											<div class="p-about__text mb-0">
+												<div data-aos="fade-right" class="text">
+													<p>
+														Нашей целью не является стремление вам поскорее что-либо продать. Более того, если вы сами не уверены в своей покупке уже после ее оплаты и получения, ее всегда можно вернуть с гарантированным возвратом денег.
+													</p>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-6">
+											<div class="p-about__text mb-0">
+												<div data-aos="fade-left" class="text">
+													<p>
+														Широкий выбор и огромный ассортимент вариантов моделей и расцветок не оставит равнодушным ни одно женское сердце. Нахождение вашей индивидуальности - вот что можно назвать нашим общим стремлением, так как именно в неповторимости
+														можно обрести совершенство и истинную красоту.
+													</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</section>
+								<section id="values" class="p-about__section">
+									<div data-aos="zoom-out" class="p-about__title">
+										Ценности
+									</div>
+									<div class="values">
+										<div data-aos="fade-right" class="value">
+											<div class="value__title">
+												<i class="ticon ticon-like "></i> Верность канонам красоты и стиля
+											</div>
+											<div class="value__description">
+												Наши коллекции отличаются широким ассортиментов, однако подобраны с особой тщательностью, и с учетом всех эстетических требований. Мы предлагаем только “вкусные” аксессуары.
+											</div>
+										</div>
+										<div data-aos="fade-left" class="value">
+											<div class="value__title">
+												<i class="ticon ticon-password "></i> Стремление к совершенству в нашей работе
+											</div>
+											<div class="value__description">
+												За годы работы, мы создали дружный коллектив из более чем 50 сотрудников, каждый из которых является одновременно и членом большой корпоративной семьи.
+											</div>
+										</div>
+										<div data-aos="fade-right" class="value">
+											<div class="value__title">
+												<i class="ticon ticon-diamond "></i> Ответственность и желание оставить довольным каждого покупателя
+											</div>
+											<div class="value__description">
+												Мы уже сделали по настоящему счастливыми тысячи женщин, и ценим свою репутацию. Спасибо вам за оказанное доверие, которое мы постараемся оправдывать и в дальнейшем!
+											</div>
+										</div>
+									</div>
+								</section>
+								<section id="history" class="p-about__section">
+									<div data-aos="fade-left" class="p-about__title">
+										История
+									</div>
+									<div data-aos="zoom-in-up" class="p-about__history">
+										<div class="p-about__sub">
+											История проекта WIKIMODA началась с простой идеи, которая зародилась в 2015 году. Она заключалась в создании интернет-площадки, которая смогла бы объединить всех женщин желающих находить и приобретать эксклюзивные модные аксессуары
+											по самым приемлемым ценам. Последующий 2016 год был занят построением идеи и анализом рынка.
+										</div>
+										<div class="p-about__history-text">
+											Проект зажил в полную силу с начала 2017 года, когда была наконец сформирована концепция и разработан дизайн сайта. Вместе с началом его работы, параллельно была налажена работа с основными партнерами, в число которых входили такие
+											компании как СберБанк, Малина. Роснефть, Много.ру, Халва, Совесть, Тинькофф и многие другие.
+										</div>
+										<div class="p-about__history-text">
+											В настоящий момент проект находится в фазе активного развития. Мы всегда открыты к новым предложениям, касательно улучшения наших услуг и совершенствования философии компании.
+										</div>
+									</div>
+								</section>
+								<section id="team" class="p-about__section">
+									<div data-aos="fade-up" class="p-about__title">
+										Команда
+									</div>
+									<div data-aos="flip-up" class="p-about__bright p-about__bright--second">
+										<div class="knockout">
+											<svg class="knockout-text-container" width="100%" height="100%">
+												<rect class="knockout-text-bg" width="100%" height="100%" fill="#fff" x="0" y="0" fill-opacity="1" mask="url(#knockout-text-543)"/>
+												<mask id="knockout-text-543">
+													<rect width="100%" height="100%" fill="#fff" x="0" y="0" />
+													<text x="0" y="-0.33em" >
+
+														<tspan x="0" dy="1.1em">
+															Wikimoda: Сотрудничество
+														</tspan>
+
+														<tspan x="0" dy="1.1em">
+															Дружба, Творчество!
+														</tspan>
+
+													</text>
+												</mask>
+											</svg>
+										</div>
+									</div>
+									<div class="p-about__team">
+										<div data-aos="zoom-out-right" class="p-about__team-slogan">
+											Делать мир лучше - вот суть любого начинания, и проект <span>WIKIMODA</span> не является томуисключением. Доброжелательность, открытость и творческий подход к любомувопросу является отличительной чертой каждого члена нашей растущей
+											команды.
+										</div>
+										<div data-aos="zoom-out-left" class="text">
+											<p>
+												<span>WIKIMODA</span> - постоянно развивающийся проект, с активным и молодым штатом сотрудников. Среди наших консультантов - только истинные знатоки последних тенденций и ценители истинного стиля, что всегда подскажут верное решение
+												при приобретении того или иного аксессуара, выборе цвета или аромата. Просто напишите в онлайн-чат прямо на сайте, и вам обязательно ответит наш оператор в ближайшие минуты!
+											</p>
+											<p>
+												Также отдельно и с особой тщательностью мы подбирали наш штат сотрудников доставки. Согласитесь, совершенно не хочется ждать своей покупки, однако и простаивать в автомобильных пробках и очередях - тоже! Наши курьеры решат все проблемы,
+												и вас приятно порадует их своевременность и пунктуальность.
+											</p>
+											<p>
+												Наконец, полноправными членами нашей команды можно назвать и всех членов нашего клуба. Мы заботимся о каждом нашем постоянном клиенте, стараясь предложить еще более выгодные цены, уникальные предложения а также новые и новые акции
+												и скидки.
+											</p>
+										</div>
+									</div>
+									<div class="workers">
+										<div data-aos="flip-left" class="workers__cell">
+											<div class="worker ">
+												<div style="background-image: url(http://ремоснова.рф/sites/default/files/inline/images/2016-12-14/novik_ruslan_4.jpg);" class="worker__img"></div>
+												<div class="worker__name">
+													Зильберштейн Валерий Васильевич
+												</div>
+												<div class="worker__spec">
+													менеджер по работе с клиентами
+												</div>
+											</div>
+										</div>
+										<div data-aos="flip-left" class="workers__cell">
+											<div class="worker ">
+												<div style="background-image: url(http://ремоснова.рф/sites/default/files/inline/images/2016-12-14/novik_ruslan_4.jpg);" class="worker__img"></div>
+												<div class="worker__name">
+													Зильберштейн Валерий Васильевич
+												</div>
+												<div class="worker__spec">
+													менеджер по работе с клиентами
+												</div>
+											</div>
+										</div>
+										<div data-aos="flip-left" class="workers__cell">
+											<div class="worker ">
+												<div style="background-image: url(http://ремоснова.рф/sites/default/files/inline/images/2016-12-14/novik_ruslan_4.jpg);" class="worker__img"></div>
+												<div class="worker__name">
+													Зильберштейн Валерий Васильевич
+												</div>
+												<div class="worker__spec">
+													менеджер по работе с клиентами
+												</div>
+											</div>
+										</div>
+										<div data-aos="flip-left" class="workers__cell">
+											<div class="worker worker--top">
+												<div style="background-image: url(http://ремоснова.рф/sites/default/files/inline/images/2016-12-14/novik_ruslan_4.jpg);" class="worker__img"></div>
+												<div class="worker__name">
+													Зильберштейн Валерий Васильевич
+												</div>
+												<div class="worker__spec">
+													менеджер по работе с клиентами
+												</div>
+											</div>
+										</div>
+										<div data-aos="flip-right" class="workers__cell">
+											<div class="worker">
+												<div class="worker__img worker__img--plus"></div>
+												<div class="worker__name">
+													Стать частью
+													<br>
+													команды
+												</div>
+												<div class="worker__spec">
+													Ищем таланты
+												</div>
+											</div>
+										</div>
+									</div>
+								</section>
+								<section id="opinions" class="p-about__section">
+									<div data-aos="fade-up" class="p-about__title">
+										Экспертное мнение
+									</div>
+									<div data-aos="fade-left" class="p-about__opinions carousel">
+										<div class="swiper-container  js-opinions">
+											<div class="swiper-wrapper">
+												<div class="swiper-slide">
+													<div class="p-about__opinions-row">
+														<div class="p-about__opinions-cell">
+															<div data-aos="zoom-in" class="opinion">
+																<div class="opinion__text">
+																	Мы отлично понимаем, что продаем не просто модные аксессуары. Каждая приобретенная вещь, впоследствии становится неотъемлемой частью вашего образа, частью вашего Я. Вот почему для нас так важно удовлетворить все ваши пожелания,
+																	предложив то, что действительно вы ищете, и то - что вам подойдет.
+																</div>
+																<div class="opinion__author">
+																	<div class="opinion__author-left">
+																		<div style="background-image: url(https://bimru.ru/wp-content/uploads/2017/09/prev800_557334a8894b6099b72f12765b339c21.jpg);" class="opinion__author-photo"></div>
+																	</div>
+																	<div class="opinion__author-right">
+																		<div class="opinion__author-name">
+																			Вячеслав Зайцев
+																		</div>
+																		<div class="opinion__author-spec">
+																			Историк моды
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div class="p-about__opinions-cell">
+															<div class="opinion">
+																<div class="opinion__text">
+																	Вот почему для нас так важно удовлетворить все ваши пожелания, предложив то, что действительно вы ищете, и то - что вам подойдет.Мы отлично понимаем, что продаем не просто модные аксессуары. Каждая приобретенная вещь, впоследствии
+																	становится неотъемлемой частью вашего образа, частью вашего Я.
+																</div>
+																<div class="opinion__author">
+																	<div class="opinion__author-left">
+																		<div style="background-image: url(http://logyka.net/assets/templates/img/890/3.jpg);" class="opinion__author-photo"></div>
+																	</div>
+																	<div class="opinion__author-right">
+																		<div class="opinion__author-name">
+																			Ортега Амансио
+																		</div>
+																		<div class="opinion__author-spec">
+																			Основатель Zara
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="swiper-slide">
+													<div class="p-about__opinions-row">
+														<div class="p-about__opinions-cell">
+															<div data-aos="zoom-in" class="opinion">
+																<div class="opinion__text">
+																	Мы отлично понимаем, что продаем не просто модные аксессуары. Каждая приобретенная вещь, впоследствии становится неотъемлемой частью вашего образа, частью вашего Я. Вот почему для нас так важно удовлетворить все ваши пожелания,
+																	предложив то, что действительно вы ищете, и то - что вам подойдет.
+																</div>
+																<div class="opinion__author">
+																	<div class="opinion__author-left">
+																		<div style="background-image: url(https://bimru.ru/wp-content/uploads/2017/09/prev800_557334a8894b6099b72f12765b339c21.jpg);" class="opinion__author-photo"></div>
+																	</div>
+																	<div class="opinion__author-right">
+																		<div class="opinion__author-name">
+																			Вячеслав Зайцев
+																		</div>
+																		<div class="opinion__author-spec">
+																			Историк моды
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div class="p-about__opinions-cell">
+															<div class="opinion">
+																<div class="opinion__text">
+																	Вот почему для нас так важно удовлетворить все ваши пожелания, предложив то, что действительно вы ищете, и то - что вам подойдет.Мы отлично понимаем, что продаем не просто модные аксессуары. Каждая приобретенная вещь, впоследствии
+																	становится неотъемлемой частью вашего образа, частью вашего Я.
+																</div>
+																<div class="opinion__author">
+																	<div class="opinion__author-left">
+																		<div style="background-image: url(http://logyka.net/assets/templates/img/890/3.jpg);" class="opinion__author-photo"></div>
+																	</div>
+																	<div class="opinion__author-right">
+																		<div class="opinion__author-name">
+																			Ортега Амансио
+																		</div>
+																		<div class="opinion__author-spec">
+																			Основатель Zara
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="swiper-slide">
+													<div class="p-about__opinions-row">
+														<div class="p-about__opinions-cell">
+															<div data-aos="zoom-in" class="opinion">
+																<div class="opinion__text">
+																	Мы отлично понимаем, что продаем не просто модные аксессуары. Каждая приобретенная вещь, впоследствии становится неотъемлемой частью вашего образа, частью вашего Я. Вот почему для нас так важно удовлетворить все ваши пожелания,
+																	предложив то, что действительно вы ищете, и то - что вам подойдет.
+																</div>
+																<div class="opinion__author">
+																	<div class="opinion__author-left">
+																		<div style="background-image: url(https://bimru.ru/wp-content/uploads/2017/09/prev800_557334a8894b6099b72f12765b339c21.jpg);" class="opinion__author-photo"></div>
+																	</div>
+																	<div class="opinion__author-right">
+																		<div class="opinion__author-name">
+																			Вячеслав Зайцев
+																		</div>
+																		<div class="opinion__author-spec">
+																			Историк моды
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div class="p-about__opinions-cell">
+															<div class="opinion">
+																<div class="opinion__text">
+																	Вот почему для нас так важно удовлетворить все ваши пожелания, предложив то, что действительно вы ищете, и то - что вам подойдет.Мы отлично понимаем, что продаем не просто модные аксессуары. Каждая приобретенная вещь, впоследствии
+																	становится неотъемлемой частью вашего образа, частью вашего Я.
+																</div>
+																<div class="opinion__author">
+																	<div class="opinion__author-left">
+																		<div style="background-image: url(http://logyka.net/assets/templates/img/890/3.jpg);" class="opinion__author-photo"></div>
+																	</div>
+																	<div class="opinion__author-right">
+																		<div class="opinion__author-name">
+																			Ортега Амансио
+																		</div>
+																		<div class="opinion__author-spec">
+																			Основатель Zara
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</section>
+							</div>
+							<div class="p-about__right" data-sticky_parent>
+								<div class="p-about__map js-page-map ">
+									<div class="p-about__map-inn">
+										<ul class="p-about__map-list js-scroll-map-list">
+											<li>
+												<a href="#mission" class="p-about__map-item js-map-scroll">Миссия</a>
+											</li>
+											<li>
+												<a href="#goals" class="p-about__map-item js-map-scroll">Цели</a>
+											</li>
+											<li>
+												<a href="#values" class="p-about__map-item js-map-scroll">Ценности</a>
+											</li>
+											<li>
+												<a href="#history" class="p-about__map-item js-map-scroll">История</a>
+											</li>
+											<li>
+												<a href="#team" class="p-about__map-item js-map-scroll">Команда</a>
+											</li>
+											<li>
+												<a href="#opinions" class="p-about__map-item js-map-scroll">Экспертное мнение</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="footer">
+				<div class="footer__top">
+					<div class="l-wrapper">
+						<div class="footer__top-inn">
+							<div class="footer__top-left">
+								<div class="footer__copyright">
+									&copy; 2021, ООО "РУМАРКЕТ"
+									<br>
+									Все права защищены
+								</div>
+<<<<<<< HEAD
+								<div class="footer__soc">
+									<ul class="socials">
+										<li class="socials__item">
+											<a href="#" class="social-round social-round--vk"></a>
+										</li>
+										<li class="socials__item">
+											<a href="#" class="social-round social-round--fb"></a>
+										</li>
+									</ul>
+								</div>
+=======
+							<div class="footer__top-center">
+
+								<ul class="footer__icons">
+									<li class="footer__item"><a href="#" class="footer-icon vk">
+										<svg width="13" height="8" viewBox="0 0 13 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M10.3143 4.82936C10.118 4.58145 10.1742 4.47115 10.3143 4.24954C10.3169 4.24701 11.9374 2.00767 12.1044 1.24823L12.1054 1.24773C12.1884 0.970971 12.1054 0.767578 11.7042 0.767578H10.3766C10.0386 0.767578 9.88274 0.942132 9.79926 1.13743C9.79926 1.13743 9.12331 2.75547 8.16706 3.8043C7.85843 4.10737 7.71575 4.20451 7.54727 4.20451C7.46429 4.20451 7.33528 4.10737 7.33528 3.83061V1.24773C7.33528 0.915822 7.24066 0.767578 6.96087 0.767578H4.87331C4.66132 0.767578 4.53533 0.9224 4.53533 1.0666C4.53533 1.3813 5.01346 1.45365 5.06304 2.33907V4.26017C5.06304 4.68112 4.98664 4.75853 4.81715 4.75853C4.36584 4.75853 3.27045 3.13392 2.62132 1.27454C2.49028 0.913798 2.36227 0.768084 2.02176 0.768084H0.693638C0.31468 0.768084 0.238281 0.942638 0.238281 1.13794C0.238281 1.48299 0.689591 3.19868 2.33697 5.46535C3.43489 7.01255 4.98108 7.85091 6.38763 7.85091C7.23307 7.85091 7.33629 7.66472 7.33629 7.34445C7.33629 5.86606 7.25989 5.72642 7.68337 5.72642C7.87968 5.72642 8.21766 5.82356 9.00694 6.56984C9.90905 7.45475 10.0573 7.85091 10.5622 7.85091H11.8899C12.2683 7.85091 12.4601 7.66472 12.3498 7.2974C12.0973 6.52481 10.3912 4.93561 10.3143 4.82936Z" fill="white"/>
+										</svg>
+
+
+
+
+									</a></li>
+
+									<li class="footer__item"><a href="#" class="footer-icon gp">
+										<svg width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M4.43694 1.81948C5.25915 1.81948 6.00288 2.24137 6.42913 2.8227L7.4394 1.80521C6.83518 1.01951 5.67224 0.396484 4.43694 0.396484C2.27401 0.396484 0.5 2.14678 0.5 4.30971C0.5 6.47264 2.27401 8.22293 4.43694 8.22293C6.22995 8.22293 7.73826 7.02053 8.20073 5.37695C8.30033 5.03538 8.35017 4.67963 8.35017 4.30971V3.95396H4.79269V5.37668H6.67815C6.28683 6.2163 5.4259 6.79994 4.43694 6.79994C3.06379 6.79994 1.92299 5.68286 1.92299 4.30971C1.92299 2.93656 3.06379 1.81948 4.43694 1.81948Z" fill="white"/>
+										</svg>
+
+
+										<svg width="4" height="5" viewBox="0 0 4 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M2.55273 0.53125H1.12974V1.59849H0.0625V3.02148H1.12974V4.08873H2.55273V3.02148H3.64369V1.59849H2.55273V0.53125Z" fill="white"/>
+										</svg>
+
+>>>>>>> 28878cb59804a3d7a833d209f74d0246965f2209
+
+									</a></li>
+									<li class="footer__item"><a href="#" class="footer-icon od">
+										<svg width="7" height="7" viewBox="0 0 7 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M3.408 6.38408C1.72864 6.37835 0.351588 4.98616 0.36138 3.30414C0.371045 1.60354 1.74899 0.2331 3.44488 0.237805C5.1442 0.242383 6.50816 1.63254 6.49964 3.35081C6.49099 5.0294 5.10439 6.38993 3.408 6.38408ZM4.93423 3.30821C4.93131 2.47304 4.26618 1.80817 3.43267 1.80741C2.59217 1.80652 1.92106 2.48347 1.92755 3.32627C1.93378 4.15825 2.60463 4.81842 3.44043 4.81537C4.27368 4.81244 4.93703 4.14324 4.93423 3.30821Z" fill="white"/>
+										</svg>
+										<svg width="9" height="7" viewBox="0 0 9 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M3.83318 2.79106C2.89182 2.69288 2.04305 2.46104 1.31637 1.89269C1.22621 1.82198 1.13311 1.75381 1.05083 1.67484C0.732764 1.36936 0.700716 1.0195 0.952396 0.658959C1.1677 0.350431 1.52914 0.267894 1.90481 0.445049C1.97756 0.479387 2.04687 0.522245 2.11326 0.568283C3.46755 1.49883 5.328 1.52452 6.68738 0.610123C6.82206 0.506857 6.96602 0.422667 7.13288 0.379681C7.4573 0.296381 7.75985 0.415545 7.93396 0.699401C8.13286 1.02357 8.13032 1.33998 7.88525 1.59167C7.50932 1.97752 7.05721 2.25667 6.55487 2.4515C6.07986 2.63565 5.55959 2.72836 5.04465 2.78991C5.12236 2.87449 5.15899 2.91607 5.20757 2.96491C5.90678 3.66743 6.60904 4.36702 7.30596 5.0717C7.5434 5.31181 7.593 5.60952 7.46226 5.8888C7.31932 6.19402 6.99934 6.39483 6.6856 6.37334C6.48683 6.35961 6.3318 6.26066 6.19407 6.12191C5.66642 5.59096 5.12884 5.06979 4.61188 4.52879C4.46143 4.37147 4.38906 4.40123 4.25629 4.53782C3.72546 5.08429 3.18598 5.62237 2.64332 6.1574C2.39966 6.39763 2.10969 6.44087 1.82711 6.30365C1.52672 6.15803 1.33558 5.85141 1.35033 5.54327C1.3605 5.33482 1.46301 5.1756 1.60608 5.03278C2.29804 4.34184 2.9881 3.64911 3.67841 2.95702C3.72406 2.91098 3.76667 2.86215 3.83318 2.79106Z" fill="white"/>
+										</svg>
+
+
+									</a></li>
+									<li class="footer__item"><a href="#" class="footer-icon fb">
+										<svg width="9" height="16" viewBox="0 0 9 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M2.11677 3.20599C2.11677 3.11011 2.13001 2.90304 2.15649 2.58612C2.18496 2.26852 2.30412 1.93628 2.51794 1.5874C2.72978 1.23984 3.07336 0.927576 3.55133 0.651263C4.02731 0.376282 4.71513 0.237793 5.6128 0.237793H8.14165V3.00957H6.29003C6.10666 3.00957 5.93586 3.07882 5.78161 3.21531C5.62869 3.3518 5.54991 3.48164 5.54991 3.60215V5.3266H8.14099C8.11384 5.66417 8.08405 5.99242 8.04963 6.30934L7.94702 7.14694C7.90598 7.42991 7.86427 7.69224 7.82323 7.93393H5.53138V15.6187H2.11677V7.93326H0.451172V5.3266H2.11677V3.20599Z" fill="white"/>
+										</svg>
+
+
+
+									</a></li>
+								</ul>
+							</div>
+							<div class="footer__top--right">
+								<a href="#" class="footer-phone">
+								<svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path fill-rule="evenodd" clip-rule="evenodd" d="M7.38471 5.75914C7.13586 5.56008 6.86995 5.38141 6.60819 5.19888C6.08615 4.83455 5.60866 4.80623 5.21912 5.39239C5.00037 5.72148 4.69414 5.73589 4.37394 5.59152C3.49123 5.19379 2.80959 4.58099 2.41032 3.68946C2.2337 3.29502 2.23602 2.94139 2.64927 2.66241C2.86806 2.51488 3.08849 2.3403 3.07086 2.01793C3.04785 1.59758 2.02076 0.192841 1.61516 0.044577C1.44733 -0.0167842 1.28019 -0.0127908 1.10944 0.0442324C0.158386 0.362046 -0.235542 1.13927 0.141719 2.05955C1.2672 4.80513 3.24785 6.71651 5.97434 7.88313C6.12979 7.94956 6.30247 7.97611 6.38991 7.99995C7.01065 8.00616 7.73781 7.41188 7.94781 6.82211C8.15 6.25471 7.7227 6.0295 7.38471 5.75914Z" fill="white"/>
+								</svg>
+									8 964 535-13-31</a>
+							</div>
+							</div>
+							<div class="footer__top-right">
+								<div class="footer__categories">
+
+									<div class="footer__categories-cell">
+										<div class="footer__menu">
+											<div class="footer__menu-title">
+												Информация
+											</div>
+											<ul class="footer__menu-list">
+												<li class="footer__menu-item">
+													<a class="link" href="#">О компании</a>
+												</li>
+												<li class="footer__menu-item">
+													<a class="link" href="#">Сотрудничество</a>
+												</li>
+												<li class="footer__menu-item">
+													<a class="link" href="#">Контакты</a>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		<script type="text/javascript" src="/assets/js/libs.js"></script>
+		<script type="text/javascript" src="/assets/js/lightGallery/js/lightgallery.min.js"></script>
+		<script type="text/javascript" src="/assets/js/lightGallery/modules/lg-thumbnail.js"></script>
+		<script type="text/javascript" src="/assets/js/item-count.js"></script>
+		<script type="text/javascript" src="/assets/js/tabs.js"></script>
+		<script type="text/javascript" src="/assets/js/toggle.js"></script>
+		<script type="text/javascript" src="/assets/js/map.js"></script>
+		<script type="text/javascript" src="/assets/js/helpers.js"></script>
+		<script type="text/javascript" src="/assets/js/404.js"></script>
+		<script type="text/javascript" src="/assets/js/app.js"></script>
+	</body>
+
+</html>
