@@ -20,11 +20,11 @@
 			} // если пусто, считаем что это index
 
             $alias = preg_split("/[\/]+/", $arr['q']); // разбираем строку
-            
+
 
             foreach($alias as $a)   {if($a!='') {$post[] = $a; $aliases[] = $a;}}
             $page = "";
-            
+
 
             foreach($post as $k=>$v) {if ($k==0) {$page .= $v;}else{$page .= "/".$v;}}
 
@@ -46,16 +46,17 @@
 						case 'fav': 			print ($_SESSION['smarty']->fetch('fav.tpl'));  			exit (0); break;
 						case 'item': 			print ($_SESSION['smarty']->fetch('item.tpl'));  			exit (0); break;
 						case 'order': 			print ($_SESSION['smarty']->fetch('order.tpl'));  			exit (0); break;
+            case 'reg': 			print ($_SESSION['smarty']->fetch('reg.tpl'));  			exit (0); break;
 
-						case 'index': 			print($_SESSION['smarty']->fetch('index.tpl'));				exit (0); break;														
+						case 'index': 			print($_SESSION['smarty']->fetch('index.tpl'));				exit (0); break;
 
 						default:
 					                            http_response_code(404);
 					                            print ($_SESSION['smarty']->fetch('404.tpl'));
 							break;
 				    }
-	
-				}	
+
+				}
 
 
         function getReq()
@@ -69,8 +70,8 @@
                     }
                     $params[$key] = $value;
                 }
-            } 
-            return $params; 
+            }
+            return $params;
         }
 
 
