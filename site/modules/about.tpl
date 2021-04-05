@@ -335,7 +335,7 @@
 		}
 
 		.d-flex .text {
-			
+
 			padding: 20px;
 			border: 1px solid black;
 			display: inline-block;
@@ -1296,7 +1296,9 @@ img/items/4.png"></a>
 													<br>предоставляет такие сервисы как:</p>
 												<div class="p-about__text custom-t">
 													<div class="d-flex">
-														<div class="text">
+														<div class="order-about">
+															<div class="numeral-div"><div class="numeral green">- 1 -</div></div>
+
 															<p>
 																		- Онлайн витрина / каталог;
 															</p>
@@ -1311,17 +1313,23 @@ img/items/4.png"></a>
 															</p>
 														</div>
 
-														<div class="text">
+														<div class="order-about">
+															<div class="numeral-div"><div class="numeral green">- 2 -</div></div>
+
 															<p>- Оформление и передача заказа продавцу доступ к отчетам о посещаемости;</p>
 															<p>- Адаптивность страниц магазина при отображении на мобильных устройствах;</p>
 														</div>
 
-														<div class="text">
+														<div class="order-about">
+															<div class="numeral-div"><div class="numeral green">- 3 -</div></div>
+
 															<p>- Административная панель работы с магазином;</p>
 															<p>- Отчеты о списании и возвратах комиссии;</p>
 														</div>
 
-														<div class="text">
+														<div class="order-about">
+															<div class="numeral-div"><div class="numeral green">- 4 -</div></div>
+
 															<p>- Уведомления о скором окончании средств либо нулевом балансе на счете.</p>
 														</div>
 													</div>
