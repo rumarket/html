@@ -3,7 +3,7 @@
 
 	<head>
 		<meta charset="utf-8">
-		<title>404</title>
+		<title>Регистрация</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="format-detection" content="telephone=no">
 		<meta name="mobile-web-app-capable" content="yes">
