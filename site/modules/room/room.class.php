@@ -16,10 +16,6 @@ class room extends aModule{
             $arr =  $p;
             $post = array();
 
-			if (empty($arr['q']))
-			{
-				$arr['q']='/index';
-			} // если пусто, считаем что это index
 
             $alias = preg_split("/[\/]+/", $arr['q']); // разбираем строку
             
@@ -33,11 +29,13 @@ class room extends aModule{
             $dir = $post;                    // $dir[0] - алиас модуля
             $post = array_reverse($post);    // $post[0] - алиас запрашиваемой страницы
 
-       
+
+			if (empty($post[0]))
+			{
+				$post[0]='index';
+			} // если пусто, считаем что это index
 
         	//echo "<pre>"; print_r($post); echo "</pre>"; //die(); 
-
-
 
             print ($_SESSION['smarty']->fetch('room/'.$post[0].'.tpl'));
 
