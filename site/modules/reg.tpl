@@ -349,9 +349,9 @@ body > div.l-main.js-main.wrapper.slideout-panel.slideout-panel-left > div.conte
 	font-family: Roboto;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 10px;
+	font-size: 18px;
 	line-height: 16px;
-	height: 29px;
+	height: 40px;
 	/* or 160% */
 
 	display: flex;
@@ -468,6 +468,10 @@ body > div.l-main.js-main.wrapper.slideout-panel.slideout-panel-left > header > 
 #login_tab > form > div:nth-child(2) > div > div.complex-input__input > input:focus {
 	color: black;
 	font-size: 15px;
+}
+
+body > div.l-main.js-main.slideout-panel.slideout-panel-left > header > div > div.header__wrapper.header__wrapper__border > div > div > div.header__btn.header__cabinet.dropdown > a {
+	visibility: hidden;
 }
 		</style>
 
@@ -1247,8 +1251,8 @@ body > div.l-main.js-main.wrapper.slideout-panel.slideout-panel-left > header > 
 			<header class="header js-header">
 				<div class="header__inn">
 					~~include file='tpl/topbar.tpl'~
-					~~include file='tpl/header__wrapper.tpl'~
-					~~include file='tpl/nav__js-nav.tpl'~
+					~~include file='tpl/header__wrapper__alt.tpl'~
+
 
 				</div>
 			</header>
@@ -1261,9 +1265,9 @@ body > div.l-main.js-main.wrapper.slideout-panel.slideout-panel-left > header > 
 							</p>
 						</div>
 
-						<input type="text" name="" value="" placeholder="Телефон" class="reg__input" id="phone" required>
+						<input type="tel" name="" value="" placeholder="Телефон" class="reg__input" id="phone" required>
 
-						<input type="text" name="" value="" placeholder="ИНН" class="reg__input" id="inn" required>
+						<input type="tel"  name="" value="" placeholder="ИНН" class="reg__input" id="inn" required>
 
 						<a href="#confirmation" class="cabinet-dropdown__login-btn btn btn--pink js-login-tab-toggle container reg__btn">
 							<p class="reg__text">Регистрация</p>

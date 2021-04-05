@@ -11800,6 +11800,34 @@ input:checked + * .lg-checkbox__icon {
   padding: 0 10px;
 }
 
+.header__wrapper__border {
+  border-bottom: 1px solid #DDDDDD;
+}
+
+
+.header__logo-alt {
+  padding: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.header-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fixed .header__logo-alt {
+  flex-grow: 10;
+}
+
+@media only screen and (max-width: 760px) {
+  .header-center {
+    justify-content: space-between;
+  }
+}
+
 div.l-main.js-main.slideout-panel.slideout-panel-left {
  display: flex;
  flex-direction: column;
@@ -19607,4 +19635,10 @@ html.touchevents .item-gallery__carousel .swiper-prev, html.touchevents .item-ga
   .p-complete__btns .btn, .p-complete__btns .order-step__btn {
     width: 100%;
   }
+}
+
+
+
+.hidden-v {
+  visibility: hidden;
 }
