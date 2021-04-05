@@ -17,8 +17,25 @@
 		<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
 		<![endif]-->
 
-		<style media="screen">
-			.404tpl {}
+		<style>
+
+			.big-404-block {
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				padding: 30px;
+				margin-top: 100px;
+			}
+
+			.big-404 {
+				font-family: Roboto;
+				font-style: normal;
+				font-weight: normal;
+				font-size: 77px;
+				line-height: 16px;
+				font-weight: bolder;
+				color: #48BE7A;
+			}
 		</style>
 
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -661,8 +678,6 @@
 			<header class="header js-header">
 				<div class="header__inn">
 					~~include file='tpl/topbar.tpl'~
-					~~include file='tpl/header__wrapper.tpl'~
-					~~include file='tpl/nav__js-nav.tpl'~
 
 				</div>
 			</header>
@@ -670,7 +685,7 @@
 				<div class="l-wrapper">
 					<div class="p-404">
 						<div class="p-404__main">
-							<p class="404tpl"> 404	</p>
+							<div class="big-404-block"><p class="big-404"> 404	</p></div>
 							<div class="title h3">
 								Страница не найдена
 							</div>
