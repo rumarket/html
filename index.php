@@ -46,8 +46,8 @@
 						case 'fav': 			print ($_SESSION['smarty']->fetch('fav.tpl'));  			exit (0); break;
 						case 'item': 			print ($_SESSION['smarty']->fetch('item.tpl'));  			exit (0); break;
 						case 'order': 			print ($_SESSION['smarty']->fetch('order.tpl'));  			exit (0); break;
-            case 'reg': 			print ($_SESSION['smarty']->fetch('reg.tpl'));  			exit (0); break;
-            case 'sms': 			print ($_SESSION['smarty']->fetch('sms.tpl'));  			exit (0); break;
+                        case 'reg': 			print ($_SESSION['smarty']->fetch('reg.tpl'));  			exit (0); break;
+                        case 'sms': 			print ($_SESSION['smarty']->fetch('sms.tpl'));  			exit (0); break;
 
 						case 'index': 			print($_SESSION['smarty']->fetch('index.tpl'));				exit (0); break;
 

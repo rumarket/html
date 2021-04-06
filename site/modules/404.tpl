@@ -4,7 +4,7 @@
 	<head>
 		<meta charset="utf-8">
 		<title>404</title>
-					~~include file='tpl/stylesheet.tpl'~
+		~~include file='tpl/stylesheet.tpl'~
 
 		<style>
 
