@@ -284,6 +284,58 @@
            color: #FFFFFF;
          }
 
+         .sms-title {
+           text-align: center;
+           font-family: Roboto;
+           font-style: normal;
+           font-weight: normal;
+           font-size: 35px;
+           line-height: 35px;
+           color: black;
+           margin-bottom: 20px;
+         }
+
+         .sms-border {
+           margin: 0 auto;
+           width: 25%;
+           min-width: 360px;
+           display: flex;
+           flex-direction: column;
+           justify-content: center;
+           align-items: center;
+         }
+
+         .sms-border input {
+           border: 1px solid #c2c2c2;
+           border-radius: 6px;
+           margin-bottom: 10px;
+           height: 40px;
+         }
+
+         @media only screen and (max-width: 480px) {
+          .password-input__forgot {
+            position: static;
+            }
+
+          }
+
+         #sms {
+           padding-left: 35%;
+           font-size: 22px;
+           width: 200px;
+           margin: 10px auto;
+           font-family: Roboto;
+         }
+
+         #sms-btn {
+           margin: 40px auto 0 auto;
+
+
+         }
+
+         .sms-block {
+           padding-top: 15%;
+         }
 
          .reg__title__block {
            background: #EEEBED;
