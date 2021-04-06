@@ -16,17 +16,7 @@
 		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 		<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
 		<![endif]-->
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-		<script>
-			$(document).ready(function() {
-
-				$("[data-toggle='location-dropdown']").click(function(e) {
-					$(".location-dropdown").toggleClass("hidden");
-					e.stopPropagation();
-				});
-
-			});
-		</script>
+		~~include file='tpl/head_script.tpl'~
 	</head>
 
 	<body>
@@ -657,7 +647,7 @@
 					~~include file='tpl/topbar.tpl'~
 					~~include file='tpl/header__wrapper.tpl'~
 					~~include file='tpl/nav__js-nav.tpl'~
-					
+
 				</div>
 			</header>
 			<div class="l-content">

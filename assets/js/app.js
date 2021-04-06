@@ -440,10 +440,7 @@ $(function () {
     // }
     // innMaskInit();
 
-    $(function(){
-      //2. Получить элемент, к которому необходимо добавить маску
-      $("#inn").mask("999-999-999-999");
-    });
+
 
     (function () {
         $('.js-mask-input').each(function () {
