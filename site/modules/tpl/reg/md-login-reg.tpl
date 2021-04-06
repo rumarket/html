@@ -150,7 +150,7 @@
               </div>
             </div>
           </div> -->
-          <div class="form-row hidden-xs">
+          <div class="form-row">
 
               <div class="input-row text-reg">
                 ИНН
