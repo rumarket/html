@@ -8,7 +8,7 @@
             <br>
             Все права защищены
           </div>
-          <div class="footer__soc">
+          <!-- <div class="footer__soc">
             <ul class="socials">
               <li class="socials__item">
                 <a href="#" class="social-round social-round--vk"></a>
@@ -17,14 +17,14 @@
                 <a href="#" class="social-round social-round--fb"></a>
               </li>
             </ul>
-          </div>
+          </div> -->
 
         </div>
         <div class="footer__top-right">
           <div class="footer__categories">
 
             <div class="footer__categories-cell">
-              <div class="footer__menu">
+              <!-- <div class="footer__menu">
                 <div class="footer__menu-title">
                   Информация
                 </div>
@@ -39,7 +39,7 @@
                     <a class="link" href="#">Контакты</a>
                   </li>
                 </ul>
-              </div>
+              </div> -->
             </div>
           </div>
         </div>
