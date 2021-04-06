@@ -11,15 +11,15 @@
 
 	<body class="no-padding-right">
 		~~include file='tpl/loader.tpl'~
-		~~include file='tpl/m-nav-reg.tpl'~
+		~~include file='tpl/reg/m-nav-reg.tpl'~
 		~~include file='tpl/location-select.tpl'~
 		~~include file='tpl/fast-view.tpl'~
-		~~include file='tpl/md-login.tpl'~
+		~~include file='tpl/reg/md-login-reg.tpl'~
 		~~include file='tpl/btn-up.tpl'~
 		<div class="l-main js-main">
 			<header class="header js-header">
 				<div class="header__inn">
-					~~include file='tpl/topbar-reg.tpl'~
+					~~include file='tpl/reg/topbar-reg.tpl'~
 					~~include file='tpl/header__wrapper__alt.tpl'~
 
 
@@ -34,31 +34,10 @@
 							</p>
 						</div>
 
-						<div class="input-row">
-							<div class="input-row__cell input-row__cell--border text-center" style="width: 110px;">
-								<select class="select">
+					
 
-									<option data-icon="russia">+7</option>
 
-									<option data-icon="belarus">+375</option>
-
-									<option data-icon="ukraine">+38</option>
-
-								</select>
-							</div>
-							<div class="input-row__cell">
-								<input type="text" class="input js-phone-mask" placeholder="(___) ___-__-__ Телефон">
-							</div>
-						</div>
-
-						<div class="input-row">
-
-							<div class="input-row__cell input-row__cell--border-left ">
-								<input type="text" id="inn" class="input js-inn-mask" placeholder="___-___-___-___ ИНН">
-							</div>
-						</div>
-
-						<a href="#confirmation" class="cabinet-dropdown__login-btn btn btn--pink js-login-tab-toggle container reg__btn">
+						<a href="#login" class="cabinet-dropdown__login-btn btn btn--pink js-login-tab-toggle container reg__btn">
 							<p class="reg__text">Регистрация</p>
 						</a>
 

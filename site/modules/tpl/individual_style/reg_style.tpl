@@ -275,7 +275,7 @@
            font-family: Roboto;
            font-style: normal;
            font-weight: normal;
-           font-size: 20px;
+           font-size: 25px;
            line-height: 18px;
            /* or 129% */
 
@@ -306,9 +306,9 @@
            display: flex;
            justify-content: center;
            align-items: center;
-           height: 45px;
+           height: 70px;
            width: 200px;
-           padding: 0 80px;
+           padding: 0 150px;
            margin-top: 60px;
          }
 
@@ -468,5 +468,12 @@
            visibility: hidden;
          }
 
+         #register_tab {
+           border-radius: 6px;
+         }
+
+        .input-row__icon {
+          color: black;
+        }
 
 </style>
