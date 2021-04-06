@@ -14,12 +14,20 @@
 		~~include file='tpl/reg/m-nav-reg.tpl'~
 		~~include file='tpl/location-select.tpl'~
 		~~include file='tpl/fast-view.tpl'~
+		
+
+		<!-- Начало блока -->
 		~~include file='tpl/reg/md-login-reg.tpl'~
+		<!--/ Конец блока -->
+
+
+
+
 		~~include file='tpl/btn-up.tpl'~
 		<div class="l-main js-main">
 			<header class="header js-header">
 				<div class="header__inn">
-					~~include file='tpl/reg/topbar-reg.tpl'~
+					
 					~~include file='tpl/header__wrapper__alt.tpl'~
 
 

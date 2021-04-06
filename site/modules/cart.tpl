@@ -1731,16 +1731,7 @@
 			</div>
 			~~include file='tpl/имя папки/footer.tpl'~
 		</div>
-		<script type="text/javascript" src="/assets/js/libs.js"></script>
-		<script type="text/javascript" src="/assets/js/lightGallery/js/lightgallery.min.js"></script>
-		<script type="text/javascript" src="/assets/js/lightGallery/modules/lg-thumbnail.js"></script>
-		<script type="text/javascript" src="/assets/js/item-count.js"></script>
-		<script type="text/javascript" src="/assets/js/tabs.js"></script>
-		<script type="text/javascript" src="/assets/js/toggle.js"></script>
-		<script type="text/javascript" src="/assets/js/map.js"></script>
-		<script type="text/javascript" src="/assets/js/helpers.js"></script>
-		<script type="text/javascript" src="/assets/js/404.js"></script>
-		<script type="text/javascript" src="/assets/js/app.js"></script>
+		~~include file='tpl/body_script.tpl'~
 	</body>
 
 </html>
