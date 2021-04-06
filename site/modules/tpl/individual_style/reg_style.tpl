@@ -227,7 +227,7 @@
            color: #4A484E;
          }
 
-         .cabinet__title__text__menu {
+         .text-reg {
            font-family: Roboto;
            font-style: normal;
            font-weight: normal;
@@ -235,10 +235,10 @@
            line-height: 26px;
            /* or 100% */
 
-           display: flex;
-           align-items: center;
+           text-align: center;
 
-           color: #153772;
+           color: black;
+           margin-bottom: 20px
          }
 
          .cabinet__title {
@@ -476,4 +476,7 @@
           color: black;
         }
 
+        #register_tab > form > div.form-row.hidden-xs > div:nth-child(2) > div {
+          border-radius: 6px;
+        }
 </style>

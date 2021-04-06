@@ -151,18 +151,23 @@
             </div>
           </div> -->
           <div class="form-row hidden-xs">
-            
 
+              <div class="input-row text-reg">
+                ИНН
+              </div>
               <div class="input-row">
 
                 <div class="input-row__cell input-row__cell--border-left ">
-                  <input type="text" id="inn" class="input js-inn-mask" placeholder="___-___-___-___ ИНН">
+                  <input type="text" id="inn" class="input js-inn-mask" placeholder="___-___-___-___">
                 </div>
               </div>
 
           </div>
 
           <div class="form-row">
+            <div class="input-row text-reg">
+              Телефон
+            </div>
               <div class="input-row">
                 <div class="input-row__cell input-row__icon">
                   +7
