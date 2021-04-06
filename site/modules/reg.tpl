@@ -338,7 +338,20 @@ body > div.l-main.js-main.wrapper.slideout-panel.slideout-panel-left > div.conte
 	display: flex;
 }
 
+.l-content .input-row {
+	min-width: 360px;
+	max-width: 1000px;
+	border-radius: 6px;
+	margin-top: 40px;
+	width: 50%;
+}
+
+.l-content .input-row__cell--border-left {
+	border-radius: 6px;
+}
+
 .reg__input {
+	z-index: 999;
 	display: block;
 	padding: 16px 14px;
 	border: 1px solid #C2C2C2;
@@ -488,7 +501,7 @@ body > div.l-main.js-main.slideout-panel.slideout-panel-left > header > div > di
 		</script>
 	</head>
 
-	<body>
+	<body class="no-padding-right">
 		<div class="loader">
 			<div class="loader__inn">
 				<div class="wikimoda animate">
@@ -1265,9 +1278,31 @@ body > div.l-main.js-main.slideout-panel.slideout-panel-left > header > div > di
 							</p>
 						</div>
 
-						<input type="tel" name="" value="" placeholder="Телефон" class="reg__input" id="phone" required>
+						<div class="input-row">
+							<div class="input-row__cell input-row__cell--border text-center" style="width: 110px;">
+								<select class="select">
 
-						<input type="tel"  name="" value="" placeholder="ИНН" class="reg__input" id="inn" required>
+									<option data-icon="belarus">+375</option>
+
+									<option data-icon="russia">+7</option>
+
+									<option data-icon="ukraine">+38</option>
+
+									<option data-icon="kazakhstan">+7</option>
+
+								</select>
+							</div>
+							<div class="input-row__cell">
+								<input type="text" class="input js-phone-mask" placeholder="(___) ___-__-__ Телефон">
+							</div>
+						</div>
+
+						<div class="input-row">
+
+							<div class="input-row__cell input-row__cell--border-left ">
+								<input type="text" id="inn" class="input js-inn-mask" placeholder="___-___-___-___ ИНН">
+							</div>
+						</div>
 
 						<a href="#confirmation" class="cabinet-dropdown__login-btn btn btn--pink js-login-tab-toggle container reg__btn">
 							<p class="reg__text">Регистрация</p>
@@ -1288,6 +1323,11 @@ body > div.l-main.js-main.slideout-panel.slideout-panel-left > header > div > di
 		<script type="text/javascript" src="/assets/js/helpers.js"></script>
 		<script type="text/javascript" src="/assets/js/404.js"></script>
 		<script type="text/javascript" src="/assets/js/app.js"></script>
+		<script>
+				$(function(){
+				  $("#inn").mask("999-999-999-999"), { placeholder:"___-___-___-___"};
+				});
+		</script>
 	</body>
 
 </html>
