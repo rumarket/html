@@ -4,32 +4,34 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Регистрация</title>
-		~~include file='tpl/stylesheet.tpl'~
-   	~~include file='tpl/individual_style/reg_style.tpl'~
-		~~include file='tpl/head_script.tpl'~
+
+			~~include file='tpl/stylesheet.tpl'~
+
+			~~include file='tpl/individual_style/reg_style.tpl'~
+
+			~~include file='tpl/top_script.tpl'~
+
 	</head>
 
 	<body class="no-padding-right">
-		~~include file='tpl/loader.tpl'~
-		~~include file='tpl/reg/m-nav-reg.tpl'~
-		~~include file='tpl/location-select.tpl'~
-		~~include file='tpl/fast-view.tpl'~
-		
 
-		<!-- Начало блока -->
-		~~include file='tpl/reg/md-login-reg.tpl'~
-		<!--/ Конец блока -->
+			~~include file='tpl/loader.tpl'~
 
+			~~include file='tpl/reg/nav-reg.tpl'~
 
+			~~include file='tpl/location-select.tpl'~
 
+			~~include file='tpl/fast-view(hidden).tpl'~
 
-		~~include file='tpl/btn-up.tpl'~
+			~~include file='tpl/reg/login-reg.tpl'~
+
+		<a href="#" class="up-btn js-up-btn">Наверх</a>
+
 		<div class="l-main js-main">
 			<header class="header js-header">
 				<div class="header__inn">
-					
-					~~include file='tpl/header__wrapper__alt.tpl'~
 
+						~~include file='tpl/header__wrapper__alt.tpl'~
 
 				</div>
 			</header>
@@ -42,7 +44,7 @@
 							</p>
 						</div>
 
-					
+
 
 
 						<a href="#login" class="cabinet-dropdown__login-btn btn btn--pink js-login-tab-toggle container reg__btn">
@@ -54,7 +56,7 @@
 			</div>
 			~~include file='tpl/footer.tpl'~
 		</div>
-		~~include file='tpl/body_script.tpl'~
+		~~include file='tpl/bottom_script.tpl'~
 		<script>
 				$(function(){
 				  $("#inn").mask("999-999-999-999"), { placeholder:"___-___-___-___"};

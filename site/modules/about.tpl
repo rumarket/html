@@ -4,18 +4,7 @@
 	<head>
 		<meta charset="utf-8">
 		<title>О нас</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta name="format-detection" content="telephone=no">
-		<meta name="mobile-web-app-capable" content="yes">
-		<link rel="stylesheet" type="text/css" href="/assets/css/libs.css">
-		<link rel="stylesheet" type="text/css" href="/assets/js/lightGallery/css/lightgallery.min.css">
-		<link rel="stylesheet" type="text/css" href="/assets/css/app.css">
-		<!-- HTML5 Shiv and Respond.js IE8 support of HTML5 elements and media queries -->
-		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-		<!--[if lt IE 9]>
-		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-		<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-		<![endif]-->
+					~~include file='tpl/stylesheet.tpl'~
 
 		<style>
 			html,
@@ -54,485 +43,476 @@
 			}
 
 				.header__search {
-  padding-left: 15px;
-}
-
-@media only screen and (max-width: 940px) {
-  .header__search {
-    padding-left: 0;
-  }
-}
-
-@media only screen and (max-width: 480px) {
-  .header__search {
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 100%;
-  }
-}
-
-.header__search .search:before {
-  display: none;
-}
-
-@media only screen and (max-width: 760px) {
-  .header__search .search__input {
-    padding-top: 7px;
-    padding-bottom: 7px;
-  }
-}
-
-@media only screen and (max-width: 480px) {
-  .header__search .search__input {
-    border-radius: 0;
-  }
-}
-
-@media only screen and (max-width: 480px) {
-  .header__search .search__submit {
-    display: none;
-  }
-}
-
-@media only screen and (max-width: 480px) {
-  .header__search .search__close {
-    display: block;
-  }
-}
-
-.search .awesomplete > ul {
-  border-top: 0;
-}
-
-.search .awesomplete > ul > li {
-  text-decoration: none;
-  padding: 0;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
-}
-
-.search .awesomplete > ul > li:last-child {
-  border-bottom: 0;
-}
-
-.product-ac {
-  padding: 15px 10px;
-}
-
-.product-ac__inn {
-  table-layout: fixed;
-}
-
-.product-ac__inn > * {
-  vertical-align: top;
-}
-
-.product-ac__photo {
-  width: 80px;
-  padding-right: 20px;
-}
-
-@media only screen and (max-width: 640px) {
-  .product-ac__photo {
-    width: 50px;
-    padding-right: 10px;
-  }
-}
-
-.product-ac__img {
-  display: inline-block;
-  max-width: 100%;
-  width: 100%;
-}
-
-.product-ac__name {
-  max-width: 350px;
-  font-size: 14px;
-  -o-text-overflow: clip;
-  text-overflow: clip;
-  display: inline-block;
-  white-space: normal;
-  overflow: visible;
-  line-height: 1.3;
-}
-
-@media only screen and (max-width: 640px) {
-  .product-ac__name {
-    font-size: 12px;
-  }
-}
-
-.product-ac .price, .product-ac .bx-soa-cart-total-line-total .bx-soa-cart-d, .bx-soa-cart-total-line-total .product-ac .bx-soa-cart-d {
-  display: block;
-  font-size: 16px;
-}
-
-@media only screen and (max-width: 640px) {
-  .product-ac .price, .product-ac .bx-soa-cart-total-line-total .bx-soa-cart-d, .bx-soa-cart-total-line-total .product-ac .bx-soa-cart-d {
-    font-size: 14px;
-  }
-}
-
-
-.item-grid__name, .product-ac__name {
-  font-size: 16px;
-  color: #2f2f2f;
-  font-weight: 300;
-  margin-bottom: 5px;
-  -webkit-transition: all ease .3s;
-  -o-transition: all ease .3s;
-  transition: all ease .3s;
-  display: inline-block;
-  white-space: nowrap;
-  overflow: hidden;
-  -o-text-overflow: ellipsis;
-  text-overflow: ellipsis;
-  width: 100%;
-  padding-left: 5px;
-}
-
-@media only screen and (max-width: 480px) {
-  .item-grid__name, .product-ac__name {
-    font-size: 16px;
-    margin-bottom: 3px;
-  }
-}
-
-
-
-.item-grid__name:hover, .product-ac__name:hover {
-  color: #d22262;
-  text-decoration: underline;
-}
-
-
-		i.icon-user:before {
-			width: 21px;
-		    content: " ";
-		    background: url(/assets/img/user-profile.svg) no-repeat;
-		    position: absolute;
-		    left: 0px;
-		    top: -2px;
-		    height: 17px;
-		    background-size: 100% 100%;
-		}
-
-		/*кастомные стили*/
-		.p-about__title {
-			font-family: Roboto;
-			font-style: normal;
-			font-weight: 900;
-			font-size: 25px;
-			line-height: 30px;
-			margin-bottom: 20px;									/* identical to box height, or 120% */
-			color: #48BE7A;
-		}
-
-		.sub1 {
-
-			margin-bottom: 36px;
-
-			font-family: Roboto;
-			font-style: normal;
-			font-weight: 500;
-			font-size: 18px;
-			line-height: 30px;
-			/* or 167% */
-
-
-			color: #4A484E;
-		}
-
-		.custom-p {
-			font-family: Roboto;
-			font-style: normal;
-			font-weight: 500;
-			font-size: 25px;
-			line-height: 30px;
-
-			margin-bottom: 26px;
-
-			color: #4A484E;
-
-		}
-
-		.green {
-			color: #48BE7A;
-		}
-
-		.custom-t {
-			font-family: Roboto;
-			font-style: normal;
-			font-weight: bold;
-			font-size: 18px;
-			line-height: 28px;
-			margin-bottom: 40px;
-		}
-
-		.custom-t p {
-			font-family: Roboto;
-			font-style: normal;
-			font-weight: normal;
-			font-size: 18px;
-			line-height: 28px;
-			/* or 156% */
-			margin-bottom: 14px;
-
-			color: #4A484E;
-		}
-
-		.custom-img {
-			vertical-align: top;
-		}
-
-		.custom-t-title {
-			text-align: center;
-			font-size: 25px;
-			margin-bottom: 35px;
-		}
-
-		.d-flex {
-			display: flex;
-			flex-wrap: wrap;
-			justify-content: space-around;
-			margin-bottom: 70px;
-		}
-
-		.d-flex-center {
-			display: flex;
-			flex-wrap: wrap;
-			justify-content: center;
-			margin-bottom: 70px;
-		}
-
-		.d-flex div {
-			display: inline-block;
-			max-width: 206px;
-			margin-bottom: 40px;
-		}
-
-		.d-flex div img {
-			border-radius: 2%;
-			margin-bottom: 20px;
-		}
-
-		.d-flex div p {
-			font-family: Roboto;
-			font-style: normal;
-			font-weight: normal;
-			font-size: 25px;
-			line-height: 30px;
-			/* identical to box height, or 120% */
-
-			text-align: center;
-
-			color: #4A484E;
-		}
-
-		.logo-glass {
-			max-width: 36px;
-		}
-
-		.d-flex .text {
-
-			padding: 20px;
-			border: 1px solid black;
-			display: inline-block;
-		}
-
-		.d-flex	.text p {
-			font-family: Roboto;
-			font-style: normal;
-			font-weight: normal;
-			font-size: 14px;
-			line-height: 25px;
-			text-align: left;
-
-
-			color: #4A484E;
-		}
-
-		.order-about {
-			width: 213px;
-			border: 1px solid #E3DFE1;
-			border-radius: 6px;
-		}
-
-		.d-flex-center .order-about {
-			margin: 0 1.1%;
-
-		}
-
-		.order-sellers .order-about {
-			height: 270px;
-		}
-
-		.order-agents .order-about {
-			height: 190px;
-			margin-bottom: 2%;
-		}
-
-		.order-agents {
-			margin: 0;
-		}
-
-		.d-flex	 .order-about p,
-		.d-flex-center .order-about p {
-			font-family: Roboto;
-			font-style: normal;
-			font-weight: normal;
-			font-size: 14px;
-			line-height: 25px;
-			/* or 179% */
-			margin: 0 15px;
-			text-align: center;
-
-			color: #4A484E;
-		}
-
-		.d-flex	.numeral-div,
-		.d-flex-center	.numeral-div {
-			width: 213px;
-			height: 50px;
-			display: flex;
-			align-items: center;
-			text-align: center;
-			justify-content: center;
-			margin: 0;
-
-		}
-
-	   .d-flex	.numeral,
-		 .d-flex-center	.numeral {
-			display: inline;
-			font-family: Roboto;
-			font-style: normal;
-			font-weight: 900;
-			font-size: 18px;
-			line-height: 25px;
-			width: 36px;
-			height: 25px;
-			margin: 0;
-		}
-
-		.icons-div {
-			max-width: 200px;
-			margin: 69px auto;
-		}
-
-		.slogan-border {
-			margin: 0 auto;
-			width: 50px;
-			border-top: 1px solid #c4c4c4;
-		}
-
-		.slogan {
-			margin-top: 67px;
-			margin-bottom: 115px;
-		}
-
-		#mission {
-			margin: 0;
-		}
-
-		#photo {
-			margin: 0;
-		}
-
-		#photo .d-flex {
-			margin: 0;
-		}
-
-		 .text-weight {
-			 margin-bottom: 21px;
-			 font-weight: 900;
-		 }
-
-		 #services {
-			 margin-bottom: 49px;
-		 }
-
-		  #services .custom-height-1 .p-about__features-right .custom-t {
-				margin: 0;
-			}
-
-			#services .custom-height-1 .d-flex {
-
-				margin: 0;
-			}
-
-			#services > div:nth-child(3) > div.p-about__features-right > div.d-flex > div {
-				margin: 0;
-			}
-
-			#blocks > div.d-flex.order-sellers {
-				margin: 0;
-			}
-
-			#services > div:nth-child(2) > div.p-about__features-right > div.p-about__text.custom-t > p {
-				font-family: Roboto;
-				font-style: normal;
-				font-weight: 500;
-				font-size: 18px;
-				line-height: 30px;
-				/* or 167% */
-
-
-				color: #4A484E;
-			}
-
-			body > .up-btn {
-				bottom: 100px;
-			}
-			@media only screen and (max-width: 320px) {
-			  body p,
-				body div {
-			    text-align: center;
-
-			  }
-
-				.logo_small {
-					display: none;
-				}
-				#mission > div.p-about__features > div.p-about__features-right > div.p-about__text.custom-t > p:nth-child(1) {
-					margin: 0;
-				}
-
-				.block {
-						w: 30px;
+					  padding-left: 15px;
 					}
-				}
 
-				.content{
-					padding-top: 30px;
-				}
-			}
-	@media only screen and (max-width: 760px) {
-		#mission:hover ~ .block {
-				padding-top: 30px;
-			}
-		}
+					@media only screen and (max-width: 940px) {
+					  .header__search {
+					    padding-left: 0;
+					  }
+					}
 
-		.content {
-			padding-top: 30px;
-		}
-		}
+					@media only screen and (max-width: 480px) {
+					  .header__search {
+					    display: none;
+					    position: absolute;
+					    top: 100%;
+					    left: 0;
+					    width: 100%;
+					  }
+					}
+
+					.header__search .search:before {
+					  display: none;
+					}
+
+					@media only screen and (max-width: 760px) {
+					  .header__search .search__input {
+					    padding-top: 7px;
+					    padding-bottom: 7px;
+					  }
+					}
+
+					@media only screen and (max-width: 480px) {
+					  .header__search .search__input {
+					    border-radius: 0;
+					  }
+					}
+
+					@media only screen and (max-width: 480px) {
+					  .header__search .search__submit {
+					    display: none;
+					  }
+					}
+
+					@media only screen and (max-width: 480px) {
+					  .header__search .search__close {
+					    display: block;
+					  }
+					}
+
+					.search .awesomplete > ul {
+					  border-top: 0;
+					}
+
+					.search .awesomplete > ul > li {
+					  text-decoration: none;
+					  padding: 0;
+					  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+					}
+
+					.search .awesomplete > ul > li:last-child {
+					  border-bottom: 0;
+					}
+
+					.product-ac {
+					  padding: 15px 10px;
+					}
+
+					.product-ac__inn {
+					  table-layout: fixed;
+					}
+
+					.product-ac__inn > * {
+					  vertical-align: top;
+					}
+
+					.product-ac__photo {
+					  width: 80px;
+					  padding-right: 20px;
+					}
+
+					@media only screen and (max-width: 640px) {
+					  .product-ac__photo {
+					    width: 50px;
+					    padding-right: 10px;
+					  }
+					}
+
+					.product-ac__img {
+					  display: inline-block;
+					  max-width: 100%;
+					  width: 100%;
+					}
+
+					.product-ac__name {
+					  max-width: 350px;
+					  font-size: 14px;
+					  -o-text-overflow: clip;
+					  text-overflow: clip;
+					  display: inline-block;
+					  white-space: normal;
+					  overflow: visible;
+					  line-height: 1.3;
+					}
+
+					@media only screen and (max-width: 640px) {
+					  .product-ac__name {
+					    font-size: 12px;
+					  }
+					}
+
+					.product-ac .price, .product-ac .bx-soa-cart-total-line-total .bx-soa-cart-d, .bx-soa-cart-total-line-total .product-ac .bx-soa-cart-d {
+					  display: block;
+					  font-size: 16px;
+					}
+
+					@media only screen and (max-width: 640px) {
+					  .product-ac .price, .product-ac .bx-soa-cart-total-line-total .bx-soa-cart-d, .bx-soa-cart-total-line-total .product-ac .bx-soa-cart-d {
+					    font-size: 14px;
+					  }
+					}
+
+
+					.item-grid__name, .product-ac__name {
+					  font-size: 16px;
+					  color: #2f2f2f;
+					  font-weight: 300;
+					  margin-bottom: 5px;
+					  -webkit-transition: all ease .3s;
+					  -o-transition: all ease .3s;
+					  transition: all ease .3s;
+					  display: inline-block;
+					  white-space: nowrap;
+					  overflow: hidden;
+					  -o-text-overflow: ellipsis;
+					  text-overflow: ellipsis;
+					  width: 100%;
+					  padding-left: 5px;
+					}
+
+					@media only screen and (max-width: 480px) {
+					  .item-grid__name, .product-ac__name {
+					    font-size: 16px;
+					    margin-bottom: 3px;
+					  }
+					}
+
+
+
+					.item-grid__name:hover, .product-ac__name:hover {
+					  color: #d22262;
+					  text-decoration: underline;
+					}
+
+
+							i.icon-user:before {
+								width: 21px;
+							    content: " ";
+							    background: url(/assets/img/user-profile.svg) no-repeat;
+							    position: absolute;
+							    left: 0px;
+							    top: -2px;
+							    height: 17px;
+							    background-size: 100% 100%;
+							}
+
+							/*кастомные стили*/
+							.p-about__title {
+								font-family: Roboto;
+								font-style: normal;
+								font-weight: 900;
+								font-size: 25px;
+								line-height: 30px;
+								margin-bottom: 20px;									/* identical to box height, or 120% */
+								color: #48BE7A;
+							}
+
+							.sub1 {
+
+								margin-bottom: 36px;
+
+								font-family: Roboto;
+								font-style: normal;
+								font-weight: 500;
+								font-size: 18px;
+								line-height: 30px;
+								/* or 167% */
+
+
+								color: #4A484E;
+							}
+
+							.custom-p {
+								font-family: Roboto;
+								font-style: normal;
+								font-weight: 500;
+								font-size: 25px;
+								line-height: 30px;
+
+								margin-bottom: 26px;
+
+								color: #4A484E;
+
+							}
+
+							.green {
+								color: #48BE7A;
+							}
+
+							.custom-t {
+								font-family: Roboto;
+								font-style: normal;
+								font-weight: bold;
+								font-size: 18px;
+								line-height: 28px;
+								margin-bottom: 40px;
+							}
+
+							.custom-t p {
+								font-family: Roboto;
+								font-style: normal;
+								font-weight: normal;
+								font-size: 18px;
+								line-height: 28px;
+								/* or 156% */
+								margin-bottom: 14px;
+
+								color: #4A484E;
+							}
+
+							.custom-img {
+								vertical-align: top;
+							}
+
+							.custom-t-title {
+								text-align: center;
+								font-size: 25px;
+								margin-bottom: 35px;
+							}
+
+							.d-flex {
+								display: flex;
+								flex-wrap: wrap;
+								justify-content: space-around;
+								margin-bottom: 70px;
+							}
+
+							.d-flex-center {
+								display: flex;
+								flex-wrap: wrap;
+								justify-content: center;
+								margin-bottom: 70px;
+							}
+
+							.d-flex div {
+								display: inline-block;
+								max-width: 206px;
+								margin-bottom: 40px;
+							}
+
+							.d-flex div img {
+								border-radius: 2%;
+								margin-bottom: 20px;
+							}
+
+							.d-flex div p {
+								font-family: Roboto;
+								font-style: normal;
+								font-weight: normal;
+								font-size: 25px;
+								line-height: 30px;
+								/* identical to box height, or 120% */
+
+								text-align: center;
+
+								color: #4A484E;
+							}
+
+							.logo-glass {
+								max-width: 36px;
+							}
+
+							.d-flex .text {
+
+								padding: 20px;
+								border: 1px solid black;
+								display: inline-block;
+							}
+
+							.d-flex	.text p {
+								font-family: Roboto;
+								font-style: normal;
+								font-weight: normal;
+								font-size: 14px;
+								line-height: 25px;
+								text-align: left;
+
+
+								color: #4A484E;
+							}
+
+							.order-about {
+								width: 213px;
+								border: 1px solid #E3DFE1;
+								border-radius: 6px;
+							}
+
+							.d-flex-center .order-about {
+								margin: 0 1.1%;
+
+							}
+
+							.order-sellers .order-about {
+								height: 270px;
+							}
+
+							.order-agents .order-about {
+								height: 190px;
+								margin-bottom: 2%;
+							}
+
+							.order-agents {
+								margin: 0;
+							}
+
+							.d-flex	 .order-about p,
+							.d-flex-center .order-about p {
+								font-family: Roboto;
+								font-style: normal;
+								font-weight: normal;
+								font-size: 14px;
+								line-height: 25px;
+								/* or 179% */
+								margin: 0 15px;
+								text-align: center;
+
+								color: #4A484E;
+							}
+
+							.d-flex	.numeral-div,
+							.d-flex-center	.numeral-div {
+								width: 213px;
+								height: 50px;
+								display: flex;
+								align-items: center;
+								text-align: center;
+								justify-content: center;
+								margin: 0;
+
+							}
+
+						   .d-flex	.numeral,
+							 .d-flex-center	.numeral {
+								display: inline;
+								font-family: Roboto;
+								font-style: normal;
+								font-weight: 900;
+								font-size: 18px;
+								line-height: 25px;
+								width: 36px;
+								height: 25px;
+								margin: 0;
+							}
+
+							.icons-div {
+								max-width: 200px;
+								margin: 69px auto;
+							}
+
+							.slogan-border {
+								margin: 0 auto;
+								width: 50px;
+								border-top: 1px solid #c4c4c4;
+							}
+
+							.slogan {
+								margin-top: 67px;
+								margin-bottom: 115px;
+							}
+
+							#mission {
+								margin: 0;
+							}
+
+							#photo {
+								margin: 0;
+							}
+
+							#photo .d-flex {
+								margin: 0;
+							}
+
+							 .text-weight {
+								 margin-bottom: 21px;
+								 font-weight: 900;
+							 }
+
+							 #services {
+								 margin-bottom: 49px;
+							 }
+
+							  #services .custom-height-1 .p-about__features-right .custom-t {
+									margin: 0;
+								}
+
+								#services .custom-height-1 .d-flex {
+
+									margin: 0;
+								}
+
+								#services > div:nth-child(3) > div.p-about__features-right > div.d-flex > div {
+									margin: 0;
+								}
+
+								#blocks > div.d-flex.order-sellers {
+									margin: 0;
+								}
+
+								#services > div:nth-child(2) > div.p-about__features-right > div.p-about__text.custom-t > p {
+									font-family: Roboto;
+									font-style: normal;
+									font-weight: 500;
+									font-size: 18px;
+									line-height: 30px;
+									/* or 167% */
+
+
+									color: #4A484E;
+								}
+
+								body > .up-btn {
+									bottom: 100px;
+								}
+								@media only screen and (max-width: 320px) {
+								  body p,
+									body div {
+								    text-align: center;
+
+								  }
+
+									.logo_small {
+										display: none;
+									}
+									#mission > div.p-about__features > div.p-about__features-right > div.p-about__text.custom-t > p:nth-child(1) {
+										margin: 0;
+									}
+
+									.block {
+											w: 30px;
+										}
+									}
+
+									.content{
+										padding-top: 30px;
+									}
+								}
+						@media only screen and (max-width: 760px) {
+							#mission:hover ~ .block {
+									padding-top: 30px;
+								}
+							}
+
+							.content {
+								padding-top: 30px;
+							}
+							}
 
 
 		</style>
 
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-		<script>
-			$(document).ready(function() {
+		             ~~include file='tpl/top_script.tpl'~
 
-				$("[data-toggle='location-dropdown']").click(function(e) {
-					$(".location-dropdown").toggleClass("hidden");
-					e.stopPropagation();
-				});
-
-			});
-		</script>
 	</head>
 
 	<body>
@@ -543,70 +523,11 @@
 				</div>
 			</div>
 		</div>
-		<div class="m-nav js-m-nav">
-			<div class="m-nav__group">
-				<a href="#login" class="m-nav__link m-nav__link--icon"> Авторизация </a>
-			</div>
-			<div class="m-nav__group">
-				<a href="#" class="m-nav__link m-nav__location js-location-select-toggle"> <span>Город:</span> Москва </a>
-			</div>
-			<div class="m-nav__group">
 
-				<div class="m-nav__catalog">
-					<div class="m-catalog js-m-catalog">
-						<ul class="m-catalog__list">
-							<li class="m-catalog__item m-catalog__item--has-sub">
-								<a data-id="1" href="#" class="m-catalog__link m-catalog__link--icon js-m-catalog-link">
-								<div class="m-catalog__link-icon">
-									<svg class="icon icon-bag-1">
-										<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/assets/img/sprite.svg#icon-bag-1"></use>
-									</svg>
-								</div> Сумки </a>
-							</li>
-							<li class="m-catalog__item m-catalog__item--has-sub">
-								<a data-id="10" href="#" class="m-catalog__link m-catalog__link--icon js-m-catalog-link">
-								<div class="m-catalog__link-icon">
-									<svg class="icon icon-hanger">
-										<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/assets/img/sprite.svg#icon-hanger"></use>
-									</svg>
-								</div> Другой товар </a>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-			<div class="m-nav__group">
-				<a href="#" class="m-nav__link">Контакты</a>
-			</div>
+	 	 ~~include file='tpl/nav.tpl'~
 
-		</div>
-		<div class="location-select js-location-select">
-			<div class="l-wrapper">
-				<div class="location-select__inn">
-					<div class="location-select__header js-location-header">
-						<div class="title h1">
-							Выберите ваш город
-						</div>
-						<div class="location-select__search">
-							<form autocomplete="off" class="search">
-								<input type="text" class="search__input" placeholder="Введите область, регион или населенный пункт">
-							</form>
-						</div>
-						<a href="#" class="location-select__close close-btn js-location-close">Закрыть</a>
-					</div>
-					<div class="location-select__block js-custom-scroll js-location-list">
-						<div class="location-select__cells">
-							<ul class="location-select__list">
-								<li>
-									<a class="location-select__link location-select__link--bold" href="#">Москва</a>
-								</li>
-							</ul>
+			~~include file='tpl/location-select.tpl'~
 
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
 		<div class="fast-view js-fast-view">
 			<div class="fast-view__inn">
 				<div class="fast-view__container">
@@ -909,261 +830,18 @@
 				</div>
 			</div>
 		</div>
-		<div class="modal remodal md-login" data-remodal-id="login">
-			<button class="modal__close close-btn" data-remodal-action="close">
-				Закрыть
-			</button>
-			<div class="login-tabs js-tabs">
-				<ul class="login-tabs__menu">
-					<li class="login-tabs__item is-active">
-						<a data-el="tab" href="#login_tab" class="login-tabs__link"><span>Я уже тут</span></a>
-					</li>
-					<li class="login-tabs__item">
-						<a data-el="tab" href="#register_tab" class="login-tabs__link"><span>Хочу к вам</span></a>
-					</li>
-				</ul>
-				<div class="login-tabs__panes">
-					<div data-el="pane" id="login_tab" class="login-tabs__pane is-active">
-						<div class="md-login__social">
-							<a class="md-login__social-item md-login__social-item--vk" href="#"></a><a class="md-login__social-item md-login__social-item--fb" href="#"></a><a class="md-login__social-item md-login__social-item--tw" href="#"></a><a class="md-login__social-item md-login__social-item--gplus"
-							href="#"></a>
-						</div>
-						<div class="md-login__or">
-							или
-						</div>
-						<form autocomplete="off" class="md-login__form">
-							<div class="form-row">
-								<div class="complex-input complex-input--icon js-complex-input">
-									<label class="complex-input__label">E-mail</label>
-									<div class="complex-input__icon">
-										<i class="ticon ticon-user-1 "></i>
-									</div>
-									<div class="complex-input__input">
-										<input type="email" class="input">
-									</div>
-								</div>
-							</div>
-							<div class="form-row">
-								<div class="complex-input complex-input--icon password-input js-complex-input">
-									<label class="complex-input__label">Пароль</label>
-									<div class="complex-input__icon">
-										<i class="ticon ticon-lock "></i>
-									</div>
-									<div class="complex-input__input">
-										<input type="password" class="input js-toggle-password">
-									</div>
-									<div class="password-input__block">
-										<div class="password-input__forgot">
-											<a href="#">Забыли пароль?</a>
-										</div>
-										<a title="Скрыть пароль" href="#" class="toggle-password js-toggle-password-btn"><i></i></a>
-									</div>
-								</div>
-							</div>
-							<div class="form-row">
-								<button type="submit" class="btn btn--pink btn--lg">
-									<i style="font-size: 19px;" class="ticon ticon-key "></i>
-									Войти
-								</button>
-							</div>
-						</form>
-					</div>
-					<div data-el="pane" id="register_tab" class="login-tabs__pane">
-						<div class="md-login__social">
-							<a class="md-login__social-item md-login__social-item--vk" href="#"></a><a class="md-login__social-item md-login__social-item--fb" href="#"></a><a class="md-login__social-item md-login__social-item--tw" href="#"></a><a class="md-login__social-item md-login__social-item--gplus"
-							href="#"></a>
-						</div>
-						<div class="md-login__or">
-							или
-						</div>
-						<form autocomplete="off" class="md-login__form js-example-form">
-							<div class="form-row">
-								<div class="form-help">
-									<a href="#" class="form-help__close close-btn js-parent-remove"></a>
-									<p>
-										При регистрации Личного Кабинета, просим Вас указывать реальные данные.
-									</p>
-									<p>
-										Корректное ФИО необходимо для осуществления возврата денежных средств после оплаты.
-									</p>
-									<p>
-										Адрес электронной почты необходим, чтобы Вы всегда были в курсе всех акций и статусов Ваших заказов.
-									</p>
-									<p>
-										Номер телефона необходим, чтобы в день доставки с Вами мог связаться наш курьер. Так же, по Вашему желанию, Вам могут приходить смс уведомления о текущих акциях и специальных предложениях.
-									</p>
-								</div>
-								<div class="complex-input complex-input--icon is-valid js-complex-input">
-									<label class="complex-input__label">E-mail</label>
-									<div class="complex-input__icon">
-										<i class="ticon ticon-user-1 "></i>
-									</div>
-									<div class="complex-input__input">
-										<input type="email" class="input">
-									</div>
-								</div>
-								<label class="switcher ">
-									<div class="switcher__inn">
-										<div class="switcher__toggle">
-											<input  type="checkbox" class="js-switchery ">
-										</div>
-										<div class="switcher__label">
-											Подписаться на новости
-										</div>
-									</div> </label>
-							</div>
-							<div class="form-row">
-								<div class="complex-input js-complex-input">
-									<label class="complex-input__label">Фамилия</label>
-									<div class="complex-input__input">
-										<input data-error="Введите фамилию на русском языке" type="text" class="input" name="second_name">
-									</div>
-								</div>
-							</div>
-							<div class="form-row">
-								<div class="complex-input js-complex-input">
-									<label class="complex-input__label">Имя</label>
-									<div class="complex-input__input">
-										<input type="text" class="input">
-									</div>
-								</div>
-							</div>
-							<div class="form-row">
-								<div class="gender-select">
-									<div class="gender-select__inn">
-										<div class="gender-select__label">
-											Пол:
-										</div>
-										<div class="gender-select__item">
-											<label class="gender-select__checkbox">
-												<input type="radio" name="gender" value="man">
-												<span class="gender-select__checkbox-item"> <i  class="ticon ticon-man "></i> </span> </label>
-										</div>
-										<div class="gender-select__item">
-											<label class="gender-select__checkbox">
-												<input type="radio" name="gender" value="woman">
-												<span class="gender-select__checkbox-item"> <i  class="ticon ticon-woman "></i> </span> </label>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="form-row">
-								<div class="row">
-									<div class="col-sm-3">
-										<select data-placeholder="День" class="select">
-											<option></option>
 
-											<option>1</option>
+			~~include file='tpl/reg/login.tpl'~
 
-										</select>
-									</div>
-									<div class="col-sm-5">
-										<select data-placeholder="Месяц" class="select">
-											<option></option>
 
-											<option>Январь</option>
-
-										</select>
-									</div>
-									<div class="col-sm-4">
-										<select data-placeholder="Год" class="select">
-											<option></option>
-
-											<option>1900</option>
-
-										</select>
-									</div>
-								</div>
-							</div>
-							<div class="form-row hidden-xs">
-								<div class="input-row password-row js-password-row">
-									<div class="input-row__cell input-row__icon">
-										<i class="ticon ticon-asterisk "></i>
-									</div>
-									<div class="input-row__cell input-row__cell--tiny">
-										<input class="input js-toggle-password" type="password">
-									</div>
-									<div class="input-row__cell input-row__cell--tiny">
-										<input class="input js-toggle-password" type="password">
-									</div>
-									<div class="input-row__cell input-row__cell--tiny">
-										<input class="input js-toggle-password" type="password">
-									</div>
-									<div class="input-row__cell input-row__cell--tiny">
-										<input class="input js-toggle-password" type="password">
-									</div>
-									<div class="input-row__cell input-row__cell--tiny">
-										<input class="input js-toggle-password" type="password">
-									</div>
-									<div class="input-row__cell input-row__cell--tiny">
-										<input class="input js-toggle-password" type="password">
-									</div>
-									<div class="input-row__cell input-row__cell--tiny">
-										<input class="input js-toggle-password" type="password">
-									</div>
-									<div class="input-row__cell input-row__cell--tiny">
-										<input class="input js-toggle-password" type="password">
-									</div>
-									<a title="Скрыть пароль" href="#" class="toggle-password js-toggle-password-btn input-row__cell"> <i></i> </a>
-								</div>
-							</div>
-							<div class="form-row xvisible-sm">
-								<div class="complex-input js-complex-input">
-									<label class="complex-input__label">Пароль</label>
-									<div class="complex-input__input">
-										<input type="password" class="input">
-									</div>
-								</div>
-							</div>
-							<div class="form-row">
-								<div class="input-row">
-									<div class="input-row__cell input-row__icon">
-										<i class="ticon ticon-mobile "></i>
-									</div>
-									<div class="input-row__cell input-row__cell--border text-center" style="width: 80px;">
-										<select class="select">
-
-											<option>+7</option>
-
-										</select>
-									</div>
-									<div class="input-row__cell">
-										<input type="text" class="input js-phone-mask" placeholder="(___) ___-__-__">
-									</div>
-								</div>
-								<label class="switcher ">
-									<div class="switcher__inn">
-										<div class="switcher__toggle">
-											<input  type="checkbox" class="js-switchery ">
-										</div>
-										<div class="switcher__label">
-											Получать SMS об акциях и спецпредложениях
-										</div>
-									</div> </label>
-							</div>
-							<div class="form-row">
-								<button type="submit" class="btn btn--pink btn--lg">
-									<i style="font-size: 27px;" class="ticon ticon-door "></i>
-									Зарегистрироваться
-								</button>
-							</div>
-							<div class="form-row">
-								<div class="text">
-									Я соглашаюсь с условиями <a class="link link--ul" href="#">Публичной оферты</a>
-								</div>
-							</div>
-						</form>
-					</div>
-				</div>
-			</div>
-		</div>
 		<a href="#" class="up-btn js-up-btn">Наверх</a>
 		<div class="l-main js-main">
 			<header class="header js-header">
 				<div class="header__inn">
-					~~include file='tpl/topbar.tpl'~
-					~~include file='tpl/header__wrapper.tpl'~
-					~~include file='tpl/nav__js-nav.tpl'~
+
+            ~~include file='tpl/header__wrapper.tpl'~
+
+						~~include file='tpl/nav__js-nav.tpl'~
 
 				</div>
 			</header>
@@ -1454,7 +1132,7 @@
 			</div>
 			~~include file='tpl/footer.tpl'~
 		</div>
-		~~include file='tpl/body_script.tpl'~
+		~~include file='tpl/bottom_script.tpl'~
 	</body>
 
 </html>

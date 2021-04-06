@@ -531,4 +531,4 @@
         #register_tab > form > div.form-row.hidden-xs > div:nth-child(2) > div {
           border-radius: 6px;
         }
-</style>
+      </style>
