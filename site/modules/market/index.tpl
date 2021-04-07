@@ -395,588 +395,471 @@
 				</div>
 			</div>
 		</div>
+
 		<div class="modal remodal md-login" data-remodal-id="login">
 			<button class="modal__close close-btn" data-remodal-action="close">
 				Закрыть
 			</button>
 			<div class="login-tabs js-tabs">
-				<ul class="login-tabs__menu">
-					<li class="login-tabs__item is-active">
-						<a data-el="tab" href="#login_tab" class="login-tabs__link"><span>Я уже тут</span></a>
-					</li>
-					<li class="login-tabs__item">
-						<a data-el="tab" href="#register_tab" class="login-tabs__link"><span>Хочу к вам</span></a>
-					</li>
-				</ul>
+				<!-- <ul class="login-tabs__menu">
+				<li class="login-tabs__item is-active">
+				<a data-el="tab" href="#login_tab" class="login-tabs__link"><span>Я уже тут</span></a>
+				</li>
+				<li class="login-tabs__item">
+				<a data-el="tab" href="#register_tab" class="login-tabs__link"><span>Хочу к вам</span></a>
+				</li>
+				</ul> -->
 				<div class="login-tabs__panes">
-					<div data-el="pane" id="login_tab" class="login-tabs__pane is-active">
-						<div class="md-login__social">
-							<a class="md-login__social-item md-login__social-item--vk" href="#"></a><a class="md-login__social-item md-login__social-item--fb" href="#"></a><a class="md-login__social-item md-login__social-item--tw" href="#"></a><a class="md-login__social-item md-login__social-item--gplus"
-							href="#"></a>
-						</div>
-						<div class="md-login__or">
-							или
-						</div>
-						<form autocomplete="off" class="md-login__form">
-							<div class="form-row">
-								<div class="complex-input complex-input--icon js-complex-input">
-									<label class="complex-input__label">E-mail</label>
-									<div class="complex-input__icon">
-										<i class="ticon ticon-user-1 "></i>
-									</div>
-									<div class="complex-input__input">
-										<input type="email" class="input">
-									</div>
-								</div>
-							</div>
-							<div class="form-row">
-								<div class="complex-input complex-input--icon password-input js-complex-input">
-									<label class="complex-input__label">Пароль</label>
-									<div class="complex-input__icon">
-										<i class="ticon ticon-lock "></i>
-									</div>
-									<div class="complex-input__input">
-										<input type="password" class="input js-toggle-password">
-									</div>
-									<div class="password-input__block">
-										<div class="password-input__forgot">
-											<a href="#">Забыли пароль?</a>
-										</div>
-										<a title="Скрыть пароль" href="#" class="toggle-password js-toggle-password-btn"><i></i></a>
-									</div>
-								</div>
-							</div>
-							<div class="form-row">
-								<button type="submit" class="btn btn--pink btn--lg">
-									<i style="font-size: 19px;" class="ticon ticon-key "></i>
-									Войти
-								</button>
-							</div>
-						</form>
+					<!-- <div data-el="pane" id="login_tab" class="login-tabs__pane">
+					<div class="md-login__social">
+					<a class="md-login__social-item md-login__social-item--vk" href="#"></a><a class="md-login__social-item md-login__social-item--fb" href="#"></a><a class="md-login__social-item md-login__social-item--tw" href="#"></a><a class="md-login__social-item md-login__social-item--gplus"
+					href="#"></a>
 					</div>
-					<div data-el="pane" id="register_tab" class="login-tabs__pane">
-						<div class="md-login__social">
-							<a class="md-login__social-item md-login__social-item--vk" href="#"></a><a class="md-login__social-item md-login__social-item--fb" href="#"></a><a class="md-login__social-item md-login__social-item--tw" href="#"></a><a class="md-login__social-item md-login__social-item--gplus"
-							href="#"></a>
+					<div class="md-login__or">
+					или
+					</div>
+					<form autocomplete="off" class="md-login__form">
+					<div class="form-row">
+					<div class="complex-input complex-input--icon js-complex-input">
+					<label class="complex-input__label">E-mail</label>
+					<div class="complex-input__icon">
+					<i class="ticon ticon-user-1 "></i>
+					</div>
+					<div class="complex-input__input">
+					<input type="email" class="input">
+					</div>
+					</div>
+					</div>
+					<div class="form-row">
+					<div class="complex-input complex-input--icon password-input js-complex-input">
+					<label class="complex-input__label">Пароль</label>
+					<div class="complex-input__icon">
+					<i class="ticon ticon-lock "></i>
+					</div>
+					<div class="complex-input__input">
+					<input type="password" class="input js-toggle-password">
+					</div>
+					<div class="password-input__block">
+					<div class="password-input__forgot">
+					<a href="#">Забыли пароль?</a>
+					</div>
+					<a title="Скрыть пароль" href="#" class="toggle-password js-toggle-password-btn"><i></i></a>
+					</div>
+					</div>
+					</div>
+					<div class="form-row">
+					<button type="submit" class="btn btn--pink btn--lg">
+					<i style="font-size: 19px;" class="ticon ticon-key "></i>
+					Войти
+					</button>
+					</div>
+					</form>
+					</div> -->
+					<div data-el="pane" id="register_tab" class="login-tabs__pane is-active">
+						<!-- <div class="md-login__social">
+						<a class="md-login__social-item md-login__social-item--vk" href="#"></a><a class="md-login__social-item md-login__social-item--fb" href="#"></a><a class="md-login__social-item md-login__social-item--tw" href="#"></a><a class="md-login__social-item md-login__social-item--gplus"
+						href="#"></a>
 						</div>
 						<div class="md-login__or">
-							или
-						</div>
+						или
+						</div> -->
 						<form autocomplete="off" class="md-login__form js-example-form">
-							<div class="form-row">
-								<div class="form-help">
-									<a href="#" class="form-help__close close-btn js-parent-remove"></a>
-									<p>
-										При регистрации Личного Кабинета, просим Вас указывать реальные данные.
-									</p>
-									<p>
-										Корректное ФИО необходимо для осуществления возврата денежных средств после оплаты.
-									</p>
-									<p>
-										Адрес электронной почты необходим, чтобы Вы всегда были в курсе всех акций и статусов Ваших заказов.
-									</p>
-									<p>
-										Номер телефона необходим, чтобы в день доставки с Вами мог связаться наш курьер. Так же, по Вашему желанию, Вам могут приходить смс уведомления о текущих акциях и специальных предложениях.
-									</p>
-								</div>
-								<div class="complex-input complex-input--icon is-valid js-complex-input">
-									<label class="complex-input__label">E-mail</label>
-									<div class="complex-input__icon">
-										<i class="ticon ticon-user-1 "></i>
-									</div>
-									<div class="complex-input__input">
-										<input type="email" class="input">
-									</div>
-								</div>
-								<label class="switcher ">
-									<div class="switcher__inn">
-										<div class="switcher__toggle">
-											<input  type="checkbox" class="js-switchery ">
-										</div>
-										<div class="switcher__label">
-											Подписаться на новости
-										</div>
-									</div> </label>
-							</div>
-							<div class="form-row">
-								<div class="complex-input js-complex-input">
-									<label class="complex-input__label">Фамилия</label>
-									<div class="complex-input__input">
-										<input data-error="Введите фамилию на русском языке" type="text" class="input" name="second_name">
-									</div>
-								</div>
-							</div>
-							<div class="form-row">
-								<div class="complex-input js-complex-input">
-									<label class="complex-input__label">Имя</label>
-									<div class="complex-input__input">
-										<input type="text" class="input">
-									</div>
-								</div>
-							</div>
-							<div class="form-row">
-								<div class="gender-select">
-									<div class="gender-select__inn">
-										<div class="gender-select__label">
-											Пол:
-										</div>
-										<div class="gender-select__item">
-											<label class="gender-select__checkbox">
-												<input type="radio" name="gender" value="man">
-												<span class="gender-select__checkbox-item"> <i  class="ticon ticon-man "></i> </span> </label>
-										</div>
-										<div class="gender-select__item">
-											<label class="gender-select__checkbox">
-												<input type="radio" name="gender" value="woman">
-												<span class="gender-select__checkbox-item"> <i  class="ticon ticon-woman "></i> </span> </label>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="form-row">
-								<div class="row">
-									<div class="col-sm-3">
-										<select data-placeholder="День" class="select">
-											<option></option>
+							<!-- <div class="form-row">
 
-											<option>1</option>
-
-										</select>
-									</div>
-									<div class="col-sm-5">
-										<select data-placeholder="Месяц" class="select">
-											<option></option>
-
-											<option>Январь</option>
-
-										</select>
-									</div>
-									<div class="col-sm-4">
-										<select data-placeholder="Год" class="select">
-											<option></option>
-
-											<option>1900</option>
-
-										</select>
-									</div>
-								</div>
+							<div class="complex-input complex-input--icon is-valid js-complex-input">
+							<label class="complex-input__label">E-mail</label>
+							<div class="complex-input__icon">
+							<i class="ticon ticon-user-1 "></i>
 							</div>
-							<div class="form-row hidden-xs">
-								<div class="input-row password-row js-password-row">
-									<div class="input-row__cell input-row__icon">
-										<i class="ticon ticon-asterisk "></i>
-									</div>
-									<div class="input-row__cell input-row__cell--tiny">
-										<input class="input js-toggle-password" type="password">
-									</div>
-									<div class="input-row__cell input-row__cell--tiny">
-										<input class="input js-toggle-password" type="password">
-									</div>
-									<div class="input-row__cell input-row__cell--tiny">
-										<input class="input js-toggle-password" type="password">
-									</div>
-									<div class="input-row__cell input-row__cell--tiny">
-										<input class="input js-toggle-password" type="password">
-									</div>
-									<div class="input-row__cell input-row__cell--tiny">
-										<input class="input js-toggle-password" type="password">
-									</div>
-									<div class="input-row__cell input-row__cell--tiny">
-										<input class="input js-toggle-password" type="password">
-									</div>
-									<div class="input-row__cell input-row__cell--tiny">
-										<input class="input js-toggle-password" type="password">
-									</div>
-									<div class="input-row__cell input-row__cell--tiny">
-										<input class="input js-toggle-password" type="password">
-									</div>
-									<a title="Скрыть пароль" href="#" class="toggle-password js-toggle-password-btn input-row__cell"> <i></i> </a>
-								</div>
+							<div class="complex-input__input">
+							<input type="email" class="input">
 							</div>
-							<div class="form-row xvisible-sm">
-								<div class="complex-input js-complex-input">
-									<label class="complex-input__label">Пароль</label>
-									<div class="complex-input__input">
-										<input type="password" class="input">
-									</div>
-								</div>
 							</div>
+							<label class="switcher ">
+							<div class="switcher__inn">
+							<div class="switcher__toggle">
+							<input  type="checkbox" class="js-switchery ">
+							</div>
+							<div class="switcher__label">
+							Подписаться на новости
+							</div>
+							</div> </label>
+							</div> -->
+							<!-- <div class="form-row">
+							<div class="complex-input js-complex-input">
+							<label class="complex-input__label">Фамилия</label>
+							<div class="complex-input__input">
+							<input data-error="Введите фамилию на русском языке" type="text" class="input" name="second_name">
+							</div>
+							</div>
+							</div> -->
+							<!-- <div class="form-row">
+							<div class="complex-input js-complex-input">
+							<label class="complex-input__label">Имя</label>
+							<div class="complex-input__input">
+							<input type="text" class="input">
+							</div>
+							</div>
+							</div> -->
+							<!-- <div class="form-row">
+							<div class="gender-select">
+							<div class="gender-select__inn">
+							<div class="gender-select__label">
+							Пол:
+							</div>
+							<div class="gender-select__item">
+							<label class="gender-select__checkbox">
+							<input type="radio" name="gender" value="man">
+							<span class="gender-select__checkbox-item"> <i  class="ticon ticon-man "></i> </span> </label>
+							</div>
+							<div class="gender-select__item">
+							<label class="gender-select__checkbox">
+							<input type="radio" name="gender" value="woman">
+							<span class="gender-select__checkbox-item"> <i  class="ticon ticon-woman "></i> </span> </label>
+							</div>
+							</div>
+							</div>
+							</div> -->
+							<!-- <div class="form-row">
+							<div class="row">
+							<div class="col-sm-3">
+							<select data-placeholder="День" class="select">
+							<option></option>
+
+							<option>1</option>
+
+							</select>
+							</div>
+							<div class="col-sm-5">
+							<select data-placeholder="Месяц" class="select">
+							<option></option>
+
+							<option>Январь</option>
+
+							</select>
+							</div>
+							<div class="col-sm-4">
+							<select data-placeholder="Год" class="select">
+							<option></option>
+
+							<option>1900</option>
+
+							</select>
+							</div>
+							</div>
+							</div> -->
 							<div class="form-row">
+
+								<div class="input-row text-reg">
+									ИНН
+								</div>
+								<div class="input-row">
+
+									<div class="input-row__cell input-row__cell--border-left ">
+										<input type="text" id="inn" class="input js-inn-mask" placeholder="___-___-___-___">
+									</div>
+								</div>
+
+							</div>
+
+							<div class="form-row">
+								<div class="input-row text-reg">
+									Телефон
+								</div>
 								<div class="input-row">
 									<div class="input-row__cell input-row__icon">
-										<i class="ticon ticon-mobile "></i>
+										+7
 									</div>
-									<div class="input-row__cell input-row__cell--border text-center" style="width: 80px;">
-										<select class="select">
+									<!-- <div class="input-row__cell input-row__cell--border text-center" style="width: 80px;">
+									<select class="select">
 
-											<option>+7</option>
+									<option>+7</option>
 
-										</select>
-									</div>
+									</select>
+									</div> -->
+
 									<div class="input-row__cell">
 										<input type="text" class="input js-phone-mask" placeholder="(___) ___-__-__">
 									</div>
 								</div>
-								<label class="switcher ">
-									<div class="switcher__inn">
-										<div class="switcher__toggle">
-											<input  type="checkbox" class="js-switchery ">
-										</div>
-										<div class="switcher__label">
-											Получать SMS об акциях и спецпредложениях
-										</div>
-									</div> </label>
+
 							</div>
 							<div class="form-row">
 								<button type="submit" class="btn btn--pink btn--lg">
-									<i style="font-size: 27px;" class="ticon ticon-door "></i>
 									Зарегистрироваться
 								</button>
-							</div>
-							<div class="form-row">
-								<div class="text">
-									Я соглашаюсь с условиями <a class="link link--ul" href="#">Публичной оферты</a>
-								</div>
 							</div>
 						</form>
 					</div>
 				</div>
 			</div>
 		</div>
+
 		<a href="#" class="up-btn js-up-btn">Наверх</a>
 		<div class="l-main js-main">
 			<header class="header js-header">
 				<div class="header__inn">
-					<div class="topbar">
-						<div class="l-wrapper">
-							<div class="topbar__inn">
-								<div class="topbar__location dropdown">
-									<a class="topbar__link topbar__link--dropdown js-dropdown-location js-dropdown-toggle" href="#"> <span class="js-positioned">Москва</span></a>
-									<div class="dropdown__block location-dropdown" style="display:none;">
-										<div class="location-dropdown__label">
-											Вы действительно находитесь в г. Москва?
-										</div>
-										<div class="block-table block-table--fixed">
-											<div>
-												<a class="location-dropdown__link js-dropdown-close" href="#">Да, все верно</a>
-											</div>
-											<div class="text-right">
-												<a class="location-dropdown__link js-location-select-toggle" href="#">Нет, сменить город</a>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="topbar__contacts">
-									<span class="topbar__phone">+7 (499) 130-79-46 (9:00 - 21:00)</span><a class="topbar__link topbar__link--dropdown" href="#"><span>Связаться с нами для размещения товара или услуги</span></a>
-								</div>
-								<!--div class="topbar__delivery"> <a class="topbar__link" href="#">
-								<i  class="ticon ticon-truck "></i>
-								<span>Бесплатная доставка при первой покупке</span></a> </div-->
-								<!--div class="topbar__day-item"> <a class="topbar__link" href="#">
-								<i  class="ticon ticon-discount "></i>
-								<span>Товар дня</span></a> </div-->
-								<div class="topbar__cabinet dropdown bonus">
-									<a class="topbar__link topbar__link--dropdown  js-dropdown-toggle  js-bonus-target" href="#"> <span class="js-positioned">Мой кабинет</span></a>
-									<div class="bonus__block" style="display:none!important;">
-										Дарим 500 руб. при регистрации <a href="#" class="bonus__close js-bonus-close">Закрыть</a>
-									</div>
-									<div class="dropdown__block cabinet-dropdown">
-										<div class="cabinet-dropdown__login">
-											<a href="#login" class="cabinet-dropdown__login-btn btn btn--pink js-login-tab-toggle">Вход</a><a href="#login" class="cabinet-dropdown__link js-register-tab-toggle">Создать учетную запись</a>
-										</div>
 
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="header__wrapper">
-						<div class="l-wrapper">
-							<div class="header__row">
-								<div class="header__nav-toggle">
-									<a href="#" class="hamburger hamburger--spin js-nav-toggle"><span>Каталог</span></a>
-								</div>
-								<div class="header__logo-mobile">
-									<a href=".">
-									<div class="logo logo--no-icon">
-										<div class="logo__inn">
-											<div class="logo__text"><img alt="" src="/assets/img/logo-text.svg">
-											</div>
-										</div>
-									</a>
-								</div>
-								<div class="header__logo">
-									<a href=".">
-									<div class="header__logo-default">
-										<div class="logo ">
-											<div class="logo__inn">
-												<!--div class="logo__icon">
-												<img alt="" src="/assets/img/logo-small.svg">
-												</div-->
-												<div class="logo__text"><img alt="" src="/assets/img/logo-text.svg">
-												</div>
-											</div>
-										</div>
-									</div>
-									<div class="header__logo-small">
-										<div class="logo logo--sm">
-											<div class="logo__inn">
-												<div class="logo__icon">
-													<img alt="" src="/assets/img/logo-small.svg">
-												</div>
-												<div class="logo__text"><img alt="" src="/assets/img/logo-text.svg">
-												</div>
-											</div>
-										</div>
-									</div> </a>
-								</div>
+<div class="header__wrapper">
+  <div class="l-wrapper">
+    <div class="header__row">
+      <div class="header__nav-toggle">
+        <a href="#" class="hamburger hamburger--spin js-nav-toggle"><span>Каталог</span></a>
+      </div>
+      <div class="header__logo-mobile">
+        <a href=".">
+        <div class="logo logo--no-icon">
+          <div class="logo__inn">
+            <div class="logo__text"><img alt="adwall" src="/assets/img/logo-text.svg">
+            </div>
+          </div>
+        </div> </a>
+      </div>
+      <div class="header__logo">
+        <a href=".">
+        <div class="header__logo-default">
+          <div class="logo ">
+            <div class="logo__inn">
 
-								<div class="header__search js-search">
-									<form autocomplete="off" class="search">
-										<input type="text" class="search__input" placeholder="Поиск товара или услуги">
-										<button type="submit" class="search__submit"></button>
-										<a href="#" class="search__close js-search-close"></a>
-									</form>
-								</div>
-								<div class="header__btn header__srch">
-									<a class="js-search-toggle" href="#"> <i  class="ticon ticon-loupe "></i> </a>
-								</div>
-								<!--div class="header__btn header__favorite"> <a class="js-favs" href="#">
+              <div class="logo__text"><img alt="adwall" src="/assets/img/logo-text.svg">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="header__logo-small">
+          <div class="logo logo--sm">
+            <div class="logo__inn">
 
-								<i  class="ticon ticon-favorite-fill "></i>
+              <div class="logo__text"><img alt="adwall" src="/assets/img/logo-text.svg">
+              </div>
+            </div>
+          </div>
+        </div> </a>
+      </div>
 
-								<span class="header__favorite-count">99</span>
-								</a> </div-->
-								<div class="header__btn header__cart dropdown">
-									<a class="js-dropdown-toggle js-cart" href="#"> <i  class="ticon ticon-cart "></i> <span class="header__cart-count">39</span> </a>
-									<div class="dropdown__block cart-dropdown">
-										<div class="cart-dropdown__items">
-											<div class="item-cart">
-												<div class="item-cart__inn">
-													<div class="item-cart__photo">
-														<div class="item-cart__img">
-															<a href="#"><img src="/assets/img/items/1.png"></a>
-														</div>
-													</div>
-													<div class="item-cart__info">
-														<a href="#" class="item-cart__name">David Jones</a><span class="item-cart__price price">9 000 р.</span>
-													</div>
-													<div class="item-cart__remove">
-														<a href="#" class="remove-btn js-item-remove"><i></i></a>
-													</div>
-												</div>
-											</div>
-											<div class="item-cart">
-												<div class="item-cart__inn">
-													<div class="item-cart__photo">
-														<div class="item-cart__img">
-															<a href="#"><img src="/assets/img/items/2.png"></a>
-														</div>
-													</div>
-													<div class="item-cart__info">
-														<a href="#" class="item-cart__name">Casio</a><span class="item-cart__price price">4 990 р.</span>
-													</div>
-													<div class="item-cart__remove">
-														<a href="#" class="remove-btn js-item-remove"><i></i></a>
-													</div>
-												</div>
-											</div>
-											<div class="item-cart">
-												<div class="item-cart__inn">
-													<div class="item-cart__photo">
-														<div class="item-cart__img">
-															<a href="#"><img src="/assets/img/items/3.png"></a>
-														</div>
-													</div>
-													<div class="item-cart__info">
-														<a href="#" class="item-cart__name">Salomon</a><span class="item-cart__price price">3 500 р.</span>
-													</div>
-													<div class="item-cart__remove">
-														<a href="#" class="remove-btn js-item-remove"><i></i></a>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div class="cart-dropdown__footer">
-											<div class="cart-dropdown__total">
-												Итого: 9 999 р.
-											</div>
-											<a href="#" class="cart-dropdown__btn btn btn--pink">Перейти в корзину</a>
-										</div>
-									</div>
-								</div>
-								<div class="header__btn header__cabinet dropdown">
-									<a class="js-dropdown-toggle" href="#"> <i  class="ticon ticon-user "></i> </a>
-									<div class="dropdown__block cabinet-dropdown">
-										<div class="cabinet-dropdown__login">
-											<a href="#login" class="cabinet-dropdown__login-btn btn btn--pink js-login-tab-toggle">Вход</a><a href="#login" class="cabinet-dropdown__link js-register-tab-toggle">Создать учетную запись</a>
-										</div>
+      <div class="header__search js-search">
+        <form autocomplete="off" class="search">
+          <input type="text" class="search__input" placeholder="Поиск товара или бренда">
+          <button type="submit" class="search__submit"></button>
+          <a href="#" class="search__close js-search-close"></a>
+        </form>
+      </div>
+      <div class="header__btn header__srch">
+        <a class="js-search-toggle" href="#"> <i  class="ticon ticon-loupe "></i> </a>
+      </div>
 
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<nav class="nav js-nav">
-						<div class="l-wrapper">
-							<div class="nav__bar js-nav-bar"></div>
-							<ul class="nav__list">
-								<li class="nav__item js-catalog-toggle">
-									<a class="nav__link nav__link--sub" href="#"><span>Услуги для бизнеса</span></a>
-								</li>
-								<li class="nav__item js-catalog-toggle">
-									<a class="nav__link nav__link--sub" href="#"><span>Туризм</span></a>
-								</li>
-							</ul>
-						</div>
-					</nav>
-					<div class="catalog js-catalog">
-						<div class="catalog__inn">
-							<div class="l-wrapper">
-								<div class="catalog__content">
-									<a href="#" class="catalog__close close-btn js-catalog-close">Закрыть</a>
-									<div class="catalog__title">
-										Услуги для бизнеса
-									</div>
-									<div class="catalog__content-inn">
-										<div class="catalog__categories">
-											<ul class="categories-menu">
+      <div class="header__btn header__cart dropdown">
+        	<a href="/cart/" class="cart to_cart"></a><span class="counter total_cart_amount" data-bind="text: total_cart_amount">39</span>
+        <div class="dropdown__block cart-dropdown">
+          <div class="cart-dropdown__items">
+            <div class="item-cart">
+              <div class="item-cart__inn">
+                <div class="item-cart__photo">
+                  <div class="item-cart__img">
+                    <a href="#"><img src="/assets/img/items/1.png"></a>
+                  </div>
+                </div>
+                <div class="item-cart__info">
+                  <a href="#" class="item-cart__name">David Jones</a><span class="item-cart__price price">9 000 р.</span>
+                </div>
+                <div class="item-cart__remove">
+                  <a href="#" class="remove-btn js-item-remove"><i></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="item-cart">
+              <div class="item-cart__inn">
+                <div class="item-cart__photo">
+                  <div class="item-cart__img">
+                    <a href="#"><img src="/assets/img/items/2.png"></a>
+                  </div>
+                </div>
+                <div class="item-cart__info">
+                  <a href="#" class="item-cart__name">Casio</a><span class="item-cart__price price">4 990 р.</span>
+                </div>
+                <div class="item-cart__remove">
+                  <a href="#" class="remove-btn js-item-remove"><i></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="item-cart">
+              <div class="item-cart__inn">
+                <div class="item-cart__photo">
+                  <div class="item-cart__img">
+                    <a href="#"><img src="/assets/img/items/3.png"></a>
+                  </div>
+                </div>
+                <div class="item-cart__info">
+                  <a href="#" class="item-cart__name">Salomon</a><span class="item-cart__price price">3 500 р.</span>
+                </div>
+                <div class="item-cart__remove">
+                  <a href="#" class="remove-btn js-item-remove"><i></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="cart-dropdown__footer">
+            <div class="cart-dropdown__total">
+              Итого: 9 999 р.
+            </div>
+            <a href="#" class="cart-dropdown__btn btn btn--pink">Перейти в корзину</a>
+          </div>
+        </div>
+      </div>
+      <div class="header__btn header__cabinet dropdown">
+        <a class="js-dropdown-toggle" href="#"> <i  class="ticon ticon-user "></i> </a>
+        <div class="dropdown__block cabinet-dropdown">
+          <div class="cabinet-dropdown__login">
+            <a href="#login" class="cabinet-dropdown__login-btn btn btn--pink js-login-tab-toggle">Вход</a><a href="#login" class="cabinet-dropdown__link js-register-tab-toggle">Создать учетную запись</a>
+          </div>
 
-												<li class="categories-menu__item categories-menu__item--sub">
-													<div class="categories-menu__item-inn">
-														<a href="#" class="categories-menu__link">Изготовление печатей</a>
-														<div class="categories-menu__count"></div>
-													</div>
-													<ul class="categories-menu__sub">
-														<li class="categories-menu__item">
-															<div class="categories-menu__item-inn">
-																<a href="#" class="categories-menu__link">печать новая (по реквизитам)</a>
-																<div class="categories-menu__count"></div>
-															</div>
-														</li>
-														<li class="categories-menu__item">
-															<div class="categories-menu__item-inn">
-																<a href="#" class="categories-menu__link">печати с защитой</a>
-																<div class="categories-menu__count"></div>
-															</div>
-														</li>
-														<li class="categories-menu__item">
-															<div class="categories-menu__item-inn">
-																<a href="#" class="categories-menu__link">печать по оттиску стандарт</a>
-																<div class="categories-menu__count"></div>
-															</div>
-														</li>
-														<li class="categories-menu__item">
-															<div class="categories-menu__item-inn">
-																<a href="#" class="categories-menu__link">печать врача</a>
-																<div class="categories-menu__count"></div>
-															</div>
-														</li>
-														<li class="categories-menu__item">
-															<div class="categories-menu__item-inn">
-																<a href="#" class="categories-menu__link">факсимиле (штамп подписи)</a>
-																<div class="categories-menu__count"></div>
-															</div>
-														</li>
-														<li class="categories-menu__item">
-															<div class="categories-menu__item-inn">
-																<a href="#" class="categories-menu__link">штамп</a>
-																<div class="categories-menu__count"></div>
-															</div>
-														</li>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
-													</ul>
-												</li>
-												<li class="categories-menu__item categories-menu__item--sub">
-													<div class="categories-menu__item-inn">
-														<a href="#" class="categories-menu__link">Саквояжи и дорожные сумки</a>
-														<div class="categories-menu__count"></div>
-													</div>
-													<ul class="categories-menu__sub">
-														<li class="categories-menu__item">
-															<div class="categories-menu__item-inn">
-																<a href="#" class="categories-menu__link">Дорожные сумки</a>
-																<div class="categories-menu__count"></div>
-															</div>
-														</li>
+<nav class="nav js-nav">
+  <div class="l-wrapper">
+    <div class="nav__bar js-nav-bar"></div>
+    <ul class="nav__list">
+      <li class="nav__item js-catalog-toggle">
+        <a class="nav__link nav__link--sub" href="#"><span>Сумки</span></a>
+      </li>
 
-													</ul>
-												</li>
-												<li class="categories-menu__item">
-													<div class="categories-menu__item-inn">
-														<a href="#" class="categories-menu__link">Сумочки</a>
-														<div class="categories-menu__count"></div>
-													</div>
-												</li>
+    </ul>
+  </div>
+</nav>
+<div class="catalog js-catalog">
+  <div class="catalog__inn">
+    <div class="l-wrapper">
+      <div class="catalog__content">
+        <a href="#" class="catalog__close close-btn js-catalog-close">Закрыть</a>
+        <div class="catalog__title">
+          Женские часы
+        </div>
+        <div class="catalog__content-inn">
+          <div class="catalog__categories">
+            <ul class="categories-menu">
+              <li class="categories-menu__item">
+                <div class="categories-menu__item-inn">
+                  <a href="#" class="categories-menu__link">Клатчи</a>
+                  <div class="categories-menu__count">
+                    99
+                  </div>
+                </div>
+              </li>
 
-											</ul>
-										</div>
-										<div class="catalog__brands">
-											<ul class="categories-menu">
-												<li class="categories-menu__title">
-													Бренды
-												</li>
-												<li class="categories-menu__item">
-													<a href="#" class="categories-menu__link">Adidas</a>
-													<div class="categories-menu__count">
-														99
-													</div>
-												</li>
-												<li class="categories-menu__item">
-													<a href="#" class="categories-menu__link">Adis</a>
-													<div class="categories-menu__count">
-														99
-													</div>
-												</li>
+              <li class="categories-menu__item categories-menu__item--sub">
+                <div class="categories-menu__item-inn">
+                  <a href="#" class="categories-menu__link">Рюкзаки и мешки</a>
+                  <div class="categories-menu__count">
+                    99
+                  </div>
+                </div>
+                <ul class="categories-menu__sub">
+                  <li class="categories-menu__item">
+                    <div class="categories-menu__item-inn">
+                      <a href="#" class="categories-menu__link">Мешки для обуви</a>
+                      <div class="categories-menu__count">
+                        99
+                      </div>
+                    </div>
+                  </li>
 
-												<li class="categories-menu__item">
-													<a href="#" class="categories-menu__link categories-menu__link--more">Все бренды</a>
-												</li>
-											</ul>
-										</div>
-										<div class="catalog__best">
-											<div class="hot-items">
-												<div class="hot-items__inn">
-													<div class="hot-items__header">
-														<div class="hot-items__title">
-															Лучшее предложение
-														</div>
-													</div>
-													<div class="item-hot js-item">
-														<div class="item-hot__inn">
-															<div class="item-hot__photo">
-																<a href="#"><img alt="Jennyfer" class="item-hot__img js-item-main-img" src="/assets/img/items/6.png"></a>
-															</div>
-															<div class="item-hot__info">
-																<a href="#" class="item-hot__name">Jennyfer</a><span class="item-hot__category">Ремень</span>
-																<div class="item-hot__prices item-hot__prices--inline">
-																	<div class="item-hot__prices-new">
-																		<span class="price price--hot">120 000 р.</span>
-																	</div>
-																	<div class="item-hot__prices-old">
-																		<span class="price price--old">999 999 руб.</span>
-																	</div>
-																</div>
-																<div class="item-hot__actions">
-																	<div>
-																		<a href="#" class="cart-btn js-cart-add "></a>
-																	</div>
-																	<div>
-																		<a href="#" class="fav-btn js-fav-add "></a>
-																	</div>
-																</div>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
+                </ul>
+              </li>
+              <li class="categories-menu__item categories-menu__item--sub">
+                <div class="categories-menu__item-inn">
+                  <a href="#" class="categories-menu__link">Саквояжи и дорожные сумки</a>
+                  <div class="categories-menu__count">
+                    99
+                  </div>
+                </div>
+                <ul class="categories-menu__sub">
+                  <li class="categories-menu__item">
+                    <div class="categories-menu__item-inn">
+                      <a href="#" class="categories-menu__link">Дорожные сумки</a>
+                      <div class="categories-menu__count">
+                        99
+                      </div>
+                    </div>
+                  </li>
 
-						</div>
-					</div>
+                </ul>
+              </li>
+              <li class="categories-menu__item">
+                <div class="categories-menu__item-inn">
+                  <a href="#" class="categories-menu__link">Сумочки</a>
+                  <div class="categories-menu__count">
+                    99
+                  </div>
+                </div>
+              </li>
+
+            </ul>
+          </div>
+          <div class="catalog__brands">
+            <ul class="categories-menu">
+              <li class="categories-menu__title">
+                Бренды
+              </li>
+              <li class="categories-menu__item">
+                <a href="#" class="categories-menu__link">Adidas</a>
+                <div class="categories-menu__count">
+                  99
+                </div>
+              </li>
+
+              <li class="categories-menu__item">
+                <a href="#" class="categories-menu__link categories-menu__link--more">Все бренды</a>
+              </li>
+            </ul>
+          </div>
+          <div class="catalog__best">
+            <div class="hot-items">
+              <div class="hot-items__inn">
+                <div class="hot-items__header">
+                  <div class="hot-items__title">
+                    Лучшее предложение
+                  </div>
+                </div>
+                <div class="item-hot js-item">
+                  <div class="item-hot__inn">
+                    <div class="item-hot__photo">
+                      <a href="#"><img alt="Jennyfer" class="item-hot__img js-item-main-img" src="/assets/img/items/6.png"></a>
+                    </div>
+                    <div class="item-hot__info">
+                      <a href="#" class="item-hot__name">Jennyfer</a><span class="item-hot__category">Ремень</span>
+                      <div class="item-hot__prices item-hot__prices--inline">
+                        <div class="item-hot__prices-new">
+                          <span class="price price--hot">120 000 р.</span>
+                        </div>
+                        <div class="item-hot__prices-old">
+                          <span class="price price--old">999 999 руб.</span>
+                        </div>
+                      </div>
+                      <div class="item-hot__actions">
+                        <div>
+                          <a href="#" class="cart-btn js-cart-add "></a>
+                        </div>
+                        <div>
+                          <a href="#" class="fav-btn js-fav-add "></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
 				</div>
 			</header>
 			<div class="l-content">
@@ -3457,140 +3340,41 @@
 									<br>
 									Все права защищены
 								</div>
-								<div class="footer__soc">
-									<ul class="socials">
-										<li class="socials__item">
-											<a href="#" class="social-round social-round--vk"></a>
-										</li>
-										<li class="socials__item">
-											<a href="#" class="social-round social-round--fb"></a>
-										</li>
-									</ul>
-								</div>
-								<div class="footer__phone">
-									<svg class="icon icon-whatsapp">
-										<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/assets/img/sprite.svg#icon-whatsapp"></use>
-									</svg>
-									<svg class="icon icon-telegram">
-										<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/assets/img/sprite.svg#icon-telegram"></use>
-									</svg>
-									<a href="tel:89645351331">8 964 535-13-31</a>
-								</div>
+								<!-- <div class="footer__soc">
+								<ul class="socials">
+								<li class="socials__item">
+								<a href="#" class="social-round social-round--vk"></a>
+								</li>
+								<li class="socials__item">
+								<a href="#" class="social-round social-round--fb"></a>
+								</li>
+								</ul>
+								</div> -->
+
 							</div>
 							<div class="footer__top-right">
 								<div class="footer__categories">
-									<div class="footer__categories-cell">
-										<div class="footer__menu">
-											<div class="footer__menu-title"></div>
-											<ul class="footer__menu-list">
-												<li class="footer__menu-item">
-													<a class="link" href="#">Сумки</a>
-												</li>
-												<li class="footer__menu-item">
-													<a class="link" href="#">Часы</a>
-												</li>
-												<li class="footer__menu-item">
-													<a class="link" href="#">Парфюмерия</a>
-												</li>
-												<li class="footer__menu-item">
-													<a class="link" href="#">Ремни</a>
-												</li>
-												<li class="footer__menu-item">
-													<a class="link" href="#">Кошельки</a>
-												</li>
-												<li class="footer__menu-item">
-													<a class="link" href="#">Очки</a>
-												</li>
-												<li class="footer__menu-item">
-													<a class="link" href="#">Чемоданы</a>
-												</li>
-												<li class="footer__menu-item">
-													<a class="link" href="#">Рюкзаки</a>
-												</li>
-												<li class="footer__menu-item">
-													<a class="link" href="#">Ручки</a>
-												</li>
-											</ul>
-										</div>
-									</div>
-									<div class="footer__categories-cell">
-										<div class="footer__menu">
-											<div class="footer__menu-title"></div>
-											<ul class="footer__menu-list">
-												<li class="footer__menu-item">
-													<a class="link" href="#">Сумки</a>
-												</li>
-												<li class="footer__menu-item">
-													<a class="link" href="#">Часы</a>
-												</li>
-												<li class="footer__menu-item">
-													<a class="link" href="#">Парфюмерия</a>
-												</li>
-												<li class="footer__menu-item">
-													<a class="link" href="#">Ремни</a>
-												</li>
-												<li class="footer__menu-item">
-													<a class="link" href="#">Кошельки</a>
-												</li>
-												<li class="footer__menu-item">
-													<a class="link" href="#">Очки</a>
-												</li>
-												<li class="footer__menu-item">
-													<a class="link" href="#">Чемоданы</a>
-												</li>
-												<li class="footer__menu-item">
-													<a class="link" href="#">Рюкзаки</a>
-												</li>
-												<li class="footer__menu-item">
-													<a class="link" href="#">Ручки</a>
-												</li>
-											</ul>
-										</div>
-									</div>
-									<div class="footer__categories-cell">
-										<div class="footer__menu">
-											<div class="footer__menu-title">
-												Информация
-											</div>
-											<ul class="footer__menu-list">
-												<li class="footer__menu-item">
-													<a class="link" href="#">О компании</a>
-												</li>
-												<li class="footer__menu-item">
-													<a class="link" href="#">Сотрудничество</a>
-												</li>
-												<li class="footer__menu-item">
-													<a class="link" href="#">Контакты</a>
-												</li>
-											</ul>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="footer__bottom">
-					<div class="l-wrapper">
-						<div class="footer__bottom-inn">
-							<div class="footer__payments">
-								<div>
-									<i class="picon picon-maestro"></i>
-								</div>
-								<div>
-									<i class="picon picon-visa"></i>
-								</div>
-								<div>
-									<i class="picon picon-mastercard"></i>
-								</div>
-								<div>
-									<i class="picon picon-netpay"></i>
-								</div>
-								<div>
-									<i class="picon picon-paypal"></i>
-								</div>
-							</div>
 
+									<div class="footer__categories-cell">
+										<!-- <div class="footer__menu">
+										<div class="footer__menu-title">
+										Информация
+										</div>
+										<ul class="footer__menu-list">
+										<li class="footer__menu-item">
+										<a class="link" href="#">О компании</a>
+										</li>
+										<li class="footer__menu-item">
+										<a class="link" href="#">Сотрудничество</a>
+										</li>
+										<li class="footer__menu-item">
+										<a class="link" href="#">Контакты</a>
+										</li>
+										</ul>
+										</div> -->
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -3607,7 +3391,6 @@
 		<script type="text/javascript" src="/assets/js/helpers.js"></script>
 		<script type="text/javascript" src="/assets/js/404.js"></script>
 		<script type="text/javascript" src="/assets/js/app.js"></script>
-
 	</body>
 
 </html>

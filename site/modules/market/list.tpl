@@ -101,52 +101,52 @@
 					</div>
 					<ul>
 						<li>
-							<a href="main.html">Главная страница</a>
+							<a href="/">Главная страница</a>
 						</li>
 						<li>
-							<a href="catalog.html">Каталог</a>
+							<a href="/catalog/">Каталог</a>
 						</li>
 						<li>
-							<a href="item.html">Карточка товара</a>
+							<a href="/item/">Карточка товара</a>
 						</li>
 						<li>
-							<a href="fav.html">Избранное</a>
+							<a href="/fav/">Избранное</a>
 						</li>
 						<li>
-							<a href="cart.html">Корзина</a>
+							<a href="/cart/">Корзина</a>
 						</li>
 						<li>
-							<a href="404.html">404</a>
+							<a href="/404/">404</a>
 						</li>
 						<li>
-							<a href="about.html">О нас</a>
+							<a href="/about/">О нас</a>
 						</li>
 						<li>
-							<a href="contacts.html">Контакты</a>
+							<a href="/contacts/">Контакты</a>
 						</li>
 						<li>
-							<a href="cabinet-wishes.html">Кабинет - Мои желания</a>
+							<a href="/room/wishes/">Кабинет - Мои желания</a>
 						</li>
 						<li>
-							<a href="cabinet-bonus.html">Кабинет - Мои бонусы</a>
+							<a href="/room/bonus/">Кабинет - Мои бонусы</a>
 						</li>
 						<li>
-							<a href="cabinet-subscribe.html">Кабинет - Мои подписки</a>
+							<a href="/room/subscribe/">Кабинет - Мои подписки</a>
 						</li>
 						<li>
-							<a href="cabinet-history.html">Кабинет - История покупок</a>
+							<a href=/room/history/">Кабинет - История покупок</a>
 						</li>
 						<li>
-							<a href="cabinet-action.html">Кабинет - Акции и спецпредложения</a>
+							<a href="/room/action/">Кабинет - Акции и спецпредложения</a>
 						</li>
 						<li>
-							<a href="cabinet-data.html">Кабинет - Личные данные</a>
+							<a href="/room/">Кабинет - Личные данные</a>
 						</li>
 						<li>
-							<a href="order.html">Заказ - Оформление</a>
+							<a href="/order/">Заказ - Оформление</a>
 						</li>
 						<li>
-							<a href="complete.html">Заказ - Завершение</a>
+							<a href="/complete/">Заказ - Завершение</a>
 						</li>
 					</ul>
 				</div>

@@ -37,7 +37,7 @@ class room extends aModule{
 
         	//echo "<pre>"; print_r($post); echo "</pre>"; //die(); 
 
-            print ($_SESSION['smarty']->fetch('room/'.$post[0].'.tpl'));
+            print ($_SESSION['smarty']->fetch('market/room/'.$post[0].'.tpl'));
 
 
 	}

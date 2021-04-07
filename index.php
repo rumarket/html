@@ -37,19 +37,21 @@
 					//echo "<pre>"; print_r($dir); echo "</pre>"; //die();
 					switch ($dir[0]) {
 
-                        case 'room': 			print ($_SESSION['smarty']->fetch('str:room'));  			exit (0); break;
-						case 'about': 			print ($_SESSION['smarty']->fetch('about.tpl'));  			exit (0); break;
-						case 'cart': 			print ($_SESSION['smarty']->fetch('cart.tpl'));  			exit (0); break;
-						case 'catalog': 		print ($_SESSION['smarty']->fetch('catalog.tpl'));  		exit (0); break;
-						case 'complete': 		print ($_SESSION['smarty']->fetch('complete.tpl'));  		exit (0); break;
-						case 'contacts': 		print ($_SESSION['smarty']->fetch('contacts.tpl'));  		exit (0); break;
-						case 'fav': 			print ($_SESSION['smarty']->fetch('fav.tpl'));  			exit (0); break;
-						case 'item': 			print ($_SESSION['smarty']->fetch('item.tpl'));  			exit (0); break;
-						case 'order': 			print ($_SESSION['smarty']->fetch('order.tpl'));  			exit (0); break;
-                        case 'reg': 			print ($_SESSION['smarty']->fetch('reg.tpl'));  			exit (0); break;
-                        case 'sms': 			print ($_SESSION['smarty']->fetch('sms.tpl'));  			exit (0); break;
+                        case 'room': 			print ($_SESSION['smarty']->fetch('str:room'));  			        exit (0); break;
+						case 'about': 			print ($_SESSION['smarty']->fetch('market/about.tpl'));  			exit (0); break;
+						case 'cart': 			print ($_SESSION['smarty']->fetch('market/cart.tpl'));  			exit (0); break;
+						case 'catalog': 		print ($_SESSION['smarty']->fetch('market/catalog.tpl'));  		    exit (0); break;
+						case 'complete': 		print ($_SESSION['smarty']->fetch('market/complete.tpl'));  		exit (0); break;
+						case 'contacts': 		print ($_SESSION['smarty']->fetch('market/contacts.tpl'));  		exit (0); break;
+						case 'fav': 			print ($_SESSION['smarty']->fetch('market/fav.tpl'));  		        exit (0); break;
+						case 'item': 			print ($_SESSION['smarty']->fetch('market/item.tpl'));  			exit (0); break;
+						case 'order': 			print ($_SESSION['smarty']->fetch('market/order.tpl'));  			exit (0); break;
+                        case 'reg': 			print ($_SESSION['smarty']->fetch('market/reg.tpl'));  			    exit (0); break;
+                        case 'sms': 			print ($_SESSION['smarty']->fetch('market/sms.tpl'));  			    exit (0); break;
 
-						case 'index': 			print($_SESSION['smarty']->fetch('index.tpl'));				exit (0); break;
+						case 'index': 			print($_SESSION['smarty']->fetch('market/index.tpl'));				exit (0); break;
+
+                        case 'list':            print($_SESSION['smarty']->fetch('market/list.tpl'));               exit (0); break;
 
 						default:
 					                            http_response_code(404);
