@@ -4,22 +4,249 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Избранное</title>
-					~~include file='tpl/stylesheet.tpl'~
-		             ~~include file='tpl/top_script.tpl'~
+	
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="format-detection" content="telephone=no">
+      <meta name="mobile-web-app-capable" content="yes">
+      <link rel="stylesheet" type="text/css" href="/assets/css/libs.css">
+      <link rel="stylesheet" type="text/css" href="/assets/js/lightGallery/css/lightgallery.min.css">
+      <link rel="stylesheet" type="text/css" href="/assets/css/app.css">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 
+      <!-- HTML5 Shiv and Respond.js IE8 support of HTML5 elements and media queries -->
+      <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+      <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+      <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script>
+            $(document).ready(function() {
+
+              $("[data-toggle='location-dropdown']").click(function(e) {
+                $(".location-dropdown").toggleClass("hidden");
+                e.stopPropagation();
+              });
+
+            });
+        </script>
 	</head>
 
 	<body>
 		<body>
 
-			~~include file='tpl/loader.tpl'~
+      <div class="loader">
+        <div class="loader__inn">
+          <div class="wikimoda animate">
+            <span class="wikimoda__dot"></span><span class="wikimoda__dot"></span><span class="wikimoda__dot"></span><span class="wikimoda__dot"></span><span class="wikimoda__dot"></span><span class="wikimoda__dot"></span><span class="wikimoda__dot"></span><span class="wikimoda__dot"></span><span class="wikimoda__dot"></span>
+          </div>
+        </div>
+      </div>
 
 
-		  ~~include file='tpl/nav.tpl'~
+      <div class="m-nav js-m-nav">
+        <div class="m-nav__group">
+          <a href="#login" class="m-nav__link m-nav__link--icon"> Авторизация </a>
+        </div>
+        <div class="m-nav__group">
+          <a href="#" class="m-nav__link m-nav__location js-location-select-toggle"> <span>Город:</span> Москва </a>
+        </div>
+        <div class="m-nav__group">
+
+          <div class="m-nav__catalog">
+            <div class="m-catalog js-m-catalog">
+              <ul class="m-catalog__list">
+                <li class="m-catalog__item m-catalog__item--has-sub">
+                  <a data-id="1" href="#" class="m-catalog__link m-catalog__link--icon js-m-catalog-link">
+                  <div class="m-catalog__link-icon">
+                    <svg class="icon icon-bag-1">
+                      <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/assets/img/sprite.svg#icon-bag-1"></use>
+                    </svg>
+                  </div> Сумки </a>
+                </li>
+                <li class="m-catalog__item m-catalog__item--has-sub">
+                  <a data-id="10" href="#" class="m-catalog__link m-catalog__link--icon js-m-catalog-link">
+                  <div class="m-catalog__link-icon">
+                    <svg class="icon icon-hanger">
+                      <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/assets/img/sprite.svg#icon-hanger"></use>
+                    </svg>
+                  </div> Другой товар </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="m-nav__group">
+          <a href="#" class="m-nav__link">Контакты</a>
+        </div>
 
 
-			~~include file='tpl/location-select.tpl'~
 
+            <div class="modal remodal md-login" data-remodal-id="confirmation" class="phone">
+              <button class="modal__close close-btn" data-remodal-action="close">
+                Закрыть
+              </button>
+              <div class="login-tabs js-tabs">
+
+                <div class="login-tabs__panes">
+                  <div data-el="pane" id="login_tab" class="login-tabs__pane is-active register-tabs__pane">
+                    <!--div class="md-login__social">
+                      <a class="md-login__social-item md-login__social-item--vk" href="#"></a><a class="md-login__social-item md-login__social-item--fb" href="#"></a><a class="md-login__social-item md-login__social-item--tw" href="#"></a><a class="md-login__social-item md-login__social-item--gplus"
+                      href="#"></a>
+                    </div>
+                    <div class="md-login__or">
+                      или
+                    </div-->
+                    <form autocomplete="off" class="md-login__form">
+                      <div class="form-row">
+
+                      </div>
+                      <div class="form-row">
+                        <div class="complex-input complex-input--icon password-input js-complex-input">
+                          <label class="complex-input__label">Введите код из смс</label>
+                          <div class="complex-input__icon">
+
+                          </div>
+                          <div class="complex-input__input">
+                            <input type="text" class="input js-toggle-password-phone">
+                          </div>
+                          <div class="password-input__block">
+                            <div class="password-input__forgot">
+                              <a href="#">Отправить заново</a>
+                            </div>
+                            <!--<a title="Скрыть пароль" href="#" class="toggle-password js-toggle-password-btn"><i></i></a>-->
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-row">
+                        <button type="submit" class="btn btn--pink btn--lg ">Подтвердить</button>
+                      </div>
+                    </form>
+                  </div>
+                  <div data-el="pane" id="register_tab" class="login-tabs__pane">
+                    <!--div class="md-login__social">
+                      <a class="md-login__social-item md-login__social-item--vk" href="#"></a><a class="md-login__social-item md-login__social-item--fb" href="#"></a><a class="md-login__social-item md-login__social-item--tw" href="#"></a><a class="md-login__social-item md-login__social-item--gplus"
+                      href="#"></a>
+                    </div>
+                    <div class="md-login__or">
+                      или
+                    </div-->
+                    <form autocomplete="off" class="md-login__form js-example-form">
+
+                      <div class="form-row">
+                        <div class="input-row">
+                          <div class="input-row__cell input-row__icon">
+                            <i class="ticon ticon-mobile "></i>
+                          </div>
+                          <div class="input-row__cell input-row__cell--border text-center" style="width: 80px;">
+                            <select class="select">
+
+                              <option>+7</option>
+
+                            </select>
+                          </div>
+                          <div class="input-row__cell">
+                            <input type="text" class="input js-phone-mask" placeholder="(___) ___-__-__">
+                          </div>
+                        </div>
+                        <label class="switcher ">
+                          <div class="switcher__inn">
+                            <div class="switcher__toggle">
+                              <input  type="checkbox" class="js-switchery ">
+                            </div>
+                            <div class="switcher__label">
+                              Получать сервисные SMS уведоммления
+                            </div>
+                          </div> </label>
+                      </div>
+
+                      <!--div class="form-row hidden-xs">
+                        <div class="input-row password-row js-password-row">
+                          <div class="input-row__cell input-row__icon">
+                            <i class="ticon ticon-asterisk "></i>
+                          </div>
+                          <div class="input-row__cell input-row__cell--tiny">
+                            <input class="input js-toggle-password" type="password">
+                          </div>
+                          <div class="input-row__cell input-row__cell--tiny">
+                            <input class="input js-toggle-password" type="password">
+                          </div>
+                          <div class="input-row__cell input-row__cell--tiny">
+                            <input class="input js-toggle-password" type="password">
+                          </div>
+                          <div class="input-row__cell input-row__cell--tiny">
+                            <input class="input js-toggle-password" type="password">
+                          </div>
+                          <div class="input-row__cell input-row__cell--tiny">
+                            <input class="input js-toggle-password" type="password">
+                          </div>
+                          <div class="input-row__cell input-row__cell--tiny">
+                            <input class="input js-toggle-password" type="password">
+                          </div>
+                          <div class="input-row__cell input-row__cell--tiny">
+                            <input class="input js-toggle-password" type="password">
+                          </div>
+                          <div class="input-row__cell input-row__cell--tiny">
+                            <input class="input js-toggle-password" type="password">
+                          </div>
+                          <a title="Скрыть пароль" href="#" class="toggle-password js-toggle-password-btn input-row__cell"> <i></i> </a>
+                        </div>
+                      </div>
+                      <div class="form-row xvisible-sm">
+                        <div class="complex-input js-complex-input">
+                          <label class="complex-input__label">Пароль</label>
+                          <div class="complex-input__input">
+                            <input type="password" class="input">
+                          </div>
+                        </div>
+                      </div-->
+
+                      <div class="form-row">
+                        <button type="submit" class="btn btn--pink btn--lg">Зарегистрироваться</button>
+                      </div>
+                      <div class="form-row">
+                        <!--div class="text">
+                          Я соглашаюсь с условиями <a class="link link--ul" href="#">Публичной оферты</a>
+                        </div-->
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+      </div>
+
+
+      <div class="location-select js-location-select">
+        <div class="l-wrapper">
+          <div class="location-select__inn">
+            <div class="location-select__header js-location-header">
+              <div class="title h1">
+                Выберите ваш город
+              </div>
+              <div class="location-select__search">
+                <form autocomplete="off" class="search">
+                  <input type="text" class="search__input" placeholder="Введите область, регион или населенный пункт">
+                </form>
+              </div>
+              <a href="#" class="location-select__close close-btn js-location-close">Закрыть</a>
+            </div>
+            <div class="location-select__block js-custom-scroll js-location-list">
+              <div class="location-select__cells">
+                <ul class="location-select__list">
+                  <li>
+                    <a class="location-select__link location-select__link--bold" href="#">Москва</a>
+                  </li>
+                </ul>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 		<div class="fast-view js-fast-view">
 			<div class="fast-view__inn">
 				<div class="fast-view__container">
@@ -323,7 +550,204 @@
 			</div>
 		</div>
 
-			~~include file='tpl/reg/login.tpl'~
+        <div class="modal remodal md-login" data-remodal-id="login">
+          <button class="modal__close close-btn" data-remodal-action="close">
+            Закрыть
+          </button>
+          <div class="login-tabs js-tabs">
+            <!-- <ul class="login-tabs__menu">
+              <li class="login-tabs__item is-active">
+                <a data-el="tab" href="#login_tab" class="login-tabs__link"><span>Я уже тут</span></a>
+              </li>
+              <li class="login-tabs__item">
+                <a data-el="tab" href="#register_tab" class="login-tabs__link"><span>Хочу к вам</span></a>
+              </li>
+            </ul> -->
+            <div class="login-tabs__panes">
+              <!-- <div data-el="pane" id="login_tab" class="login-tabs__pane">
+                <div class="md-login__social">
+                  <a class="md-login__social-item md-login__social-item--vk" href="#"></a><a class="md-login__social-item md-login__social-item--fb" href="#"></a><a class="md-login__social-item md-login__social-item--tw" href="#"></a><a class="md-login__social-item md-login__social-item--gplus"
+                  href="#"></a>
+                </div>
+                <div class="md-login__or">
+                  или
+                </div>
+                <form autocomplete="off" class="md-login__form">
+                  <div class="form-row">
+                    <div class="complex-input complex-input--icon js-complex-input">
+                      <label class="complex-input__label">E-mail</label>
+                      <div class="complex-input__icon">
+                        <i class="ticon ticon-user-1 "></i>
+                      </div>
+                      <div class="complex-input__input">
+                        <input type="email" class="input">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-row">
+                    <div class="complex-input complex-input--icon password-input js-complex-input">
+                      <label class="complex-input__label">Пароль</label>
+                      <div class="complex-input__icon">
+                        <i class="ticon ticon-lock "></i>
+                      </div>
+                      <div class="complex-input__input">
+                        <input type="password" class="input js-toggle-password">
+                      </div>
+                      <div class="password-input__block">
+                        <div class="password-input__forgot">
+                          <a href="#">Забыли пароль?</a>
+                        </div>
+                        <a title="Скрыть пароль" href="#" class="toggle-password js-toggle-password-btn"><i></i></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-row">
+                    <button type="submit" class="btn btn--pink btn--lg">
+                      <i style="font-size: 19px;" class="ticon ticon-key "></i>
+                      Войти
+                    </button>
+                  </div>
+                </form>
+              </div> -->
+              <div data-el="pane" id="register_tab" class="login-tabs__pane is-active">
+                <!-- <div class="md-login__social">
+                  <a class="md-login__social-item md-login__social-item--vk" href="#"></a><a class="md-login__social-item md-login__social-item--fb" href="#"></a><a class="md-login__social-item md-login__social-item--tw" href="#"></a><a class="md-login__social-item md-login__social-item--gplus"
+                  href="#"></a>
+                </div>
+                <div class="md-login__or">
+                  или
+                </div> -->
+                <form autocomplete="off" class="md-login__form js-example-form">
+                  <!-- <div class="form-row">
+
+                   <div class="complex-input complex-input--icon is-valid js-complex-input">
+                      <label class="complex-input__label">E-mail</label>
+                      <div class="complex-input__icon">
+                        <i class="ticon ticon-user-1 "></i>
+                      </div>
+                      <div class="complex-input__input">
+                        <input type="email" class="input">
+                      </div>
+                    </div>
+                     <label class="switcher ">
+                      <div class="switcher__inn">
+                        <div class="switcher__toggle">
+                          <input  type="checkbox" class="js-switchery ">
+                        </div>
+                        <div class="switcher__label">
+                          Подписаться на новости
+                        </div>
+                      </div> </label>
+                  </div> -->
+                  <!-- <div class="form-row">
+                    <div class="complex-input js-complex-input">
+                      <label class="complex-input__label">Фамилия</label>
+                      <div class="complex-input__input">
+                        <input data-error="Введите фамилию на русском языке" type="text" class="input" name="second_name">
+                      </div>
+                    </div>
+                  </div> -->
+                  <!-- <div class="form-row">
+                    <div class="complex-input js-complex-input">
+                      <label class="complex-input__label">Имя</label>
+                      <div class="complex-input__input">
+                        <input type="text" class="input">
+                      </div>
+                    </div>
+                  </div> -->
+                  <!-- <div class="form-row">
+                    <div class="gender-select">
+                      <div class="gender-select__inn">
+                        <div class="gender-select__label">
+                          Пол:
+                        </div>
+                        <div class="gender-select__item">
+                          <label class="gender-select__checkbox">
+                            <input type="radio" name="gender" value="man">
+                            <span class="gender-select__checkbox-item"> <i  class="ticon ticon-man "></i> </span> </label>
+                        </div>
+                        <div class="gender-select__item">
+                          <label class="gender-select__checkbox">
+                            <input type="radio" name="gender" value="woman">
+                            <span class="gender-select__checkbox-item"> <i  class="ticon ticon-woman "></i> </span> </label>
+                        </div>
+                      </div>
+                    </div>
+                  </div> -->
+                  <!-- <div class="form-row">
+                    <div class="row">
+                      <div class="col-sm-3">
+                        <select data-placeholder="День" class="select">
+                          <option></option>
+
+                          <option>1</option>
+
+                        </select>
+                      </div>
+                      <div class="col-sm-5">
+                        <select data-placeholder="Месяц" class="select">
+                          <option></option>
+
+                          <option>Январь</option>
+
+                        </select>
+                      </div>
+                      <div class="col-sm-4">
+                        <select data-placeholder="Год" class="select">
+                          <option></option>
+
+                          <option>1900</option>
+
+                        </select>
+                      </div>
+                    </div>
+                  </div> -->
+                  <div class="form-row">
+
+                      <div class="input-row text-reg">
+                        ИНН
+                      </div>
+                      <div class="input-row">
+
+                        <div class="input-row__cell input-row__cell--border-left ">
+                          <input type="text" id="inn" class="input js-inn-mask" placeholder="___-___-___-___">
+                        </div>
+                      </div>
+
+                  </div>
+
+                  <div class="form-row">
+                    <div class="input-row text-reg">
+                      Телефон
+                    </div>
+                      <div class="input-row">
+                        <div class="input-row__cell input-row__icon">
+                          +7
+                        </div>
+                        <!-- <div class="input-row__cell input-row__cell--border text-center" style="width: 80px;">
+                            <select class="select">
+
+                            <option>+7</option>
+
+                          </select>
+                        </div> -->
+
+                      <div class="input-row__cell">
+                        <input type="text" class="input js-phone-mask" placeholder="(___) ___-__-__">
+                      </div>
+                    </div>
+
+                  </div>
+                  <div class="form-row">
+                    <button type="submit" class="btn btn--pink btn--lg">
+                      Зарегистрироваться
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
 
 
 		<a href="#" class="up-btn js-up-btn">Наверх</a>
@@ -1855,9 +2279,66 @@
 					</div>
 				</div>
 			</div>
-			~~include file='tpl/footer.tpl'~
+    <div class="footer">
+      <div class="footer__top">
+        <div class="l-wrapper">
+          <div class="footer__top-inn">
+            <div class="footer__top-left">
+              <div class="footer__copyright">
+                &copy; 2021, ООО "РУМАРКЕТ"
+                <br>
+                Все права защищены
+              </div>
+              <!-- <div class="footer__soc">
+                <ul class="socials">
+                  <li class="socials__item">
+                    <a href="#" class="social-round social-round--vk"></a>
+                  </li>
+                  <li class="socials__item">
+                    <a href="#" class="social-round social-round--fb"></a>
+                  </li>
+                </ul>
+              </div> -->
+
+            </div>
+            <div class="footer__top-right">
+              <div class="footer__categories">
+
+                <div class="footer__categories-cell">
+                  <!-- <div class="footer__menu">
+                    <div class="footer__menu-title">
+                      Информация
+                    </div>
+                    <ul class="footer__menu-list">
+                      <li class="footer__menu-item">
+                        <a class="link" href="#">О компании</a>
+                      </li>
+                      <li class="footer__menu-item">
+                        <a class="link" href="#">Сотрудничество</a>
+                      </li>
+                      <li class="footer__menu-item">
+                        <a class="link" href="#">Контакты</a>
+                      </li>
+                    </ul>
+                  </div> -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
 		</div>
-		~~include file='tpl/bottom_script.tpl'~
-	</body>
+			<script type="text/javascript" src="/assets/js/libs.js"></script>
+		<script type="text/javascript" src="/assets/js/lightGallery/js/lightgallery.min.js"></script>
+		<script type="text/javascript" src="/assets/js/lightGallery/modules/lg-thumbnail.js"></script>
+		<script type="text/javascript" src="/assets/js/item-count.js"></script>
+		<script type="text/javascript" src="/assets/js/tabs.js"></script>
+		<script type="text/javascript" src="/assets/js/toggle.js"></script>
+		<script type="text/javascript" src="/assets/js/map.js"></script>
+		<script type="text/javascript" src="/assets/js/helpers.js"></script>
+		<script type="text/javascript" src="/assets/js/404.js"></script>
+		<script type="text/javascript" src="/assets/js/app.js"></script>	</body>
 
 </html>
